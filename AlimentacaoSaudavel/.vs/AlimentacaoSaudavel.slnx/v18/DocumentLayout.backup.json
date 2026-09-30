@@ -34,8 +34,8 @@
               "Title": "Main.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\Main.cs [Projeto]",
-              "RelativeToolTip": "Main.cs [Projeto]",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\Main.cs [Projeto]*",
+              "RelativeToolTip": "Main.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T20:02:47.018Z",
               "EditorCaption": " [Projeto]"
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Main.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAqwDQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T12:49:24.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T12:49:24.793Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,8 @@
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\Main.Designer.cs",
               "RelativeDocumentMoniker": "Main.Designer.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\Main.Designer.cs",
-              "RelativeToolTip": "Main.Designer.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\Main.Designer.cs*",
+              "RelativeToolTip": "Main.Designer.cs*",
               "ViewState": "AgIAABgBAAAAAAAAAAApwBgBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T15:43:17.757Z",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T15:42:02.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T15:42:02.914Z"
             }
           ]
         }
