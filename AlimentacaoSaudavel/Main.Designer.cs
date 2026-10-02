@@ -31,6 +31,7 @@
             txtInicio = new LinkLabel();
             txtNutrientes = new LinkLabel();
             pnlHeader = new Panel();
+            linkLabel2 = new LinkLabel();
             linkLabel1 = new LinkLabel();
             pnlMain = new Panel();
             pnlHeader.SuspendLayout();
@@ -65,6 +66,7 @@
             // 
             // pnlHeader
             // 
+            pnlHeader.Controls.Add(linkLabel2);
             pnlHeader.Controls.Add(linkLabel1);
             pnlHeader.Controls.Add(txtNutrientes);
             pnlHeader.Controls.Add(txtInicio);
@@ -73,6 +75,19 @@
             pnlHeader.Name = "pnlHeader";
             pnlHeader.Size = new Size(834, 59);
             pnlHeader.TabIndex = 7;
+            // 
+            // linkLabel2
+            // 
+            linkLabel2.AutoSize = true;
+            linkLabel2.Font = new Font("Segoe UI", 12F);
+            linkLabel2.LinkColor = Color.FromArgb(107, 143, 11);
+            linkLabel2.Location = new Point(385, 22);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(142, 21);
+            linkLabel2.TabIndex = 3;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "Fontes/Referências";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // linkLabel1
             // 
@@ -119,5 +134,6 @@
         private Panel pnlHeader;
         private Panel pnlMain;
         private LinkLabel linkLabel1;
+        private LinkLabel linkLabel2;
     }
 }

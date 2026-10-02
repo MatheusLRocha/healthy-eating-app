@@ -10,7 +10,7 @@
 # Pasta oculta onde o VS salva caches, índices e configurações da sua área de trabalho
 .vs/
 
-# Arquivos de preferências e estados do usuário (NUNCA envie para o Git)
+# Arquivos de preferências e estados do usuário
 *.suo
 *.user
 *.userosscache
