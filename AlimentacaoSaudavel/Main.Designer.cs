@@ -47,7 +47,6 @@
             txtInicio.TabIndex = 0;
             txtInicio.TabStop = true;
             txtInicio.Text = "Inicio";
-            txtInicio.LinkClicked += linkLabel1_LinkClicked;
             // 
             // txtNutrientes
             // 
@@ -60,7 +59,6 @@
             txtNutrientes.TabIndex = 1;
             txtNutrientes.TabStop = true;
             txtNutrientes.Text = "Nutrientes";
-            txtNutrientes.LinkClicked += linkLabel2_LinkClicked;
             // 
             // pnlHeader
             // 
