@@ -40,5 +40,11 @@ namespace AlimentacaoSaudavel
             UC_ClasAlimentos ucClasAlimentos = new UC_ClasAlimentos();
             addUserControl(ucClasAlimentos);
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UC_Fontes ucFontes = new UC_Fontes();
+            addUserControl(ucFontes);
+        }
     }
 }
