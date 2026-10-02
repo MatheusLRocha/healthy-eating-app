@@ -31,6 +31,7 @@
             txtInicio = new LinkLabel();
             txtNutrientes = new LinkLabel();
             pnlHeader = new Panel();
+            linkLabel1 = new LinkLabel();
             pnlMain = new Panel();
             pnlHeader.SuspendLayout();
             SuspendLayout();
@@ -47,6 +48,7 @@
             txtInicio.TabIndex = 0;
             txtInicio.TabStop = true;
             txtInicio.Text = "Inicio";
+            txtInicio.LinkClicked += txtInicio_LinkClicked;
             // 
             // txtNutrientes
             // 
@@ -59,9 +61,11 @@
             txtNutrientes.TabIndex = 1;
             txtNutrientes.TabStop = true;
             txtNutrientes.Text = "Nutrientes";
+            txtNutrientes.LinkClicked += txtNutrientes_LinkClicked;
             // 
             // pnlHeader
             // 
+            pnlHeader.Controls.Add(linkLabel1);
             pnlHeader.Controls.Add(txtNutrientes);
             pnlHeader.Controls.Add(txtInicio);
             pnlHeader.Dock = DockStyle.Top;
@@ -69,6 +73,19 @@
             pnlHeader.Name = "pnlHeader";
             pnlHeader.Size = new Size(834, 59);
             pnlHeader.TabIndex = 7;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F);
+            linkLabel1.LinkColor = Color.FromArgb(107, 143, 11);
+            linkLabel1.Location = new Point(178, 22);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(201, 21);
+            linkLabel1.TabIndex = 2;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Classificação dos Alimentos";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // pnlMain
             // 
@@ -101,5 +118,6 @@
         private LinkLabel txtNutrientes;
         private Panel pnlHeader;
         private Panel pnlMain;
+        private LinkLabel linkLabel1;
     }
 }

@@ -22,5 +22,23 @@ namespace AlimentacaoSaudavel
             UC_Main ucMain = new UC_Main(this);
             addUserControl(ucMain);
         }
+
+        private void txtInicio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UC_Main ucMain = new UC_Main(this);
+            addUserControl(ucMain);
+        }
+
+        private void txtNutrientes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UC_Nutrientes ucNutrientes = new UC_Nutrientes();
+            addUserControl(ucNutrientes);
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UC_ClasAlimentos ucClasAlimentos = new UC_ClasAlimentos();
+            addUserControl(ucClasAlimentos);
+        }
     }
 }
