@@ -172,7 +172,6 @@
             pnlNutrientes.Size = new Size(280, 140);
             pnlNutrientes.TabIndex = 5;
             pnlNutrientes.Click += pnlNutrientes_Click_1;
-            pnlNutrientes.Paint += pnlNutrientes_Paint;
             // 
             // label2
             // 
