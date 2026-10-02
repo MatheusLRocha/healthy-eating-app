@@ -18,13 +18,6 @@ namespace AlimentacaoSaudavel.UserControls
             _main = main;
         }
 
-
-
-        private void pnlNutrientes_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void pnlNutrientes_Click_1(object sender, EventArgs e)
         {
             UC_Nutrientes ucNutrientes = new UC_Nutrientes();
