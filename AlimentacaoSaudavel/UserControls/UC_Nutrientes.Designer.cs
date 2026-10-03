@@ -28,29 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
+            pnlMacro = new Panel();
             label4 = new Label();
             label2 = new Label();
-            panel2 = new Panel();
+            pnlMicro = new Panel();
             label5 = new Label();
             label3 = new Label();
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            panel1.SuspendLayout();
-            panel2.SuspendLayout();
+            pnlMacro.SuspendLayout();
+            pnlMicro.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // pnlMacro
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(15, 72, 47);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label2);
-            panel1.Location = new Point(3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(254, 314);
-            panel1.TabIndex = 0;
+            pnlMacro.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlMacro.BackColor = Color.FromArgb(15, 72, 47);
+            pnlMacro.Controls.Add(label4);
+            pnlMacro.Controls.Add(label2);
+            pnlMacro.Location = new Point(3, 3);
+            pnlMacro.Name = "pnlMacro";
+            pnlMacro.Size = new Size(254, 314);
+            pnlMacro.TabIndex = 0;
+            pnlMacro.Click += pnlMacro_Click;
             // 
             // label4
             // 
@@ -71,18 +72,17 @@
             label2.Size = new Size(236, 43);
             label2.TabIndex = 4;
             label2.Text = "Macronutrientes";
-            label2.Click += label2_Click;
             // 
-            // panel2
+            // pnlMicro
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel2.BackColor = Color.FromArgb(15, 72, 47);
-            panel2.Controls.Add(label5);
-            panel2.Controls.Add(label3);
-            panel2.Location = new Point(263, 3);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(254, 314);
-            panel2.TabIndex = 1;
+            pnlMicro.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlMicro.BackColor = Color.FromArgb(15, 72, 47);
+            pnlMicro.Controls.Add(label5);
+            pnlMicro.Controls.Add(label3);
+            pnlMicro.Location = new Point(263, 3);
+            pnlMicro.Name = "pnlMicro";
+            pnlMicro.Size = new Size(254, 314);
+            pnlMicro.TabIndex = 1;
             // 
             // label5
             // 
@@ -113,7 +113,6 @@
             label1.Size = new Size(576, 55);
             label1.TabIndex = 2;
             label1.Text = "Os nutrientes são os compostos químicos contidos nos alimentos que as nossas células usam para viver. Eles são divididos em dois grandes blocos:";
-            label1.Click += label1_Click;
             // 
             // tableLayoutPanel1
             // 
@@ -121,8 +120,8 @@
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel1.Controls.Add(panel2, 1, 0);
+            tableLayoutPanel1.Controls.Add(pnlMacro, 0, 0);
+            tableLayoutPanel1.Controls.Add(pnlMicro, 1, 0);
             tableLayoutPanel1.Location = new Point(119, 161);
             tableLayoutPanel1.MaximumSize = new Size(1000, 580);
             tableLayoutPanel1.MinimumSize = new Size(520, 320);
@@ -142,16 +141,16 @@
             Controls.Add(tableLayoutPanel1);
             Name = "UC_Nutrientes";
             Size = new Size(834, 521);
-            panel1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
+            pnlMacro.ResumeLayout(false);
+            pnlMicro.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
-        private Panel panel2;
+        private Panel pnlMacro;
+        private Panel pnlMicro;
         private Label label1;
         private TableLayoutPanel tableLayoutPanel1;
         private Label label2;
