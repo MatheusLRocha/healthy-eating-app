@@ -10,6 +10,9 @@
     <Compile Update="UserControls\UC_Fontes.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UC_MacroNutrientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_Main.cs">
       <SubType>UserControl</SubType>
     </Compile>
