@@ -109,6 +109,7 @@
             pnlProteinas.Name = "pnlProteinas";
             pnlProteinas.Size = new Size(248, 314);
             pnlProteinas.TabIndex = 2;
+            pnlProteinas.Click += pnlProteinas_Click;
             // 
             // label3
             // 
