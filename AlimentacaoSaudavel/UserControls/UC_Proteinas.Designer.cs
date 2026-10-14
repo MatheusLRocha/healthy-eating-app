@@ -32,19 +32,19 @@
             label2 = new Label();
             label1 = new Label();
             pnlImagem = new Panel();
-            label3 = new Label();
+            panel2 = new Panel();
             pnlConteudo.SuspendLayout();
             pnlImagem.SuspendLayout();
             SuspendLayout();
             // 
             // pnlConteudo
             // 
-            pnlConteudo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlConteudo.Controls.Add(label2);
             pnlConteudo.Controls.Add(label1);
+            pnlConteudo.Dock = DockStyle.Left;
             pnlConteudo.Location = new Point(0, 0);
             pnlConteudo.Name = "pnlConteudo";
-            pnlConteudo.Size = new Size(480, 521);
+            pnlConteudo.Size = new Size(438, 521);
             pnlConteudo.TabIndex = 0;
             pnlConteudo.Paint += pnlConteudo_Paint;
             // 
@@ -52,7 +52,7 @@
             // 
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(107, 143, 11);
-            label2.Location = new Point(35, 166);
+            label2.Location = new Point(36, 166);
             label2.Name = "label2";
             label2.Size = new Size(349, 139);
             label2.TabIndex = 1;
@@ -63,7 +63,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(107, 143, 11);
-            label1.Location = new Point(35, 86);
+            label1.Location = new Point(36, 86);
             label1.Name = "label1";
             label1.Size = new Size(139, 37);
             label1.TabIndex = 0;
@@ -71,23 +71,22 @@
             // 
             // pnlImagem
             // 
-            pnlImagem.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlImagem.Controls.Add(label3);
-            pnlImagem.Location = new Point(480, 0);
+            pnlImagem.Controls.Add(panel2);
+            pnlImagem.Dock = DockStyle.Right;
+            pnlImagem.Location = new Point(436, 0);
             pnlImagem.Name = "pnlImagem";
-            pnlImagem.Size = new Size(354, 521);
+            pnlImagem.Size = new Size(398, 521);
             pnlImagem.TabIndex = 1;
+            pnlImagem.Resize += pnlImagem_Resize;
             // 
-            // label3
+            // panel2
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(107, 143, 11);
-            label3.Location = new Point(73, 230);
-            label3.Name = "label3";
-            label3.Size = new Size(233, 37);
-            label3.TabIndex = 2;
-            label3.Text = "Suposta Imagem";
+            panel2.BackColor = Color.FromArgb(107, 143, 11);
+            panel2.Location = new Point(36, 37);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(340, 454);
+            panel2.TabIndex = 1;
+            panel2.Resize += panel2_Resize;
             // 
             // UC_Proteinas
             // 
@@ -101,7 +100,6 @@
             pnlConteudo.ResumeLayout(false);
             pnlConteudo.PerformLayout();
             pnlImagem.ResumeLayout(false);
-            pnlImagem.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -111,6 +109,6 @@
         private Panel pnlImagem;
         private Label label1;
         private Label label2;
-        private Label label3;
+        private Panel panel2;
     }
 }
