@@ -21,5 +21,12 @@ namespace AlimentacaoSaudavel.UserControls
 
             main.addUserControl(new UC_Proteinas());
         }
+
+        private void pnlCarboidratos_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+
+            main.addUserControl(new UC_Carboidratos());
+        }
     }
 }
