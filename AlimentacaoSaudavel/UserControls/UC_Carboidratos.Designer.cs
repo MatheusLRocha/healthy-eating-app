@@ -106,9 +106,9 @@
             // pnlImagem
             // 
             pnlImagem.Controls.Add(panel2);
-            pnlImagem.Location = new Point(444, 0);
+            pnlImagem.Location = new Point(438, 0);
             pnlImagem.Name = "pnlImagem";
-            pnlImagem.Size = new Size(390, 521);
+            pnlImagem.Size = new Size(396, 521);
             pnlImagem.TabIndex = 4;
             pnlImagem.Resize += pnlImagem_Resize;
             // 

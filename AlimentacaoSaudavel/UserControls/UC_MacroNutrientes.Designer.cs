@@ -69,6 +69,7 @@
             pnlGorduras.Name = "pnlGorduras";
             pnlGorduras.Size = new Size(248, 314);
             pnlGorduras.TabIndex = 7;
+            pnlGorduras.Click += pnlGorduras_Click;
             // 
             // label6
             // 
