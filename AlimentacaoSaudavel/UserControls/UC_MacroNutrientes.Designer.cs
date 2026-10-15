@@ -89,6 +89,7 @@
             pnlCarboidratos.Name = "pnlCarboidratos";
             pnlCarboidratos.Size = new Size(248, 314);
             pnlCarboidratos.TabIndex = 6;
+            pnlCarboidratos.Click += pnlCarboidratos_Click;
             // 
             // label2
             // 
