@@ -72,10 +72,9 @@
             // pnlImagem
             // 
             pnlImagem.Controls.Add(panel2);
-            pnlImagem.Dock = DockStyle.Right;
-            pnlImagem.Location = new Point(436, 0);
+            pnlImagem.Location = new Point(434, 0);
             pnlImagem.Name = "pnlImagem";
-            pnlImagem.Size = new Size(398, 521);
+            pnlImagem.Size = new Size(400, 521);
             pnlImagem.TabIndex = 1;
             pnlImagem.Resize += pnlImagem_Resize;
             // 
@@ -97,6 +96,7 @@
             Controls.Add(pnlConteudo);
             Name = "UC_Proteinas";
             Size = new Size(834, 521);
+            Resize += UC_Proteinas_Resize;
             pnlConteudo.ResumeLayout(false);
             pnlConteudo.PerformLayout();
             pnlImagem.ResumeLayout(false);
