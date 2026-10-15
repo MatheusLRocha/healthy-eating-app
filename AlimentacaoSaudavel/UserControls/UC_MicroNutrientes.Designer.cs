@@ -86,6 +86,7 @@
             pnlMinerais.Name = "pnlMinerais";
             pnlMinerais.Size = new Size(254, 314);
             pnlMinerais.TabIndex = 1;
+            pnlMinerais.Click += pnlMinerais_Click;
             // 
             // label3
             // 

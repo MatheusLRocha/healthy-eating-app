@@ -25,6 +25,9 @@
     <Compile Update="UserControls\UC_MicroNutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UC_Minerais.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_Nutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
