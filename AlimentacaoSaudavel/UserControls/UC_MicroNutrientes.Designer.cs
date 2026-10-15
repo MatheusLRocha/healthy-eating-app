@@ -65,6 +65,7 @@
             pnlVitaminas.Name = "pnlVitaminas";
             pnlVitaminas.Size = new Size(254, 314);
             pnlVitaminas.TabIndex = 0;
+            pnlVitaminas.Click += pnlVitaminas_Click;
             // 
             // label2
             // 
