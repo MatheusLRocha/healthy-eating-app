@@ -31,5 +31,8 @@
     <Compile Update="UserControls\UC_Proteinas.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UC_Vitaminas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

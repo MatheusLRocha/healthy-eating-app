@@ -14,5 +14,12 @@ namespace AlimentacaoSaudavel.UserControls
         {
             InitializeComponent();
         }
+
+        private void pnlVitaminas_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+
+            main.addUserControl(new UC_Vitaminas());
+        }
     }
 }
