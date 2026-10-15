@@ -83,6 +83,7 @@
             pnlMicro.Name = "pnlMicro";
             pnlMicro.Size = new Size(254, 314);
             pnlMicro.TabIndex = 1;
+            pnlMicro.Click += pnlMicro_Click;
             // 
             // label5
             // 
