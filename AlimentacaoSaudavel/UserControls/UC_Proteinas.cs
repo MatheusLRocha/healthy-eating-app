@@ -16,16 +16,6 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
-        private void pnlConteudo_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel2_Resize(object sender, EventArgs e)
-        {
-
-        }
-
         private void pnlImagem_Resize(object sender, EventArgs e)
         {
             int novaPosicao = pnlImagem.Width - panel2.Width - 20;

@@ -46,7 +46,6 @@
             pnlConteudo.Name = "pnlConteudo";
             pnlConteudo.Size = new Size(438, 521);
             pnlConteudo.TabIndex = 0;
-            pnlConteudo.Paint += pnlConteudo_Paint;
             // 
             // label2
             // 
@@ -85,7 +84,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(340, 454);
             panel2.TabIndex = 1;
-            panel2.Resize += panel2_Resize;
             // 
             // UC_Proteinas
             // 
