@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Participam da formação e manutenção dos músculos e de outros tecidos, além de fazerem parte de enzimas, hormônios e componentes do sistema imunológico. Fontes incluem carnes, ovos, leite e derivados, feijão, lentilha, ervilha e soja</value>
+  </data>
 </root>

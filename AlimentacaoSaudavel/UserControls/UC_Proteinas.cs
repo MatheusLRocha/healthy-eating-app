@@ -39,5 +39,10 @@ namespace AlimentacaoSaudavel.UserControls
                 POSICAO_MAXIMA
             );
         }
+
+        private void pnlImagem_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
