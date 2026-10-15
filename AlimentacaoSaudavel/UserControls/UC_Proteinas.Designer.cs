@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Proteinas));
             pnlConteudo = new Panel();
+            label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             pnlImagem = new Panel();
@@ -39,6 +41,7 @@
             // 
             // pnlConteudo
             // 
+            pnlConteudo.Controls.Add(label3);
             pnlConteudo.Controls.Add(label2);
             pnlConteudo.Controls.Add(label1);
             pnlConteudo.Dock = DockStyle.Left;
@@ -46,6 +49,16 @@
             pnlConteudo.Name = "pnlConteudo";
             pnlConteudo.Size = new Size(438, 521);
             pnlConteudo.TabIndex = 0;
+            // 
+            // label3
+            // 
+            label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(107, 143, 11);
+            label3.Location = new Point(36, 305);
+            label3.Name = "label3";
+            label3.Size = new Size(349, 139);
+            label3.TabIndex = 2;
+            label3.Text = resources.GetString("label3.Text");
             // 
             // label2
             // 
@@ -75,6 +88,7 @@
             pnlImagem.Name = "pnlImagem";
             pnlImagem.Size = new Size(400, 521);
             pnlImagem.TabIndex = 1;
+            pnlImagem.Paint += pnlImagem_Paint;
             pnlImagem.Resize += pnlImagem_Resize;
             // 
             // panel2
@@ -108,5 +122,6 @@
         private Label label1;
         private Label label2;
         private Panel panel2;
+        private Label label3;
     }
 }

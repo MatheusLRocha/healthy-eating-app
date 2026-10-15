@@ -31,6 +31,7 @@
             label1 = new Label();
             label2 = new Label();
             pnlConteudo = new Panel();
+            label5 = new Label();
             label3 = new Label();
             label4 = new Label();
             pnlImagem = new Panel();
@@ -62,6 +63,7 @@
             // 
             // pnlConteudo
             // 
+            pnlConteudo.Controls.Add(label5);
             pnlConteudo.Controls.Add(label3);
             pnlConteudo.Controls.Add(label4);
             pnlConteudo.Dock = DockStyle.Left;
@@ -69,6 +71,16 @@
             pnlConteudo.Name = "pnlConteudo";
             pnlConteudo.Size = new Size(438, 521);
             pnlConteudo.TabIndex = 3;
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.FromArgb(107, 143, 11);
+            label5.Location = new Point(36, 305);
+            label5.Name = "label5";
+            label5.Size = new Size(349, 139);
+            label5.TabIndex = 2;
+            label5.Text = "Fornecem energia para as atividades do organismo. Estão presentes em alimentos como arroz, batata, mandioca, aveia, milho, pães, massas e frutas";
             // 
             // label3
             // 
@@ -78,7 +90,7 @@
             label3.Name = "label3";
             label3.Size = new Size(349, 139);
             label3.TabIndex = 1;
-            label3.Text = "Funcionam como os tijolos do corpo. Elas quebram-se em aminoácidos para construir e reparar os músculos, a pele, o cabelo e produzir hormônios e anticorpos.";
+            label3.Text = "São a moeda de energia preferida do organismo. Quando consumidos, transformam-se em glicose, que abastece o cérebro e os músculos rapidamente.";
             // 
             // label4
             // 
@@ -94,10 +106,11 @@
             // pnlImagem
             // 
             pnlImagem.Controls.Add(panel2);
-            pnlImagem.Location = new Point(434, 0);
+            pnlImagem.Location = new Point(444, 0);
             pnlImagem.Name = "pnlImagem";
-            pnlImagem.Size = new Size(400, 521);
+            pnlImagem.Size = new Size(390, 521);
             pnlImagem.TabIndex = 4;
+            pnlImagem.Resize += pnlImagem_Resize;
             // 
             // panel2
             // 
@@ -119,6 +132,7 @@
             Name = "UC_Carboidratos";
             Size = new Size(834, 521);
             Load += UC_Carboidratos_Load;
+            Resize += UC_Carboidratos_Resize;
             pnlConteudo.ResumeLayout(false);
             pnlConteudo.PerformLayout();
             pnlImagem.ResumeLayout(false);
@@ -135,5 +149,6 @@
         private Label label4;
         private Panel pnlImagem;
         private Panel panel2;
+        private Label label5;
     }
 }
