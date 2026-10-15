@@ -28,6 +28,8 @@ namespace AlimentacaoSaudavel.UserControls
 
         private void pnlImagem_Resize(object sender, EventArgs e)
         {
+            int novaPosicao = pnlImagem.Width - panel2.Width - 20;
+
             if (pnlImagem.Width < 1200)
             {
                 panel2.Left = pnlImagem.Width - panel2.Width - 20;
@@ -36,6 +38,16 @@ namespace AlimentacaoSaudavel.UserControls
             {
                 panel2.Left = 1160;
             }
+        }
+
+        private const int POSICAO_MAXIMA = 1400;
+
+        private void UC_Proteinas_Resize(object sender, EventArgs e)
+        {
+            pnlImagem.Left = Math.Min(
+                ClientSize.Width - pnlImagem.Width,
+                POSICAO_MAXIMA
+            );
         }
     }
 }
