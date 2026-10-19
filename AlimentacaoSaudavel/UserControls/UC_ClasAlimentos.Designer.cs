@@ -30,19 +30,19 @@
         {
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
+            pnlUltraProcessados = new Panel();
+            label9 = new Label();
             pnlMinProcessados = new Panel();
             label6 = new Label();
             pnlProcessados = new Panel();
             label4 = new Label();
             pnlNatura = new Panel();
             label7 = new Label();
-            pnlUltraProcessados = new Panel();
-            label9 = new Label();
             tableLayoutPanel1.SuspendLayout();
+            pnlUltraProcessados.SuspendLayout();
             pnlMinProcessados.SuspendLayout();
             pnlProcessados.SuspendLayout();
             pnlNatura.SuspendLayout();
-            pnlUltraProcessados.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -74,6 +74,30 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Size = new Size(580, 300);
             tableLayoutPanel1.TabIndex = 8;
+            // 
+            // pnlUltraProcessados
+            // 
+            pnlUltraProcessados.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlUltraProcessados.BackColor = Color.FromArgb(15, 72, 47);
+            pnlUltraProcessados.Controls.Add(label9);
+            pnlUltraProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlUltraProcessados.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlUltraProcessados.Location = new Point(295, 155);
+            pnlUltraProcessados.Margin = new Padding(5);
+            pnlUltraProcessados.MaximumSize = new Size(450, 240);
+            pnlUltraProcessados.MinimumSize = new Size(250, 120);
+            pnlUltraProcessados.Name = "pnlUltraProcessados";
+            pnlUltraProcessados.Size = new Size(280, 140);
+            pnlUltraProcessados.TabIndex = 7;
+            // 
+            // label9
+            // 
+            label9.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            label9.Location = new Point(4, 4);
+            label9.Name = "label9";
+            label9.Size = new Size(193, 64);
+            label9.TabIndex = 0;
+            label9.Text = "Ultra Processados";
             // 
             // pnlMinProcessados
             // 
@@ -138,6 +162,7 @@
             pnlNatura.Name = "pnlNatura";
             pnlNatura.Size = new Size(280, 140);
             pnlNatura.TabIndex = 5;
+            pnlNatura.Click += pnlNatura_Click;
             // 
             // label7
             // 
@@ -150,30 +175,6 @@
             label7.Text = "In Natura";
             label7.Click += label7_Click;
             // 
-            // pnlUltraProcessados
-            // 
-            pnlUltraProcessados.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlUltraProcessados.BackColor = Color.FromArgb(15, 72, 47);
-            pnlUltraProcessados.Controls.Add(label9);
-            pnlUltraProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlUltraProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlUltraProcessados.Location = new Point(295, 155);
-            pnlUltraProcessados.Margin = new Padding(5);
-            pnlUltraProcessados.MaximumSize = new Size(450, 240);
-            pnlUltraProcessados.MinimumSize = new Size(250, 120);
-            pnlUltraProcessados.Name = "pnlUltraProcessados";
-            pnlUltraProcessados.Size = new Size(280, 140);
-            pnlUltraProcessados.TabIndex = 7;
-            // 
-            // label9
-            // 
-            label9.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            label9.Location = new Point(4, 4);
-            label9.Name = "label9";
-            label9.Size = new Size(193, 64);
-            label9.TabIndex = 0;
-            label9.Text = "Ultra Processados";
-            // 
             // UC_ClasAlimentos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -184,12 +185,12 @@
             Name = "UC_ClasAlimentos";
             Size = new Size(834, 521);
             tableLayoutPanel1.ResumeLayout(false);
+            pnlUltraProcessados.ResumeLayout(false);
             pnlMinProcessados.ResumeLayout(false);
             pnlMinProcessados.PerformLayout();
             pnlProcessados.ResumeLayout(false);
             pnlNatura.ResumeLayout(false);
             pnlNatura.PerformLayout();
-            pnlUltraProcessados.ResumeLayout(false);
             ResumeLayout(false);
         }
 
