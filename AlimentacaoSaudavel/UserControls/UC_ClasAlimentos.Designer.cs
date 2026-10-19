@@ -113,6 +113,7 @@
             pnlMinProcessados.Name = "pnlMinProcessados";
             pnlMinProcessados.Size = new Size(280, 140);
             pnlMinProcessados.TabIndex = 6;
+            pnlMinProcessados.Click += pnlMinProcessados_Click;
             // 
             // label6
             // 

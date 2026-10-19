@@ -28,6 +28,9 @@
     <Compile Update="UserControls\UC_Minerais.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UC_MinProcessados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_Natura.cs">
       <SubType>UserControl</SubType>
     </Compile>
