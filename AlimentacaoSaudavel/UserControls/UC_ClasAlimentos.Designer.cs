@@ -89,6 +89,7 @@
             pnlUltraProcessados.Name = "pnlUltraProcessados";
             pnlUltraProcessados.Size = new Size(280, 140);
             pnlUltraProcessados.TabIndex = 7;
+            pnlUltraProcessados.Click += pnlUltraProcessados_Click;
             // 
             // label9
             // 

@@ -40,5 +40,12 @@ namespace AlimentacaoSaudavel.UserControls
 
             main.addUserControl(new UC_Processados());
         }
+
+        private void pnlUltraProcessados_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+
+            main.addUserControl(new UC_UltraProcessados());
+        }
     }
 }
