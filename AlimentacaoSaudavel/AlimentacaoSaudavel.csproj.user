@@ -37,6 +37,9 @@
     <Compile Update="UserControls\UC_Nutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UC_Processados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_Proteinas.cs">
       <SubType>UserControl</SubType>
     </Compile>
