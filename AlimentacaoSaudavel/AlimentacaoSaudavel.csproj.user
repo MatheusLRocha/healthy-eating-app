@@ -7,16 +7,16 @@
     <Compile Update="UserControls\Base\UC_InformacaoBase.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_Carboidratos.cs">
+    <Compile Update="UserControls\MacroNutrientes\UC_Carboidratos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\MacroNutrientes\UC_Gorduras.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_ClasAlimentos.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_Fontes.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UserControls\UC_Gorduras.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_MacroNutrientes.cs">
@@ -43,7 +43,7 @@
     <Compile Update="UserControls\UC_Processados.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_Proteinas.cs">
+    <Compile Update="UserControls\MacroNutrientes\UC_Proteinas.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_UltraProcessados.cs">
