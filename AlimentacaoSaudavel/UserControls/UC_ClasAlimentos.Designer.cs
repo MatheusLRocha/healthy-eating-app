@@ -72,7 +72,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(580, 300);
+            tableLayoutPanel1.Size = new Size(1000, 499);
             tableLayoutPanel1.TabIndex = 8;
             // 
             // pnlUltraProcessados
@@ -82,12 +82,12 @@
             pnlUltraProcessados.Controls.Add(label9);
             pnlUltraProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlUltraProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlUltraProcessados.Location = new Point(295, 155);
+            pnlUltraProcessados.Location = new Point(505, 254);
             pnlUltraProcessados.Margin = new Padding(5);
             pnlUltraProcessados.MaximumSize = new Size(450, 240);
             pnlUltraProcessados.MinimumSize = new Size(250, 120);
             pnlUltraProcessados.Name = "pnlUltraProcessados";
-            pnlUltraProcessados.Size = new Size(280, 140);
+            pnlUltraProcessados.Size = new Size(450, 240);
             pnlUltraProcessados.TabIndex = 7;
             pnlUltraProcessados.Click += pnlUltraProcessados_Click;
             // 
@@ -107,12 +107,12 @@
             pnlMinProcessados.Controls.Add(label6);
             pnlMinProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlMinProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlMinProcessados.Location = new Point(5, 155);
+            pnlMinProcessados.Location = new Point(5, 254);
             pnlMinProcessados.Margin = new Padding(5);
             pnlMinProcessados.MaximumSize = new Size(450, 240);
             pnlMinProcessados.MinimumSize = new Size(250, 120);
             pnlMinProcessados.Name = "pnlMinProcessados";
-            pnlMinProcessados.Size = new Size(280, 140);
+            pnlMinProcessados.Size = new Size(450, 240);
             pnlMinProcessados.TabIndex = 6;
             pnlMinProcessados.Click += pnlMinProcessados_Click;
             // 
@@ -133,12 +133,12 @@
             pnlProcessados.Controls.Add(label4);
             pnlProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlProcessados.Location = new Point(295, 5);
+            pnlProcessados.Location = new Point(505, 5);
             pnlProcessados.Margin = new Padding(5);
             pnlProcessados.MaximumSize = new Size(450, 240);
             pnlProcessados.MinimumSize = new Size(250, 120);
             pnlProcessados.Name = "pnlProcessados";
-            pnlProcessados.Size = new Size(280, 140);
+            pnlProcessados.Size = new Size(450, 239);
             pnlProcessados.TabIndex = 6;
             pnlProcessados.Click += pnlProcessados_Click;
             // 
@@ -163,7 +163,7 @@
             pnlNatura.MaximumSize = new Size(450, 240);
             pnlNatura.MinimumSize = new Size(250, 120);
             pnlNatura.Name = "pnlNatura";
-            pnlNatura.Size = new Size(280, 140);
+            pnlNatura.Size = new Size(450, 239);
             pnlNatura.TabIndex = 5;
             pnlNatura.Click += pnlNatura_Click;
             // 
@@ -185,8 +185,9 @@
             BackColor = Color.FromArgb(235, 226, 217);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
+            MinimumSize = new Size(1280, 720);
             Name = "UC_ClasAlimentos";
-            Size = new Size(834, 521);
+            Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             pnlUltraProcessados.ResumeLayout(false);
             pnlMinProcessados.ResumeLayout(false);
