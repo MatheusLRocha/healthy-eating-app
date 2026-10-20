@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,7 @@ namespace AlimentacaoSaudavel.UserControls
         {
             Main main = (Main)this.FindForm();
 
-            main.addUserControl(new UC_Natura());
+            main.addUserControl(new UC_InNatura());
         }
 
         private void pnlMinProcessados_Click(object sender, EventArgs e)
