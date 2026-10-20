@@ -31,6 +31,9 @@
             txtDescricaoInicio = new Label();
             txtTituloInicio = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
+            pnlAlimentacaosDiaADia = new Panel();
+            label7 = new Label();
+            label8 = new Label();
             pnlEscolhendoMelhor = new Panel();
             label5 = new Label();
             label6 = new Label();
@@ -40,14 +43,11 @@
             pnlNutrientes = new Panel();
             label2 = new Label();
             label1 = new Label();
-            pnlAlimentacaosDiaADia = new Panel();
-            label7 = new Label();
-            label8 = new Label();
             tableLayoutPanel1.SuspendLayout();
+            pnlAlimentacaosDiaADia.SuspendLayout();
             pnlEscolhendoMelhor.SuspendLayout();
             pnlClasAlimentos.SuspendLayout();
             pnlNutrientes.SuspendLayout();
-            pnlAlimentacaosDiaADia.SuspendLayout();
             SuspendLayout();
             // 
             // txtDescricaoInicio
@@ -90,6 +90,41 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Size = new Size(580, 300);
             tableLayoutPanel1.TabIndex = 8;
+            // 
+            // pnlAlimentacaosDiaADia
+            // 
+            pnlAlimentacaosDiaADia.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlAlimentacaosDiaADia.BackColor = Color.FromArgb(15, 72, 47);
+            pnlAlimentacaosDiaADia.Controls.Add(label7);
+            pnlAlimentacaosDiaADia.Controls.Add(label8);
+            pnlAlimentacaosDiaADia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlAlimentacaosDiaADia.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlAlimentacaosDiaADia.Location = new Point(295, 155);
+            pnlAlimentacaosDiaADia.Margin = new Padding(5);
+            pnlAlimentacaosDiaADia.MaximumSize = new Size(450, 240);
+            pnlAlimentacaosDiaADia.MinimumSize = new Size(250, 120);
+            pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
+            pnlAlimentacaosDiaADia.Size = new Size(280, 140);
+            pnlAlimentacaosDiaADia.TabIndex = 7;
+            // 
+            // label7
+            // 
+            label7.Font = new Font("Segoe UI", 10F);
+            label7.Location = new Point(5, 29);
+            label7.Name = "label7";
+            label7.Size = new Size(233, 69);
+            label7.TabIndex = 1;
+            label7.Text = "Dicas gerais para uma boa alimentação no dia a dia";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            label8.Location = new Point(4, 4);
+            label8.Name = "label8";
+            label8.Size = new Size(234, 25);
+            label8.TabIndex = 0;
+            label8.Text = "Alimentação no Dia a Dia";
             // 
             // pnlEscolhendoMelhor
             // 
@@ -198,41 +233,6 @@
             label1.TabIndex = 0;
             label1.Text = "Nutrientes";
             // 
-            // pnlAlimentacaosDiaADia
-            // 
-            pnlAlimentacaosDiaADia.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlAlimentacaosDiaADia.BackColor = Color.FromArgb(15, 72, 47);
-            pnlAlimentacaosDiaADia.Controls.Add(label7);
-            pnlAlimentacaosDiaADia.Controls.Add(label8);
-            pnlAlimentacaosDiaADia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlAlimentacaosDiaADia.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlAlimentacaosDiaADia.Location = new Point(295, 155);
-            pnlAlimentacaosDiaADia.Margin = new Padding(5);
-            pnlAlimentacaosDiaADia.MaximumSize = new Size(450, 240);
-            pnlAlimentacaosDiaADia.MinimumSize = new Size(250, 120);
-            pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
-            pnlAlimentacaosDiaADia.Size = new Size(280, 140);
-            pnlAlimentacaosDiaADia.TabIndex = 7;
-            // 
-            // label7
-            // 
-            label7.Font = new Font("Segoe UI", 10F);
-            label7.Location = new Point(5, 29);
-            label7.Name = "label7";
-            label7.Size = new Size(233, 69);
-            label7.TabIndex = 1;
-            label7.Text = "Dicas gerais para uma boa alimentação no dia a dia";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            label8.Location = new Point(4, 4);
-            label8.Name = "label8";
-            label8.Size = new Size(234, 25);
-            label8.TabIndex = 0;
-            label8.Text = "Alimentação no Dia a Dia";
-            // 
             // UC_Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -242,15 +242,15 @@
             Controls.Add(txtDescricaoInicio);
             Controls.Add(txtTituloInicio);
             Name = "UC_Main";
-            Size = new Size(834, 521);
+            Size = new Size(835, 520);
             tableLayoutPanel1.ResumeLayout(false);
+            pnlAlimentacaosDiaADia.ResumeLayout(false);
+            pnlAlimentacaosDiaADia.PerformLayout();
             pnlEscolhendoMelhor.ResumeLayout(false);
             pnlEscolhendoMelhor.PerformLayout();
             pnlClasAlimentos.ResumeLayout(false);
             pnlNutrientes.ResumeLayout(false);
             pnlNutrientes.PerformLayout();
-            pnlAlimentacaosDiaADia.ResumeLayout(false);
-            pnlAlimentacaosDiaADia.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }

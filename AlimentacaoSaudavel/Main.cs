@@ -7,6 +7,8 @@ namespace AlimentacaoSaudavel
         public Main()
         {
             InitializeComponent();
+
+            WindowState = FormWindowState.Maximized;
         }
 
         public void addUserControl(UserControl userControl)
