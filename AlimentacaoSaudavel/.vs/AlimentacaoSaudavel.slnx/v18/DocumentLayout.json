@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\uc_proteinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\uc_proteinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\uc_macronutrientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\uc_macronutrientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\uc_proteinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\uc_proteinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\macronutrientes\\uc_gorduras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\macronutrientes\\uc_gorduras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\base\\uc_informacaobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\base\\uc_informacaobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\macronutrientes\\uc_gorduras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\macronutrientes\\uc_gorduras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\uc_nutrientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\uc_nutrientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\macronutrientes\\uc_carboidratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\macronutrientes\\uc_carboidratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\base\\uc_informacaobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\base\\uc_informacaobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\uc_ultraprocessados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\uc_ultraprocessados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\uc_ultraprocessados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\uc_ultraprocessados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|c:\\users\\mathe\\onedrive\\documentos\\github\\healthy-eating-app\\alimentacaosaudavel\\usercontrols\\macronutrientes\\uc_carboidratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C64E6152-5CA6-79F5-6AEF-1D241B68B75A}|AlimentacaoSaudavel.csproj|solutionrelative:usercontrols\\macronutrientes\\uc_carboidratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,94 +33,66 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UC_Proteinas.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_Proteinas.cs",
-              "RelativeDocumentMoniker": "UserControls\\UC_Proteinas.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_Proteinas.cs",
-              "RelativeToolTip": "UserControls\\UC_Proteinas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "UC_Gorduras.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Gorduras.cs",
+              "RelativeDocumentMoniker": "UserControls\\MacroNutrientes\\UC_Gorduras.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Gorduras.cs*",
+              "RelativeToolTip": "UserControls\\MacroNutrientes\\UC_Gorduras.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAA+AQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:05:46.394Z",
+              "WhenOpened": "2026-10-20T14:14:13.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UC_Proteinas.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_Proteinas.cs",
-              "RelativeDocumentMoniker": "UserControls\\UC_Proteinas.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_Proteinas.cs [Projeto]",
-              "RelativeToolTip": "UserControls\\UC_Proteinas.cs [Projeto]",
+              "DocumentIndex": 2,
+              "Title": "UC_Gorduras.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Gorduras.cs",
+              "RelativeDocumentMoniker": "UserControls\\MacroNutrientes\\UC_Gorduras.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Gorduras.cs [Projeto]*",
+              "RelativeToolTip": "UserControls\\MacroNutrientes\\UC_Gorduras.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:05:29.939Z",
+              "WhenOpened": "2026-10-20T14:14:09.699Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_MacroNutrientes.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_MacroNutrientes.cs",
+              "RelativeDocumentMoniker": "UserControls\\UC_MacroNutrientes.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_MacroNutrientes.cs",
+              "RelativeToolTip": "UserControls\\UC_MacroNutrientes.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T14:01:49.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UC_Nutrientes.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_Nutrientes.cs",
-              "RelativeDocumentMoniker": "UserControls\\UC_Nutrientes.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_Nutrientes.cs [Projeto]",
-              "RelativeToolTip": "UserControls\\UC_Nutrientes.cs [Projeto]",
+              "Title": "UC_Carboidratos.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Carboidratos.cs",
+              "RelativeDocumentMoniker": "UserControls\\MacroNutrientes\\UC_Carboidratos.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Carboidratos.cs",
+              "RelativeToolTip": "UserControls\\MacroNutrientes\\UC_Carboidratos.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxMAAAA5AQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:05:05.981Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UC_InformacaoBase.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\Base\\UC_InformacaoBase.cs",
-              "RelativeDocumentMoniker": "UserControls\\Base\\UC_InformacaoBase.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\Base\\UC_InformacaoBase.cs*",
-              "RelativeToolTip": "UserControls\\Base\\UC_InformacaoBase.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:01:36.697Z",
+              "WhenOpened": "2026-10-20T14:00:09.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UC_InformacaoBase.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\Base\\UC_InformacaoBase.cs",
-              "RelativeDocumentMoniker": "UserControls\\Base\\UC_InformacaoBase.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\Base\\UC_InformacaoBase.cs [Projeto]*",
-              "RelativeToolTip": "UserControls\\Base\\UC_InformacaoBase.cs [Projeto]*",
+              "Title": "UC_Carboidratos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Carboidratos.cs",
+              "RelativeDocumentMoniker": "UserControls\\MacroNutrientes\\UC_Carboidratos.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\MacroNutrientes\\UC_Carboidratos.cs [Projeto]",
+              "RelativeToolTip": "UserControls\\MacroNutrientes\\UC_Carboidratos.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:00:22.822Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UC_UltraProcessados.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_UltraProcessados.cs",
-              "RelativeDocumentMoniker": "UserControls\\UC_UltraProcessados.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_UltraProcessados.cs",
-              "RelativeToolTip": "UserControls\\UC_UltraProcessados.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T19:53:32.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_UltraProcessados.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_UltraProcessados.cs",
-              "RelativeDocumentMoniker": "UserControls\\UC_UltraProcessados.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\healthy-eating-app\\AlimentacaoSaudavel\\UserControls\\UC_UltraProcessados.cs [Projeto]",
-              "RelativeToolTip": "UserControls\\UC_UltraProcessados.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T19:52:35.578Z",
+              "WhenOpened": "2026-10-20T13:47:48.798Z",
               "EditorCaption": " [Projeto]"
             }
           ]
