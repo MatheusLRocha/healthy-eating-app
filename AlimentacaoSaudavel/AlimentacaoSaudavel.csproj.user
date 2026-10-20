@@ -19,37 +19,37 @@
     <Compile Update="UserControls\ClassificacaoAlimentos\UC_UltraProcessados.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\MacroNutrientes\UC_Carboidratos.cs">
+    <Compile Update="UserControls\Nutrientes\MacroNutrientes\UC_Carboidratos.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\MacroNutrientes\UC_Gorduras.cs">
+    <Compile Update="UserControls\Nutrientes\MacroNutrientes\UC_Gorduras.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\MicroNutrientes\UC_Minerais.cs">
+    <Compile Update="UserControls\Nutrientes\MicroNutrientes\UC_Minerais.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\MicroNutrientes\UC_Vitaminas.cs">
+    <Compile Update="UserControls\Nutrientes\MicroNutrientes\UC_Vitaminas.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_ClasAlimentos.cs">
+    <Compile Update="UserControls\ClassificacaoAlimentos\UC_ClasAlimentos.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_Fontes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_MacroNutrientes.cs">
+    <Compile Update="UserControls\Nutrientes\UC_MacroNutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_Main.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_MicroNutrientes.cs">
+    <Compile Update="UserControls\Nutrientes\UC_MicroNutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_Nutrientes.cs">
+    <Compile Update="UserControls\Nutrientes\UC_Nutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\MacroNutrientes\UC_Proteinas.cs">
+    <Compile Update="UserControls\Nutrientes\MacroNutrientes\UC_Proteinas.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
