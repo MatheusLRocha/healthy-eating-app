@@ -69,13 +69,15 @@
             // 
             // label2
             // 
+            label2.Dock = DockStyle.Fill;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(107, 143, 11);
-            label2.Location = new Point(55, 133);
+            label2.Location = new Point(0, 0);
             label2.Name = "label2";
-            label2.Size = new Size(148, 43);
+            label2.Size = new Size(254, 314);
             label2.TabIndex = 4;
             label2.Text = "Vitaminas";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pnlMinerais
             // 
@@ -90,13 +92,15 @@
             // 
             // label3
             // 
+            label3.Dock = DockStyle.Fill;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(107, 143, 11);
-            label3.Location = new Point(55, 133);
+            label3.Location = new Point(0, 0);
             label3.Name = "label3";
-            label3.Size = new Size(138, 43);
+            label3.Size = new Size(254, 314);
             label3.TabIndex = 5;
             label3.Text = "Minerais";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // UC_MicroNutrientes
             // 
