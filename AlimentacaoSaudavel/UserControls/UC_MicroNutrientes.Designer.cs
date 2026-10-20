@@ -30,9 +30,9 @@
         {
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlVitaminas = new Panel();
-            label2 = new Label();
+            lblVitaminas = new Label();
             pnlMinerais = new Panel();
-            label3 = new Label();
+            lblMinerais = new Label();
             tableLayoutPanel1.SuspendLayout();
             pnlVitaminas.SuspendLayout();
             pnlMinerais.SuspendLayout();
@@ -60,47 +60,49 @@
             // 
             pnlVitaminas.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlVitaminas.BackColor = Color.FromArgb(15, 72, 47);
-            pnlVitaminas.Controls.Add(label2);
+            pnlVitaminas.Controls.Add(lblVitaminas);
             pnlVitaminas.Location = new Point(3, 3);
             pnlVitaminas.Name = "pnlVitaminas";
             pnlVitaminas.Size = new Size(254, 314);
             pnlVitaminas.TabIndex = 0;
             pnlVitaminas.Click += pnlVitaminas_Click;
             // 
-            // label2
+            // lblVitaminas
             // 
-            label2.Dock = DockStyle.Fill;
-            label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(107, 143, 11);
-            label2.Location = new Point(0, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(254, 314);
-            label2.TabIndex = 4;
-            label2.Text = "Vitaminas";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            lblVitaminas.Dock = DockStyle.Fill;
+            lblVitaminas.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblVitaminas.ForeColor = Color.FromArgb(107, 143, 11);
+            lblVitaminas.Location = new Point(0, 0);
+            lblVitaminas.Name = "lblVitaminas";
+            lblVitaminas.Size = new Size(254, 314);
+            lblVitaminas.TabIndex = 4;
+            lblVitaminas.Text = "Vitaminas";
+            lblVitaminas.TextAlign = ContentAlignment.MiddleCenter;
+            lblVitaminas.Click += lblVitaminas_Click;
             // 
             // pnlMinerais
             // 
             pnlMinerais.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlMinerais.BackColor = Color.FromArgb(15, 72, 47);
-            pnlMinerais.Controls.Add(label3);
+            pnlMinerais.Controls.Add(lblMinerais);
             pnlMinerais.Location = new Point(263, 3);
             pnlMinerais.Name = "pnlMinerais";
             pnlMinerais.Size = new Size(254, 314);
             pnlMinerais.TabIndex = 1;
             pnlMinerais.Click += pnlMinerais_Click;
             // 
-            // label3
+            // lblMinerais
             // 
-            label3.Dock = DockStyle.Fill;
-            label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(107, 143, 11);
-            label3.Location = new Point(0, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(254, 314);
-            label3.TabIndex = 5;
-            label3.Text = "Minerais";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
+            lblMinerais.Dock = DockStyle.Fill;
+            lblMinerais.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblMinerais.ForeColor = Color.FromArgb(107, 143, 11);
+            lblMinerais.Location = new Point(0, 0);
+            lblMinerais.Name = "lblMinerais";
+            lblMinerais.Size = new Size(254, 314);
+            lblMinerais.TabIndex = 5;
+            lblMinerais.Text = "Minerais";
+            lblMinerais.TextAlign = ContentAlignment.MiddleCenter;
+            lblMinerais.Click += lblMinerais_Click;
             // 
             // UC_MicroNutrientes
             // 
@@ -120,8 +122,8 @@
 
         private TableLayoutPanel tableLayoutPanel1;
         private Panel pnlVitaminas;
-        private Label label2;
+        private Label lblVitaminas;
         private Panel pnlMinerais;
-        private Label label3;
+        private Label lblMinerais;
     }
 }

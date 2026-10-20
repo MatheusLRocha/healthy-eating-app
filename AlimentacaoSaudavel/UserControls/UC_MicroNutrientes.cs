@@ -29,5 +29,15 @@ namespace AlimentacaoSaudavel.UserControls
 
             main.addUserControl(new UC_Minerais());
         }
+
+        private void lblVitaminas_Click(object sender, EventArgs e)
+        {
+            pnlVitaminas_Click(sender, e);
+        }
+
+        private void lblMinerais_Click(object sender, EventArgs e)
+        {
+            pnlMinerais_Click(sender, e);
+        }
     }
 }
