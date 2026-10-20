@@ -31,11 +31,11 @@
             label = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel2 = new Panel();
-            panel1 = new Panel();
-            linkLabel1 = new LinkLabel();
-            linkLabel2 = new LinkLabel();
-            label1 = new Label();
             label2 = new Label();
+            linkLabel2 = new LinkLabel();
+            panel1 = new Panel();
+            label1 = new Label();
+            linkLabel1 = new LinkLabel();
             tableLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
@@ -79,28 +79,16 @@
             panel2.Size = new Size(594, 84);
             panel2.TabIndex = 1;
             // 
-            // panel1
+            // label2
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(217, 217, 217);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(linkLabel1);
-            panel1.Location = new Point(3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(594, 84);
-            panel1.TabIndex = 0;
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel1.LinkColor = Color.FromArgb(107, 143, 11);
-            linkLabel1.Location = new Point(0, 57);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(167, 21);
-            linkLabel1.TabIndex = 10;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "[Acessar publicação]";
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            label2.ForeColor = Color.FromArgb(107, 143, 11);
+            label2.Location = new Point(3, 3);
+            label2.Name = "label2";
+            label2.Size = new Size(588, 47);
+            label2.TabIndex = 12;
+            label2.Text = "Núcleo de Pesquisas Epidemiológicas em Nutrição e Saúde (NUPENS/USP) - A classificacao nova";
             // 
             // linkLabel2
             // 
@@ -114,6 +102,17 @@
             linkLabel2.TabStop = true;
             linkLabel2.Text = "[Acessar publicação]";
             // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.FromArgb(217, 217, 217);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(linkLabel1);
+            panel1.Location = new Point(3, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(594, 84);
+            panel1.TabIndex = 0;
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -125,16 +124,17 @@
             label1.TabIndex = 11;
             label1.Text = "Ministério da Saúde - Guia alimentar para a população brasileira";
             // 
-            // label2
+            // linkLabel1
             // 
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label2.ForeColor = Color.FromArgb(107, 143, 11);
-            label2.Location = new Point(3, 3);
-            label2.Name = "label2";
-            label2.Size = new Size(588, 47);
-            label2.TabIndex = 12;
-            label2.Text = "Núcleo de Pesquisas Epidemiológicas em Nutrição e Saúde (NUPENS/USP) - A classificacao nova";
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            linkLabel1.LinkColor = Color.FromArgb(107, 143, 11);
+            linkLabel1.Location = new Point(0, 57);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(167, 21);
+            linkLabel1.TabIndex = 10;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "[Acessar publicação]";
             // 
             // UC_Fontes
             // 
@@ -143,8 +143,9 @@
             BackColor = Color.FromArgb(235, 226, 217);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label);
+            MinimumSize = new Size(1280, 720);
             Name = "UC_Fontes";
-            Size = new Size(834, 521);
+            Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

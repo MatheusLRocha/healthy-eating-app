@@ -73,7 +73,7 @@
             pnlHeader.Dock = DockStyle.Top;
             pnlHeader.Location = new Point(0, 0);
             pnlHeader.Name = "pnlHeader";
-            pnlHeader.Size = new Size(834, 59);
+            pnlHeader.Size = new Size(1264, 59);
             pnlHeader.TabIndex = 7;
             // 
             // linkLabel2
@@ -107,7 +107,7 @@
             pnlMain.Dock = DockStyle.Fill;
             pnlMain.Location = new Point(0, 0);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(834, 521);
+            pnlMain.Size = new Size(1264, 681);
             pnlMain.TabIndex = 8;
             // 
             // Main
@@ -115,10 +115,10 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(235, 226, 217);
-            ClientSize = new Size(834, 521);
+            ClientSize = new Size(1264, 681);
             Controls.Add(pnlHeader);
             Controls.Add(pnlMain);
-            MinimumSize = new Size(850, 560);
+            MinimumSize = new Size(1280, 720);
             Name = "Main";
             Text = "HealtyhEating";
             Load += Main_Load;

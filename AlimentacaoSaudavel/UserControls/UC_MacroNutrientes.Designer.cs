@@ -57,7 +57,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(762, 320);
+            tableLayoutPanel1.Size = new Size(1208, 519);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // pnlGorduras
@@ -65,9 +65,9 @@
             pnlGorduras.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlGorduras.BackColor = Color.FromArgb(15, 72, 47);
             pnlGorduras.Controls.Add(label6);
-            pnlGorduras.Location = new Point(511, 3);
+            pnlGorduras.Location = new Point(807, 3);
             pnlGorduras.Name = "pnlGorduras";
-            pnlGorduras.Size = new Size(248, 314);
+            pnlGorduras.Size = new Size(398, 513);
             pnlGorduras.TabIndex = 7;
             pnlGorduras.Click += pnlGorduras_Click;
             // 
@@ -86,9 +86,9 @@
             pnlCarboidratos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlCarboidratos.BackColor = Color.FromArgb(15, 72, 47);
             pnlCarboidratos.Controls.Add(label2);
-            pnlCarboidratos.Location = new Point(257, 3);
+            pnlCarboidratos.Location = new Point(405, 3);
             pnlCarboidratos.Name = "pnlCarboidratos";
-            pnlCarboidratos.Size = new Size(248, 314);
+            pnlCarboidratos.Size = new Size(396, 513);
             pnlCarboidratos.TabIndex = 6;
             pnlCarboidratos.Click += pnlCarboidratos_Click;
             // 
@@ -109,7 +109,7 @@
             pnlProteinas.Controls.Add(label3);
             pnlProteinas.Location = new Point(3, 3);
             pnlProteinas.Name = "pnlProteinas";
-            pnlProteinas.Size = new Size(248, 314);
+            pnlProteinas.Size = new Size(396, 513);
             pnlProteinas.TabIndex = 2;
             pnlProteinas.Click += pnlProteinas_Click;
             // 
@@ -129,8 +129,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(235, 226, 217);
             Controls.Add(tableLayoutPanel1);
+            MinimumSize = new Size(1280, 720);
             Name = "UC_MacroNutrientes";
-            Size = new Size(834, 521);
+            Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             pnlGorduras.ResumeLayout(false);
             pnlCarboidratos.ResumeLayout(false);

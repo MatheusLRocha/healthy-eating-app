@@ -53,7 +53,7 @@
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(520, 320);
+            tableLayoutPanel1.Size = new Size(966, 519);
             tableLayoutPanel1.TabIndex = 4;
             // 
             // pnlVitaminas
@@ -63,7 +63,7 @@
             pnlVitaminas.Controls.Add(lblVitaminas);
             pnlVitaminas.Location = new Point(3, 3);
             pnlVitaminas.Name = "pnlVitaminas";
-            pnlVitaminas.Size = new Size(254, 314);
+            pnlVitaminas.Size = new Size(477, 513);
             pnlVitaminas.TabIndex = 0;
             pnlVitaminas.Click += pnlVitaminas_Click;
             // 
@@ -74,7 +74,7 @@
             lblVitaminas.ForeColor = Color.FromArgb(107, 143, 11);
             lblVitaminas.Location = new Point(0, 0);
             lblVitaminas.Name = "lblVitaminas";
-            lblVitaminas.Size = new Size(254, 314);
+            lblVitaminas.Size = new Size(477, 513);
             lblVitaminas.TabIndex = 4;
             lblVitaminas.Text = "Vitaminas";
             lblVitaminas.TextAlign = ContentAlignment.MiddleCenter;
@@ -85,9 +85,9 @@
             pnlMinerais.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlMinerais.BackColor = Color.FromArgb(15, 72, 47);
             pnlMinerais.Controls.Add(lblMinerais);
-            pnlMinerais.Location = new Point(263, 3);
+            pnlMinerais.Location = new Point(486, 3);
             pnlMinerais.Name = "pnlMinerais";
-            pnlMinerais.Size = new Size(254, 314);
+            pnlMinerais.Size = new Size(477, 513);
             pnlMinerais.TabIndex = 1;
             pnlMinerais.Click += pnlMinerais_Click;
             // 
@@ -98,7 +98,7 @@
             lblMinerais.ForeColor = Color.FromArgb(107, 143, 11);
             lblMinerais.Location = new Point(0, 0);
             lblMinerais.Name = "lblMinerais";
-            lblMinerais.Size = new Size(254, 314);
+            lblMinerais.Size = new Size(477, 513);
             lblMinerais.TabIndex = 5;
             lblMinerais.Text = "Minerais";
             lblMinerais.TextAlign = ContentAlignment.MiddleCenter;
@@ -110,8 +110,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(235, 226, 217);
             Controls.Add(tableLayoutPanel1);
+            MinimumSize = new Size(1280, 720);
             Name = "UC_MicroNutrientes";
-            Size = new Size(834, 521);
+            Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             pnlVitaminas.ResumeLayout(false);
             pnlMinerais.ResumeLayout(false);

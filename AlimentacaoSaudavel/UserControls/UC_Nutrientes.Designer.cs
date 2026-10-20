@@ -49,7 +49,7 @@
             pnlMacro.Controls.Add(label2);
             pnlMacro.Location = new Point(3, 3);
             pnlMacro.Name = "pnlMacro";
-            pnlMacro.Size = new Size(254, 314);
+            pnlMacro.Size = new Size(477, 513);
             pnlMacro.TabIndex = 0;
             pnlMacro.Click += pnlMacro_Click;
             // 
@@ -79,9 +79,9 @@
             pnlMicro.BackColor = Color.FromArgb(15, 72, 47);
             pnlMicro.Controls.Add(label5);
             pnlMicro.Controls.Add(label3);
-            pnlMicro.Location = new Point(263, 3);
+            pnlMicro.Location = new Point(486, 3);
             pnlMicro.Name = "pnlMicro";
-            pnlMicro.Size = new Size(254, 314);
+            pnlMicro.Size = new Size(477, 513);
             pnlMicro.TabIndex = 1;
             pnlMicro.Click += pnlMicro_Click;
             // 
@@ -130,7 +130,7 @@
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(520, 320);
+            tableLayoutPanel1.Size = new Size(966, 519);
             tableLayoutPanel1.TabIndex = 3;
             // 
             // UC_Nutrientes
@@ -140,8 +140,9 @@
             BackColor = Color.FromArgb(235, 226, 217);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
+            MinimumSize = new Size(1280, 720);
             Name = "UC_Nutrientes";
-            Size = new Size(834, 521);
+            Size = new Size(1280, 720);
             pnlMacro.ResumeLayout(false);
             pnlMicro.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
