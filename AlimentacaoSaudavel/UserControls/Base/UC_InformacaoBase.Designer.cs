@@ -53,7 +53,7 @@
             lblDescricao.ForeColor = Color.FromArgb(107, 143, 11);
             lblDescricao.Location = new Point(36, 166);
             lblDescricao.Name = "lblDescricao";
-            lblDescricao.Size = new Size(349, 333);
+            lblDescricao.Size = new Size(391, 341);
             lblDescricao.TabIndex = 1;
             lblDescricao.Text = "Descrição do conteúdo";
             // 

@@ -7,6 +7,18 @@
     <Compile Update="UserControls\Base\UC_InformacaoBase.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\ClassificacaoAlimentos\UC_InNatura.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClassificacaoAlimentos\UC_MinProcessados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClassificacaoAlimentos\UC_Processados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClassificacaoAlimentos\UC_UltraProcessados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\MacroNutrientes\UC_Carboidratos.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -34,22 +46,10 @@
     <Compile Update="UserControls\UC_MicroNutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_MinProcessados.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UserControls\UC_Natura.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="UserControls\UC_Nutrientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\UC_Processados.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="UserControls\MacroNutrientes\UC_Proteinas.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UserControls\UC_UltraProcessados.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
