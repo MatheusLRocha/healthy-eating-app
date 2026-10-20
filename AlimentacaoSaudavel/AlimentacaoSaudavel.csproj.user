@@ -13,6 +13,12 @@
     <Compile Update="UserControls\MacroNutrientes\UC_Gorduras.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\MicroNutrientes\UC_Minerais.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\MicroNutrientes\UC_Vitaminas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_ClasAlimentos.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -26,9 +32,6 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_MicroNutrientes.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UserControls\UC_Minerais.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_MinProcessados.cs">
@@ -47,9 +50,6 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UC_UltraProcessados.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UserControls\UC_Vitaminas.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
