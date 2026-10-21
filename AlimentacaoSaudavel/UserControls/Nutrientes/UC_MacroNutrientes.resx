@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtDescricaoInicio.Text" xml:space="preserve">
+    <value>Os macronutrientes são os nutrientes que o nosso corpo precisa em maiores quantidades. Eles oferecem energia, constituem estruturas do corpo e participam de diversas funções essenciais para a nossa saúde.</value>
+  </data>
 </root>
