@@ -136,9 +136,9 @@
             txtTitulo.ForeColor = Color.FromArgb(15, 72, 47);
             txtTitulo.Location = new Point(34, 38);
             txtTitulo.Name = "txtTitulo";
-            txtTitulo.Size = new Size(267, 45);
+            txtTitulo.Size = new Size(259, 45);
             txtTitulo.TabIndex = 4;
-            txtTitulo.Text = "Macronutrientes";
+            txtTitulo.Text = "Micronutrientes";
             // 
             // UC_MicroNutrientes
             // 

@@ -32,32 +32,40 @@
             txtDescricaoInicio = new Label();
             txtTituloInicio = new Label();
             pnlClasAlimentos = new Panel();
+            pctBClasAlimentos = new PictureBox();
             pictureBox2 = new PictureBox();
             label3 = new Label();
             label4 = new Label();
             pnlNutrientes = new Panel();
+            pctBNutrientes = new PictureBox();
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlAlimentacaosDiaADia = new Panel();
+            pctBAlimentacaoDiaDia = new PictureBox();
             pictureBox4 = new PictureBox();
             label7 = new Label();
             label8 = new Label();
             pnlEscolhendoMelhor = new Panel();
+            pctBEscolhas = new PictureBox();
             pictureBox3 = new PictureBox();
             label5 = new Label();
             label6 = new Label();
             panel1 = new Panel();
             label9 = new Label();
             pnlClasAlimentos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBClasAlimentos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pnlNutrientes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBNutrientes).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             pnlAlimentacaosDiaADia.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBAlimentacaoDiaDia).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             pnlEscolhendoMelhor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBEscolhas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -87,6 +95,7 @@
             // 
             pnlClasAlimentos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlClasAlimentos.BackColor = Color.FromArgb(255, 244, 220);
+            pnlClasAlimentos.Controls.Add(pctBClasAlimentos);
             pnlClasAlimentos.Controls.Add(pictureBox2);
             pnlClasAlimentos.Controls.Add(label3);
             pnlClasAlimentos.Controls.Add(label4);
@@ -99,7 +108,16 @@
             pnlClasAlimentos.Name = "pnlClasAlimentos";
             pnlClasAlimentos.Size = new Size(287, 325);
             pnlClasAlimentos.TabIndex = 6;
-            pnlClasAlimentos.Click += pnlClasAlimentos_Click;
+            // 
+            // pctBClasAlimentos
+            // 
+            pctBClasAlimentos.Image = (Image)resources.GetObject("pctBClasAlimentos.Image");
+            pctBClasAlimentos.Location = new Point(16, 276);
+            pctBClasAlimentos.Name = "pctBClasAlimentos";
+            pctBClasAlimentos.Size = new Size(32, 32);
+            pctBClasAlimentos.TabIndex = 4;
+            pctBClasAlimentos.TabStop = false;
+            pctBClasAlimentos.Click += pctBClasAlimentos_Click;
             // 
             // pictureBox2
             // 
@@ -134,6 +152,7 @@
             // 
             pnlNutrientes.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlNutrientes.BackColor = Color.FromArgb(227, 238, 220);
+            pnlNutrientes.Controls.Add(pctBNutrientes);
             pnlNutrientes.Controls.Add(pictureBox1);
             pnlNutrientes.Controls.Add(label2);
             pnlNutrientes.Controls.Add(label1);
@@ -146,7 +165,16 @@
             pnlNutrientes.Name = "pnlNutrientes";
             pnlNutrientes.Size = new Size(287, 325);
             pnlNutrientes.TabIndex = 5;
-            pnlNutrientes.Click += pnlNutrientes_Click_1;
+            // 
+            // pctBNutrientes
+            // 
+            pctBNutrientes.Image = (Image)resources.GetObject("pctBNutrientes.Image");
+            pctBNutrientes.Location = new Point(21, 276);
+            pctBNutrientes.Name = "pctBNutrientes";
+            pctBNutrientes.Size = new Size(32, 32);
+            pctBNutrientes.TabIndex = 3;
+            pctBNutrientes.TabStop = false;
+            pctBNutrientes.Click += pctBNutrientes_Click;
             // 
             // pictureBox1
             // 
@@ -201,6 +229,7 @@
             // 
             pnlAlimentacaosDiaADia.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlAlimentacaosDiaADia.BackColor = Color.FromArgb(240, 232, 247);
+            pnlAlimentacaosDiaADia.Controls.Add(pctBAlimentacaoDiaDia);
             pnlAlimentacaosDiaADia.Controls.Add(pictureBox4);
             pnlAlimentacaosDiaADia.Controls.Add(label7);
             pnlAlimentacaosDiaADia.Controls.Add(label8);
@@ -213,6 +242,15 @@
             pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
             pnlAlimentacaosDiaADia.Size = new Size(289, 325);
             pnlAlimentacaosDiaADia.TabIndex = 7;
+            // 
+            // pctBAlimentacaoDiaDia
+            // 
+            pctBAlimentacaoDiaDia.Image = (Image)resources.GetObject("pctBAlimentacaoDiaDia.Image");
+            pctBAlimentacaoDiaDia.Location = new Point(17, 276);
+            pctBAlimentacaoDiaDia.Name = "pctBAlimentacaoDiaDia";
+            pctBAlimentacaoDiaDia.Size = new Size(32, 32);
+            pctBAlimentacaoDiaDia.TabIndex = 6;
+            pctBAlimentacaoDiaDia.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -248,6 +286,7 @@
             // 
             pnlEscolhendoMelhor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlEscolhendoMelhor.BackColor = Color.FromArgb(227, 242, 243);
+            pnlEscolhendoMelhor.Controls.Add(pctBEscolhas);
             pnlEscolhendoMelhor.Controls.Add(pictureBox3);
             pnlEscolhendoMelhor.Controls.Add(label5);
             pnlEscolhendoMelhor.Controls.Add(label6);
@@ -260,6 +299,15 @@
             pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
             pnlEscolhendoMelhor.Size = new Size(287, 325);
             pnlEscolhendoMelhor.TabIndex = 6;
+            // 
+            // pctBEscolhas
+            // 
+            pctBEscolhas.Image = (Image)resources.GetObject("pctBEscolhas.Image");
+            pctBEscolhas.Location = new Point(16, 276);
+            pctBEscolhas.Name = "pctBEscolhas";
+            pctBEscolhas.Size = new Size(32, 32);
+            pctBEscolhas.TabIndex = 5;
+            pctBEscolhas.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -325,16 +373,20 @@
             Name = "UC_Main";
             Size = new Size(1280, 720);
             pnlClasAlimentos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBClasAlimentos).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             pnlNutrientes.ResumeLayout(false);
             pnlNutrientes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBNutrientes).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             pnlAlimentacaosDiaADia.ResumeLayout(false);
             pnlAlimentacaosDiaADia.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBAlimentacaoDiaDia).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             pnlEscolhendoMelhor.ResumeLayout(false);
             pnlEscolhendoMelhor.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBEscolhas).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -365,5 +417,9 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private Label label9;
+        private PictureBox pctBClasAlimentos;
+        private PictureBox pctBNutrientes;
+        private PictureBox pctBAlimentacaoDiaDia;
+        private PictureBox pctBEscolhas;
     }
 }

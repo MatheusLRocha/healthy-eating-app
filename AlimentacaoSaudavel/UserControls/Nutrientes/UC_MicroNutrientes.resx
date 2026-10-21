@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="txtDescricaoInicio.Text" xml:space="preserve">
-    <value>Os macronutrientes são os nutrientes que o nosso corpo precisa em maiores quantidades. Eles oferecem energia, constituem estruturas do corpo e participam de diversas funções essenciais para a nossa saúde.</value>
+    <value>Os micronutrientes são vitaminas e minerais que o organismo precisa em pequenas quantidades, mas que desempenham funções essenciais. Eles ajudam no crescimento, na imunidade, na produção de energia e no bom funcionamento do corpo.</value>
   </data>
 </root>
