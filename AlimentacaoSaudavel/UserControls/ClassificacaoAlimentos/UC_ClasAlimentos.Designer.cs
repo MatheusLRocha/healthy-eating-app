@@ -28,23 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_ClasAlimentos));
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlUltraProcessados = new Panel();
+            pctBUltraprocessados = new PictureBox();
             label9 = new Label();
             pnlMinProcessados = new Panel();
-            label6 = new Label();
-            pnlProcessados = new Panel();
+            pctBProcessados = new PictureBox();
             label4 = new Label();
+            pnlProcessados = new Panel();
+            pctBMinProcessados = new PictureBox();
+            label6 = new Label();
             pnlNatura = new Panel();
+            pctBNatura = new PictureBox();
             label7 = new Label();
             panel1 = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1.SuspendLayout();
             pnlUltraProcessados.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBUltraprocessados).BeginInit();
             pnlMinProcessados.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBProcessados).BeginInit();
             pnlProcessados.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBMinProcessados).BeginInit();
             pnlNatura.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBNatura).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,6 +80,7 @@
             // 
             pnlUltraProcessados.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlUltraProcessados.BackColor = Color.FromArgb(227, 238, 220);
+            pnlUltraProcessados.Controls.Add(pctBUltraprocessados);
             pnlUltraProcessados.Controls.Add(label9);
             pnlUltraProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlUltraProcessados.ForeColor = Color.FromArgb(107, 143, 11);
@@ -79,15 +89,24 @@
             pnlUltraProcessados.Name = "pnlUltraProcessados";
             pnlUltraProcessados.Size = new Size(289, 110);
             pnlUltraProcessados.TabIndex = 7;
-            pnlUltraProcessados.Click += pnlUltraProcessados_Click;
+            // 
+            // pctBUltraprocessados
+            // 
+            pctBUltraprocessados.Image = (Image)resources.GetObject("pctBUltraprocessados.Image");
+            pctBUltraprocessados.Location = new Point(19, 41);
+            pctBUltraprocessados.Name = "pctBUltraprocessados";
+            pctBUltraprocessados.Size = new Size(32, 32);
+            pctBUltraprocessados.TabIndex = 11;
+            pctBUltraprocessados.TabStop = false;
+            pctBUltraprocessados.Click += pctBUltraprocessados_Click;
             // 
             // label9
             // 
             label9.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label9.ForeColor = Color.FromArgb(15, 72, 47);
-            label9.Location = new Point(14, 38);
+            label9.Location = new Point(116, 43);
             label9.Name = "label9";
-            label9.Size = new Size(193, 30);
+            label9.Size = new Size(173, 30);
             label9.TabIndex = 0;
             label9.Text = "Ultra Processados";
             // 
@@ -95,7 +114,8 @@
             // 
             pnlMinProcessados.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlMinProcessados.BackColor = Color.FromArgb(227, 238, 220);
-            pnlMinProcessados.Controls.Add(label6);
+            pnlMinProcessados.Controls.Add(pctBProcessados);
+            pnlMinProcessados.Controls.Add(label4);
             pnlMinProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlMinProcessados.ForeColor = Color.FromArgb(107, 143, 11);
             pnlMinProcessados.Location = new Point(599, 5);
@@ -103,24 +123,33 @@
             pnlMinProcessados.Name = "pnlMinProcessados";
             pnlMinProcessados.Size = new Size(287, 110);
             pnlMinProcessados.TabIndex = 6;
-            pnlMinProcessados.Click += pnlMinProcessados_Click;
             // 
-            // label6
+            // pctBProcessados
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(14, 43);
-            label6.Name = "label6";
-            label6.Size = new Size(249, 25);
-            label6.TabIndex = 0;
-            label6.Text = "Minimamente Processados";
+            pctBProcessados.Image = (Image)resources.GetObject("pctBProcessados.Image");
+            pctBProcessados.Location = new Point(19, 41);
+            pctBProcessados.Name = "pctBProcessados";
+            pctBProcessados.Size = new Size(32, 32);
+            pctBProcessados.TabIndex = 10;
+            pctBProcessados.TabStop = false;
+            pctBProcessados.Click += pctBProcessados_Click;
+            // 
+            // label4
+            // 
+            label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            label4.ForeColor = Color.FromArgb(15, 72, 47);
+            label4.Location = new Point(161, 43);
+            label4.Name = "label4";
+            label4.Size = new Size(123, 30);
+            label4.TabIndex = 0;
+            label4.Text = "Processados";
             // 
             // pnlProcessados
             // 
             pnlProcessados.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlProcessados.BackColor = Color.FromArgb(227, 238, 220);
-            pnlProcessados.Controls.Add(label4);
+            pnlProcessados.Controls.Add(pctBMinProcessados);
+            pnlProcessados.Controls.Add(label6);
             pnlProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlProcessados.ForeColor = Color.FromArgb(107, 143, 11);
             pnlProcessados.Location = new Point(302, 5);
@@ -128,22 +157,32 @@
             pnlProcessados.Name = "pnlProcessados";
             pnlProcessados.Size = new Size(287, 110);
             pnlProcessados.TabIndex = 6;
-            pnlProcessados.Click += pnlProcessados_Click;
             // 
-            // label4
+            // pctBMinProcessados
             // 
-            label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            label4.ForeColor = Color.FromArgb(15, 72, 47);
-            label4.Location = new Point(18, 43);
-            label4.Name = "label4";
-            label4.Size = new Size(193, 30);
-            label4.TabIndex = 0;
-            label4.Text = "Processados";
+            pctBMinProcessados.Image = (Image)resources.GetObject("pctBMinProcessados.Image");
+            pctBMinProcessados.Location = new Point(19, 41);
+            pctBMinProcessados.Name = "pctBMinProcessados";
+            pctBMinProcessados.Size = new Size(32, 32);
+            pctBMinProcessados.TabIndex = 9;
+            pctBMinProcessados.TabStop = false;
+            pctBMinProcessados.Click += pctBMinProcessados_Click;
+            // 
+            // label6
+            // 
+            label6.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            label6.ForeColor = Color.FromArgb(15, 72, 47);
+            label6.Location = new Point(133, 34);
+            label6.Name = "label6";
+            label6.Size = new Size(151, 53);
+            label6.TabIndex = 0;
+            label6.Text = "Minimamente Processados";
             // 
             // pnlNatura
             // 
             pnlNatura.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlNatura.BackColor = Color.FromArgb(227, 238, 220);
+            pnlNatura.Controls.Add(pctBNatura);
             pnlNatura.Controls.Add(label7);
             pnlNatura.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlNatura.ForeColor = Color.FromArgb(107, 143, 11);
@@ -152,14 +191,23 @@
             pnlNatura.Name = "pnlNatura";
             pnlNatura.Size = new Size(287, 110);
             pnlNatura.TabIndex = 5;
-            pnlNatura.Click += pnlNatura_Click;
+            // 
+            // pctBNatura
+            // 
+            pctBNatura.Image = (Image)resources.GetObject("pctBNatura.Image");
+            pctBNatura.Location = new Point(19, 41);
+            pctBNatura.Name = "pctBNatura";
+            pctBNatura.Size = new Size(32, 32);
+            pctBNatura.TabIndex = 8;
+            pctBNatura.TabStop = false;
+            pctBNatura.Click += pctBNatura_Click;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label7.ForeColor = Color.FromArgb(15, 72, 47);
-            label7.Location = new Point(16, 43);
+            label7.Location = new Point(176, 43);
             label7.Name = "label7";
             label7.Size = new Size(97, 25);
             label7.TabIndex = 0;
@@ -210,11 +258,14 @@
             Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             pnlUltraProcessados.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBUltraprocessados).EndInit();
             pnlMinProcessados.ResumeLayout(false);
-            pnlMinProcessados.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBProcessados).EndInit();
             pnlProcessados.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBMinProcessados).EndInit();
             pnlNatura.ResumeLayout(false);
             pnlNatura.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBNatura).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -233,5 +284,9 @@
         private Panel panel1;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
+        private PictureBox pctBProcessados;
+        private PictureBox pctBMinProcessados;
+        private PictureBox pctBNatura;
+        private PictureBox pctBUltraprocessados;
     }
 }

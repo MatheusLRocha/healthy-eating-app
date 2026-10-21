@@ -16,24 +16,21 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
-        private void pnlProteinas_Click(object sender, EventArgs e)
+        private void pctBProteinas_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_Proteinas());
         }
 
-        private void pnlCarboidratos_Click(object sender, EventArgs e)
+        private void pctBCarboidratos_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_Carboidratos());
         }
 
-        private void pnlGorduras_Click(object sender, EventArgs e)
+        private void pctBGorduras_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_Gorduras());
         }
     }

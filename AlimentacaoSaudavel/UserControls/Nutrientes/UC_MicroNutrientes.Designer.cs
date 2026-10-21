@@ -31,15 +31,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_MicroNutrientes));
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlVitaminas = new Panel();
+            pctBVitaminas = new PictureBox();
             lblVitaminas = new Label();
             pnlMinerais = new Panel();
+            pctBMinerais = new PictureBox();
             lblMinerais = new Label();
             panel1 = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1.SuspendLayout();
             pnlVitaminas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBVitaminas).BeginInit();
             pnlMinerais.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBMinerais).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -63,12 +67,22 @@
             // 
             pnlVitaminas.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlVitaminas.BackColor = Color.FromArgb(227, 238, 220);
+            pnlVitaminas.Controls.Add(pctBVitaminas);
             pnlVitaminas.Controls.Add(lblVitaminas);
             pnlVitaminas.Location = new Point(3, 3);
             pnlVitaminas.Name = "pnlVitaminas";
             pnlVitaminas.Size = new Size(589, 114);
             pnlVitaminas.TabIndex = 0;
-            pnlVitaminas.Click += pnlVitaminas_Click;
+            // 
+            // pctBVitaminas
+            // 
+            pctBVitaminas.Image = (Image)resources.GetObject("pctBVitaminas.Image");
+            pctBVitaminas.Location = new Point(26, 45);
+            pctBVitaminas.Name = "pctBVitaminas";
+            pctBVitaminas.Size = new Size(32, 32);
+            pctBVitaminas.TabIndex = 12;
+            pctBVitaminas.TabStop = false;
+            pctBVitaminas.Click += pctBVitaminas_Click;
             // 
             // lblVitaminas
             // 
@@ -76,37 +90,45 @@
             lblVitaminas.BackColor = Color.FromArgb(227, 238, 220);
             lblVitaminas.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblVitaminas.ForeColor = Color.FromArgb(15, 72, 47);
-            lblVitaminas.Location = new Point(0, 0);
+            lblVitaminas.Location = new Point(388, 36);
             lblVitaminas.Name = "lblVitaminas";
-            lblVitaminas.Size = new Size(589, 114);
+            lblVitaminas.Size = new Size(171, 42);
             lblVitaminas.TabIndex = 4;
             lblVitaminas.Text = "Vitaminas";
             lblVitaminas.TextAlign = ContentAlignment.MiddleCenter;
-            lblVitaminas.Click += lblVitaminas_Click;
             // 
             // pnlMinerais
             // 
             pnlMinerais.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlMinerais.BackColor = Color.FromArgb(255, 244, 220);
+            pnlMinerais.Controls.Add(pctBMinerais);
             pnlMinerais.Controls.Add(lblMinerais);
             pnlMinerais.Location = new Point(598, 3);
             pnlMinerais.Name = "pnlMinerais";
             pnlMinerais.Size = new Size(589, 114);
             pnlMinerais.TabIndex = 1;
-            pnlMinerais.Click += pnlMinerais_Click;
+            // 
+            // pctBMinerais
+            // 
+            pctBMinerais.Image = (Image)resources.GetObject("pctBMinerais.Image");
+            pctBMinerais.Location = new Point(26, 45);
+            pctBMinerais.Name = "pctBMinerais";
+            pctBMinerais.Size = new Size(32, 32);
+            pctBMinerais.TabIndex = 13;
+            pctBMinerais.TabStop = false;
+            pctBMinerais.Click += pctBMinerais_Click;
             // 
             // lblMinerais
             // 
             lblMinerais.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblMinerais.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblMinerais.ForeColor = Color.FromArgb(15, 72, 47);
-            lblMinerais.Location = new Point(0, 0);
+            lblMinerais.Location = new Point(388, 36);
             lblMinerais.Name = "lblMinerais";
-            lblMinerais.Size = new Size(589, 114);
+            lblMinerais.Size = new Size(131, 36);
             lblMinerais.TabIndex = 5;
             lblMinerais.Text = "Minerais";
             lblMinerais.TextAlign = ContentAlignment.MiddleCenter;
-            lblMinerais.Click += lblMinerais_Click;
             // 
             // panel1
             // 
@@ -152,7 +174,9 @@
             Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             pnlVitaminas.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBVitaminas).EndInit();
             pnlMinerais.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBMinerais).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -168,5 +192,7 @@
         private Panel panel1;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
+        private PictureBox pctBVitaminas;
+        private PictureBox pctBMinerais;
     }
 }

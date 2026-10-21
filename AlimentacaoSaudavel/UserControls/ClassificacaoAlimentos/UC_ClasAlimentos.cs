@@ -21,31 +21,27 @@ namespace AlimentacaoSaudavel.UserControls
 
         }
 
-        private void pnlNatura_Click(object sender, EventArgs e)
+        private void pctBNatura_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_InNatura());
         }
 
-        private void pnlMinProcessados_Click(object sender, EventArgs e)
+        private void pctBMinProcessados_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_MinProcessados());
         }
 
-        private void pnlProcessados_Click(object sender, EventArgs e)
+        private void pctBProcessados_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_Processados());
         }
 
-        private void pnlUltraProcessados_Click(object sender, EventArgs e)
+        private void pctBUltraprocessados_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_UltraProcessados());
         }
     }

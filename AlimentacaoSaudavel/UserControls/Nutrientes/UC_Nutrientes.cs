@@ -15,17 +15,15 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
-        private void pnlMacro_Click(object sender, EventArgs e)
+        private void pctBMacro_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_MacroNutrientes());
         }
 
-        private void pnlMicro_Click(object sender, EventArgs e)
+        private void pctBMicro_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_MicroNutrientes());
         }
     }

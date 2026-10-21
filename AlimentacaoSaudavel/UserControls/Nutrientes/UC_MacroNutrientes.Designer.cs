@@ -31,18 +31,24 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_MacroNutrientes));
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlGorduras = new Panel();
+            pctBGorduras = new PictureBox();
             label6 = new Label();
             pnlCarboidratos = new Panel();
+            pctBCarboidratos = new PictureBox();
             label2 = new Label();
             pnlProteinas = new Panel();
+            pctBProteinas = new PictureBox();
             label3 = new Label();
             panel1 = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1.SuspendLayout();
             pnlGorduras.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBGorduras).BeginInit();
             pnlCarboidratos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBCarboidratos).BeginInit();
             pnlProteinas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBProteinas).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,18 +73,28 @@
             // 
             pnlGorduras.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlGorduras.BackColor = Color.FromArgb(240, 232, 247);
+            pnlGorduras.Controls.Add(pctBGorduras);
             pnlGorduras.Controls.Add(label6);
             pnlGorduras.Location = new Point(795, 3);
             pnlGorduras.Name = "pnlGorduras";
             pnlGorduras.Size = new Size(392, 114);
             pnlGorduras.TabIndex = 7;
-            pnlGorduras.Click += pnlGorduras_Click;
+            // 
+            // pctBGorduras
+            // 
+            pctBGorduras.Image = (Image)resources.GetObject("pctBGorduras.Image");
+            pctBGorduras.Location = new Point(26, 45);
+            pctBGorduras.Name = "pctBGorduras";
+            pctBGorduras.Size = new Size(32, 32);
+            pctBGorduras.TabIndex = 8;
+            pctBGorduras.TabStop = false;
+            pctBGorduras.Click += pctBGorduras_Click;
             // 
             // label6
             // 
             label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(227, 39);
+            label6.Location = new Point(225, 39);
             label6.Name = "label6";
             label6.Size = new Size(146, 43);
             label6.TabIndex = 5;
@@ -88,18 +104,28 @@
             // 
             pnlCarboidratos.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlCarboidratos.BackColor = Color.FromArgb(255, 244, 220);
+            pnlCarboidratos.Controls.Add(pctBCarboidratos);
             pnlCarboidratos.Controls.Add(label2);
             pnlCarboidratos.Location = new Point(399, 3);
             pnlCarboidratos.Name = "pnlCarboidratos";
             pnlCarboidratos.Size = new Size(390, 114);
             pnlCarboidratos.TabIndex = 6;
-            pnlCarboidratos.Click += pnlCarboidratos_Click;
+            // 
+            // pctBCarboidratos
+            // 
+            pctBCarboidratos.Image = (Image)resources.GetObject("pctBCarboidratos.Image");
+            pctBCarboidratos.Location = new Point(26, 45);
+            pctBCarboidratos.Name = "pctBCarboidratos";
+            pctBCarboidratos.Size = new Size(32, 32);
+            pctBCarboidratos.TabIndex = 7;
+            pctBCarboidratos.TabStop = false;
+            pctBCarboidratos.Click += pctBCarboidratos_Click;
             // 
             // label2
             // 
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(163, 39);
+            label2.Location = new Point(181, 39);
             label2.Name = "label2";
             label2.Size = new Size(200, 43);
             label2.TabIndex = 5;
@@ -109,18 +135,28 @@
             // 
             pnlProteinas.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlProteinas.BackColor = Color.FromArgb(227, 238, 220);
+            pnlProteinas.Controls.Add(pctBProteinas);
             pnlProteinas.Controls.Add(label3);
             pnlProteinas.Location = new Point(3, 3);
             pnlProteinas.Name = "pnlProteinas";
             pnlProteinas.Size = new Size(390, 114);
             pnlProteinas.TabIndex = 2;
-            pnlProteinas.Click += pnlProteinas_Click;
+            // 
+            // pctBProteinas
+            // 
+            pctBProteinas.Image = (Image)resources.GetObject("pctBProteinas.Image");
+            pctBProteinas.Location = new Point(26, 45);
+            pctBProteinas.Name = "pctBProteinas";
+            pctBProteinas.Size = new Size(32, 32);
+            pctBProteinas.TabIndex = 6;
+            pctBProteinas.TabStop = false;
+            pctBProteinas.Click += pctBProteinas_Click;
             // 
             // label3
             // 
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(215, 39);
+            label3.Location = new Point(225, 39);
             label3.Name = "label3";
             label3.Size = new Size(140, 43);
             label3.TabIndex = 5;
@@ -170,8 +206,11 @@
             Size = new Size(1280, 720);
             tableLayoutPanel1.ResumeLayout(false);
             pnlGorduras.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBGorduras).EndInit();
             pnlCarboidratos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBCarboidratos).EndInit();
             pnlProteinas.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBProteinas).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -189,5 +228,8 @@
         private Panel panel1;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
+        private PictureBox pctBCarboidratos;
+        private PictureBox pctBProteinas;
+        private PictureBox pctBGorduras;
     }
 }

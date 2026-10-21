@@ -28,16 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Nutrientes));
             pnlMacro = new Panel();
+            pctBMacro = new PictureBox();
             label2 = new Label();
             pnlMicro = new Panel();
+            pctBMicro = new PictureBox();
             label3 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel1 = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             pnlMacro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBMacro).BeginInit();
             pnlMicro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBMicro).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -46,18 +51,28 @@
             // 
             pnlMacro.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlMacro.BackColor = Color.FromArgb(227, 238, 220);
+            pnlMacro.Controls.Add(pctBMacro);
             pnlMacro.Controls.Add(label2);
             pnlMacro.Location = new Point(3, 3);
             pnlMacro.Name = "pnlMacro";
             pnlMacro.Size = new Size(589, 114);
             pnlMacro.TabIndex = 0;
-            pnlMacro.Click += pnlMacro_Click;
+            // 
+            // pctBMacro
+            // 
+            pctBMacro.Image = (Image)resources.GetObject("pctBMacro.Image");
+            pctBMacro.Location = new Point(22, 44);
+            pctBMacro.Name = "pctBMacro";
+            pctBMacro.Size = new Size(32, 32);
+            pctBMacro.TabIndex = 7;
+            pctBMacro.TabStop = false;
+            pctBMacro.Click += pctBMacro_Click;
             // 
             // label2
             // 
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(23, 33);
+            label2.Location = new Point(339, 44);
             label2.Name = "label2";
             label2.Size = new Size(236, 43);
             label2.TabIndex = 4;
@@ -67,18 +82,28 @@
             // 
             pnlMicro.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlMicro.BackColor = Color.FromArgb(227, 238, 220);
+            pnlMicro.Controls.Add(pctBMicro);
             pnlMicro.Controls.Add(label3);
             pnlMicro.Location = new Point(598, 3);
             pnlMicro.Name = "pnlMicro";
             pnlMicro.Size = new Size(589, 114);
             pnlMicro.TabIndex = 1;
-            pnlMicro.Click += pnlMicro_Click;
+            // 
+            // pctBMicro
+            // 
+            pctBMicro.Image = (Image)resources.GetObject("pctBMicro.Image");
+            pctBMicro.Location = new Point(22, 44);
+            pctBMicro.Name = "pctBMicro";
+            pctBMicro.Size = new Size(32, 32);
+            pctBMicro.TabIndex = 8;
+            pctBMicro.TabStop = false;
+            pctBMicro.Click += pctBMicro_Click;
             // 
             // label3
             // 
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(27, 33);
+            label3.Location = new Point(339, 44);
             label3.Name = "label3";
             label3.Size = new Size(236, 43);
             label3.TabIndex = 5;
@@ -143,7 +168,9 @@
             Name = "UC_Nutrientes";
             Size = new Size(1280, 720);
             pnlMacro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBMacro).EndInit();
             pnlMicro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBMicro).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -160,5 +187,7 @@
         private Panel panel1;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
+        private PictureBox pctBMacro;
+        private PictureBox pctBMicro;
     }
 }
