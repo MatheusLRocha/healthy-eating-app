@@ -1,4 +1,5 @@
 using AlimentacaoSaudavel.UserControls;
+using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia;
 
 namespace AlimentacaoSaudavel
 {
@@ -52,6 +53,12 @@ namespace AlimentacaoSaudavel
         private void pnlMain_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void linkLblAlimentosDia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UC_AlimentacaoDiaDia ucAlimentacaoDiaDia = new UC_AlimentacaoDiaDia();
+            addUserControl(ucAlimentacaoDiaDia);
         }
     }
 }

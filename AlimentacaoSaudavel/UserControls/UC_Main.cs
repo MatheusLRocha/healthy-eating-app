@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +30,12 @@ namespace AlimentacaoSaudavel.UserControls
         {
             UC_ClasAlimentos ucClasAlimentos = new UC_ClasAlimentos();
             _main.addUserControl(ucClasAlimentos);
+        }
+
+        private void pctBAlimentacaoDiaDia_Click(object sender, EventArgs e)
+        {
+            UC_AlimentacaoDiaDia ucAlimentacaoDiaDia = new UC_AlimentacaoDiaDia();
+            _main.addUserControl(ucAlimentacaoDiaDia);
         }
     }
 }

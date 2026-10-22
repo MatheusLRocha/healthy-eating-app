@@ -153,6 +153,7 @@
             linkLblAlimentosDia.TabIndex = 8;
             linkLblAlimentosDia.TabStop = true;
             linkLblAlimentosDia.Text = "Alimentação no Dia a Dia";
+            linkLblAlimentosDia.LinkClicked += linkLblAlimentosDia_LinkClicked;
             // 
             // linkLblEscolhas
             // 

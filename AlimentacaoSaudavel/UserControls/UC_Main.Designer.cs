@@ -251,6 +251,7 @@
             pctBAlimentacaoDiaDia.Size = new Size(32, 32);
             pctBAlimentacaoDiaDia.TabIndex = 6;
             pctBAlimentacaoDiaDia.TabStop = false;
+            pctBAlimentacaoDiaDia.Click += pctBAlimentacaoDiaDia_Click;
             // 
             // pictureBox4
             // 
@@ -345,7 +346,7 @@
             panel1.BackColor = Color.FromArgb(227, 238, 220);
             panel1.Controls.Add(txtDescricaoInicio);
             panel1.Controls.Add(txtTituloInicio);
-            panel1.Location = new Point(44, 14);
+            panel1.Location = new Point(45, 15);
             panel1.Name = "panel1";
             panel1.Size = new Size(1190, 314);
             panel1.TabIndex = 9;
