@@ -28,10 +28,203 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_EscolhendoMelhor));
+            panel1 = new Panel();
+            txtDescricaoInicio = new Label();
+            txtTitulo = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            pnlSubstituicoes = new Panel();
+            pctBSubstituicoes = new PictureBox();
+            label6 = new Label();
+            pnlComparandoAlimentos = new Panel();
+            pctBComparandoAlimentos = new PictureBox();
+            label2 = new Label();
+            pnlRotulo = new Panel();
+            pctBRotulo = new PictureBox();
+            label3 = new Label();
+            panel1.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+            pnlSubstituicoes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBSubstituicoes).BeginInit();
+            pnlComparandoAlimentos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBComparandoAlimentos).BeginInit();
+            pnlRotulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBRotulo).BeginInit();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.FromArgb(227, 238, 220);
+            panel1.Controls.Add(txtDescricaoInicio);
+            panel1.Controls.Add(txtTitulo);
+            panel1.Location = new Point(40, 17);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1190, 314);
+            panel1.TabIndex = 15;
+            // 
+            // txtDescricaoInicio
+            // 
+            txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
+            txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
+            txtDescricaoInicio.Location = new Point(34, 146);
+            txtDescricaoInicio.Name = "txtDescricaoInicio";
+            txtDescricaoInicio.Size = new Size(558, 127);
+            txtDescricaoInicio.TabIndex = 5;
+            txtDescricaoInicio.Text = "Resumo sobre a sessão";
+            // 
+            // txtTitulo
+            // 
+            txtTitulo.AutoSize = true;
+            txtTitulo.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            txtTitulo.ForeColor = Color.FromArgb(15, 72, 47);
+            txtTitulo.Location = new Point(34, 38);
+            txtTitulo.Name = "txtTitulo";
+            txtTitulo.Size = new Size(308, 45);
+            txtTitulo.TabIndex = 4;
+            txtTitulo.Text = "Escolhendo Melhor";
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel1.Controls.Add(pnlSubstituicoes, 2, 0);
+            tableLayoutPanel1.Controls.Add(pnlComparandoAlimentos, 1, 0);
+            tableLayoutPanel1.Controls.Add(pnlRotulo, 0, 0);
+            tableLayoutPanel1.Location = new Point(40, 470);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 1;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.TabIndex = 16;
+            // 
+            // pnlSubstituicoes
+            // 
+            pnlSubstituicoes.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlSubstituicoes.BackColor = Color.FromArgb(240, 232, 247);
+            pnlSubstituicoes.Controls.Add(pctBSubstituicoes);
+            pnlSubstituicoes.Controls.Add(label6);
+            pnlSubstituicoes.Location = new Point(795, 3);
+            pnlSubstituicoes.Name = "pnlSubstituicoes";
+            pnlSubstituicoes.Size = new Size(392, 114);
+            pnlSubstituicoes.TabIndex = 7;
+            // 
+            // pctBSubstituicoes
+            // 
+            pctBSubstituicoes.Image = (Image)resources.GetObject("pctBSubstituicoes.Image");
+            pctBSubstituicoes.Location = new Point(26, 45);
+            pctBSubstituicoes.Name = "pctBSubstituicoes";
+            pctBSubstituicoes.Size = new Size(32, 32);
+            pctBSubstituicoes.TabIndex = 8;
+            pctBSubstituicoes.TabStop = false;
+            // 
+            // label6
+            // 
+            label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.FromArgb(15, 72, 47);
+            label6.Location = new Point(192, 27);
+            label6.Name = "label6";
+            label6.Size = new Size(200, 80);
+            label6.TabIndex = 5;
+            label6.Text = "Substituições práticas";
+            // 
+            // pnlComparandoAlimentos
+            // 
+            pnlComparandoAlimentos.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlComparandoAlimentos.BackColor = Color.FromArgb(255, 244, 220);
+            pnlComparandoAlimentos.Controls.Add(pctBComparandoAlimentos);
+            pnlComparandoAlimentos.Controls.Add(label2);
+            pnlComparandoAlimentos.Location = new Point(399, 3);
+            pnlComparandoAlimentos.Name = "pnlComparandoAlimentos";
+            pnlComparandoAlimentos.Size = new Size(390, 114);
+            pnlComparandoAlimentos.TabIndex = 6;
+            // 
+            // pctBComparandoAlimentos
+            // 
+            pctBComparandoAlimentos.Image = (Image)resources.GetObject("pctBComparandoAlimentos.Image");
+            pctBComparandoAlimentos.Location = new Point(26, 45);
+            pctBComparandoAlimentos.Name = "pctBComparandoAlimentos";
+            pctBComparandoAlimentos.Size = new Size(32, 32);
+            pctBComparandoAlimentos.TabIndex = 7;
+            pctBComparandoAlimentos.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.FromArgb(15, 72, 47);
+            label2.Location = new Point(187, 27);
+            label2.Name = "label2";
+            label2.Size = new Size(200, 75);
+            label2.TabIndex = 5;
+            label2.Text = "Comparando alimentos";
+            // 
+            // pnlRotulo
+            // 
+            pnlRotulo.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlRotulo.BackColor = Color.FromArgb(227, 238, 220);
+            pnlRotulo.Controls.Add(pctBRotulo);
+            pnlRotulo.Controls.Add(label3);
+            pnlRotulo.Location = new Point(3, 3);
+            pnlRotulo.Name = "pnlRotulo";
+            pnlRotulo.Size = new Size(390, 114);
+            pnlRotulo.TabIndex = 2;
+            // 
+            // pctBRotulo
+            // 
+            pctBRotulo.Image = (Image)resources.GetObject("pctBRotulo.Image");
+            pctBRotulo.Location = new Point(26, 45);
+            pctBRotulo.Name = "pctBRotulo";
+            pctBRotulo.Size = new Size(32, 32);
+            pctBRotulo.TabIndex = 6;
+            pctBRotulo.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(15, 72, 47);
+            label3.Location = new Point(223, 27);
+            label3.Name = "label3";
+            label3.Size = new Size(164, 75);
+            label3.TabIndex = 5;
+            label3.Text = "Leitura de rótulos";
+            // 
+            // UC_EscolhendoMelhor
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(tableLayoutPanel1);
+            Controls.Add(panel1);
+            Name = "UC_EscolhendoMelhor";
+            Size = new Size(1280, 720);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            tableLayoutPanel1.ResumeLayout(false);
+            pnlSubstituicoes.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBSubstituicoes).EndInit();
+            pnlComparandoAlimentos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBComparandoAlimentos).EndInit();
+            pnlRotulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBRotulo).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel panel1;
+        private Label txtDescricaoInicio;
+        private Label txtTitulo;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Panel pnlSubstituicoes;
+        private PictureBox pctBSubstituicoes;
+        private Label label6;
+        private Panel pnlComparandoAlimentos;
+        private PictureBox pctBComparandoAlimentos;
+        private Label label2;
+        private Panel pnlRotulo;
+        private PictureBox pctBRotulo;
+        private Label label3;
     }
 }
