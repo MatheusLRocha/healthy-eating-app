@@ -1,4 +1,6 @@
 ﻿using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.AlimentacaoEquilibrada;
+using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.PlanejamentoAlimentar;
+using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.RotinaCorrida;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +22,18 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia
         {
             Main main = (Main)this.FindForm();
             main.addUserControl(new UC_AlimentacaoEquilibrada());
+        }
+
+        private void pctBRefeicoesDia_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+            main.addUserControl(new UC_RefeicoesDia());
+        }
+
+        private void pctBPlanejamentoAlimentar_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+            main.addUserControl(new UC_PlanejamentoAlimentar());
         }
     }
 }
