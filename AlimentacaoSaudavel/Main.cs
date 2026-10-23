@@ -11,6 +11,15 @@ namespace AlimentacaoSaudavel
             InitializeComponent();
 
             WindowState = FormWindowState.Maximized;
+
+            PanelRound panelRound = new PanelRound();
+
+            panelRound.ArredondarCantos(cBtnInicio, 8);
+            panelRound.ArredondarCantos(cBtnAlimentacaoDiaDia, 8);
+            panelRound.ArredondarCantos(cBtnEscolhendoMelhor, 8);
+            panelRound.ArredondarCantos(cBtnNutrientes, 8);
+            panelRound.ArredondarCantos(cBtnClasAlimentos, 8);
+            panelRound.ArredondarCantos(cBtnFontes, 8);
         }
 
         public void addUserControl(UserControl userControl)

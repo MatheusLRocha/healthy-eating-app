@@ -42,7 +42,7 @@
             pnlNatura = new Panel();
             pctBNatura = new PictureBox();
             label7 = new Label();
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1.SuspendLayout();
@@ -54,7 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)pctBMinProcessados).BeginInit();
             pnlNatura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctBNatura).BeginInit();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -89,6 +89,7 @@
             pnlUltraProcessados.Name = "pnlUltraProcessados";
             pnlUltraProcessados.Size = new Size(221, 71);
             pnlUltraProcessados.TabIndex = 7;
+            pnlUltraProcessados.Resize += pnlUltraProcessados_Resize;
             // 
             // pctBUltraprocessados
             // 
@@ -124,6 +125,7 @@
             pnlMinProcessados.Name = "pnlMinProcessados";
             pnlMinProcessados.Size = new Size(218, 71);
             pnlMinProcessados.TabIndex = 6;
+            pnlMinProcessados.Resize += pnlMinProcessados_Resize;
             // 
             // pctBProcessados
             // 
@@ -159,6 +161,7 @@
             pnlProcessados.Name = "pnlProcessados";
             pnlProcessados.Size = new Size(218, 71);
             pnlProcessados.TabIndex = 6;
+            pnlProcessados.Resize += pnlProcessados_Resize;
             // 
             // pctBMinProcessados
             // 
@@ -194,6 +197,7 @@
             pnlNatura.Name = "pnlNatura";
             pnlNatura.Size = new Size(218, 71);
             pnlNatura.TabIndex = 5;
+            pnlNatura.Resize += pnlNatura_Resize;
             // 
             // pctBNatura
             // 
@@ -218,16 +222,17 @@
             label7.Text = "In Natura";
             label7.Click += label7_Click;
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(txtDescricaoInicio);
-            panel1.Controls.Add(txtTitulo);
-            panel1.Location = new Point(40, 17);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(915, 314);
-            panel1.TabIndex = 13;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(txtTitulo);
+            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(915, 314);
+            pnlApresentacao.TabIndex = 13;
+            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 
@@ -255,7 +260,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            Controls.Add(panel1);
+            Controls.Add(pnlApresentacao);
             Controls.Add(tableLayoutPanel1);
             MinimumSize = new Size(1005, 681);
             Name = "UC_ClasAlimentos";
@@ -270,8 +275,8 @@
             pnlNatura.ResumeLayout(false);
             pnlNatura.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pctBNatura).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -285,7 +290,7 @@
         private Label label7;
         private Panel pnlUltraProcessados;
         private Label label9;
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private PictureBox pctBProcessados;

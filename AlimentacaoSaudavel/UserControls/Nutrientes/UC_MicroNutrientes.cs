@@ -16,6 +16,8 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
         private void pctBVitaminas_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
@@ -26,6 +28,21 @@ namespace AlimentacaoSaudavel.UserControls
         {
             Main main = (Main)this.FindForm();
             main.addUserControl(new UC_Minerais());
+        }
+
+        private void pnlVitaminas_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlVitaminas, 20);
+        }
+
+        private void pnlMinerais_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlMinerais, 20);
+        }
+
+        private void pnlApresentacao_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
         }
     }
 }

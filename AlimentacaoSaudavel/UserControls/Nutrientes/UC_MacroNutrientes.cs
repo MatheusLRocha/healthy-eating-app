@@ -16,6 +16,8 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
         private void pctBProteinas_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
@@ -32,6 +34,26 @@ namespace AlimentacaoSaudavel.UserControls
         {
             Main main = (Main)this.FindForm();
             main.addUserControl(new UC_Gorduras());
+        }
+
+        private void pnlProteinas_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlProteinas, 20);
+        }
+
+        private void pnlCarboidratos_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlCarboidratos, 20);
+        }
+
+        private void pnlGorduras_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlGorduras, 20);
+        }
+
+        private void pnlApresentacao_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
         }
     }
 }

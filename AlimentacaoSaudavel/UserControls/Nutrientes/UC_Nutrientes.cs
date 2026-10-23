@@ -15,6 +15,8 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
         private void pctBMacro_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
@@ -25,6 +27,21 @@ namespace AlimentacaoSaudavel.UserControls
         {
             Main main = (Main)this.FindForm();
             main.addUserControl(new UC_MicroNutrientes());
+        }
+
+        private void pnlMacro_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlMacro, 20);
+        }
+
+        private void pnlMicro_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlMicro, 20);
+        }
+
+        private void pnlApresentacao_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
         }
     }
 }

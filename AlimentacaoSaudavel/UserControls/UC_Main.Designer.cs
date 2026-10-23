@@ -50,7 +50,7 @@
             pictureBox3 = new PictureBox();
             label5 = new Label();
             label6 = new Label();
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTituloInicio = new Label();
             tableLayoutPanel2 = new TableLayoutPanel();
@@ -67,7 +67,7 @@
             pnlEscolhendoMelhor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctBEscolhas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -87,9 +87,11 @@
             pnlClasAlimentos.Name = "pnlClasAlimentos";
             pnlClasAlimentos.Size = new Size(239, 325);
             pnlClasAlimentos.TabIndex = 6;
+            pnlClasAlimentos.Resize += pnlClasAlimentos_Resize;
             // 
             // pctBClasAlimentos
             // 
+            pctBClasAlimentos.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             pctBClasAlimentos.Image = (Image)resources.GetObject("pctBClasAlimentos.Image");
             pctBClasAlimentos.Location = new Point(16, 276);
             pctBClasAlimentos.Name = "pctBClasAlimentos";
@@ -143,9 +145,11 @@
             pnlNutrientes.Name = "pnlNutrientes";
             pnlNutrientes.Size = new Size(239, 325);
             pnlNutrientes.TabIndex = 5;
+            pnlNutrientes.Resize += pnlNutrientes_Resize;
             // 
             // pctBNutrientes
             // 
+            pctBNutrientes.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             pctBNutrientes.Image = (Image)resources.GetObject("pctBNutrientes.Image");
             pctBNutrientes.Location = new Point(21, 276);
             pctBNutrientes.Name = "pctBNutrientes";
@@ -186,7 +190,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 4;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -219,9 +223,11 @@
             pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
             pnlAlimentacaosDiaADia.Size = new Size(242, 325);
             pnlAlimentacaosDiaADia.TabIndex = 7;
+            pnlAlimentacaosDiaADia.Resize += pnlAlimentacaosDiaADia_Resize;
             // 
             // pctBAlimentacaoDiaDia
             // 
+            pctBAlimentacaoDiaDia.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             pctBAlimentacaoDiaDia.Image = (Image)resources.GetObject("pctBAlimentacaoDiaDia.Image");
             pctBAlimentacaoDiaDia.Location = new Point(17, 276);
             pctBAlimentacaoDiaDia.Name = "pctBAlimentacaoDiaDia";
@@ -275,9 +281,11 @@
             pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
             pnlEscolhendoMelhor.Size = new Size(239, 325);
             pnlEscolhendoMelhor.TabIndex = 6;
+            pnlEscolhendoMelhor.Resize += pnlEscolhendoMelhor_Resize;
             // 
             // pctBEscolhas
             // 
+            pctBEscolhas.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             pctBEscolhas.Image = (Image)resources.GetObject("pctBEscolhas.Image");
             pctBEscolhas.Location = new Point(16, 276);
             pctBEscolhas.Name = "pctBEscolhas";
@@ -316,16 +324,17 @@
             label6.TabIndex = 0;
             label6.Text = "Escolhendo Melhor";
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(txtDescricaoInicio);
-            panel1.Controls.Add(txtTituloInicio);
-            panel1.Location = new Point(3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(999, 314);
-            panel1.TabIndex = 9;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(txtTituloInicio);
+            pnlApresentacao.Location = new Point(3, 3);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(999, 314);
+            pnlApresentacao.TabIndex = 9;
+            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 
@@ -353,7 +362,7 @@
             tableLayoutPanel2.ColumnCount = 1;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel2.Controls.Add(tableLayoutPanel1, 0, 1);
-            tableLayoutPanel2.Controls.Add(panel1, 0, 0);
+            tableLayoutPanel2.Controls.Add(pnlApresentacao, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
             tableLayoutPanel2.Location = new Point(0, 0);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -387,8 +396,8 @@
             pnlEscolhendoMelhor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pctBEscolhas).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -415,7 +424,7 @@
         private PictureBox pctBNutrientes;
         private PictureBox pctBAlimentacaoDiaDia;
         private PictureBox pctBEscolhas;
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label txtDescricaoInicio;
         private Label txtTituloInicio;
         private TableLayoutPanel tableLayoutPanel2;
