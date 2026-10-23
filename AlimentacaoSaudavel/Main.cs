@@ -1,5 +1,6 @@
 using AlimentacaoSaudavel.UserControls;
 using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia;
+using AlimentacaoSaudavel.UserControls.EscolhendoMelhor;
 
 namespace AlimentacaoSaudavel
 {
@@ -46,7 +47,8 @@ namespace AlimentacaoSaudavel
 
         private void cBtnEscolhendoMelhor_Click(object sender, EventArgs e)
         {
-
+            UC_EscolhendoMelhor ucEscolhendoMelhor = new UC_EscolhendoMelhor();
+            addUserControl(ucEscolhendoMelhor);
         }
 
         private void cBtnAlimentacaoDiaDia_Click(object sender, EventArgs e)
