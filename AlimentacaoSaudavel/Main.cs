@@ -26,39 +26,39 @@ namespace AlimentacaoSaudavel
             addUserControl(ucMain);
         }
 
-        private void linkLblInicio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void cBtnInicio_Click(object sender, EventArgs e)
         {
             UC_Main ucMain = new UC_Main(this);
             addUserControl(ucMain);
         }
 
-        private void linkLblNutrientes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void cBtnNutrientes_Click(object sender, EventArgs e)
         {
             UC_Nutrientes ucNutrientes = new UC_Nutrientes();
             addUserControl(ucNutrientes);
         }
 
-        private void linkLblClasAlimentos_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void cBtnClasAlimentos_Click(object sender, EventArgs e)
         {
             UC_ClasAlimentos ucClasAlimentos = new UC_ClasAlimentos();
             addUserControl(ucClasAlimentos);
         }
 
-        private void linkLblFontes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            UC_Fontes ucFontes = new UC_Fontes();
-            addUserControl(ucFontes);
-        }
-
-        private void pnlMain_Paint(object sender, PaintEventArgs e)
+        private void cBtnEscolhendoMelhor_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void linkLblAlimentosDia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void cBtnAlimentacaoDiaDia_Click(object sender, EventArgs e)
         {
             UC_AlimentacaoDiaDia ucAlimentacaoDiaDia = new UC_AlimentacaoDiaDia();
             addUserControl(ucAlimentacaoDiaDia);
+        }
+
+        private void cBtnFontes_Click(object sender, EventArgs e)
+        {
+            UC_Fontes ucFontes = new UC_Fontes();
+            addUserControl(ucFontes);
         }
     }
 }

@@ -29,81 +29,177 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            linlLblInicio = new LinkLabel();
-            linkLblNutrientes = new LinkLabel();
             pnlHeader = new Panel();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            cBtnFontes = new CustomButton();
+            cBtnInicio = new CustomButton();
+            cBtnAlimentacaoDiaDia = new CustomButton();
+            cBtnEscolhendoMelhor = new CustomButton();
+            cBtnNutrientes = new CustomButton();
+            cBtnClasAlimentos = new CustomButton();
             pictureBox7 = new PictureBox();
             label1 = new Label();
-            pictureBox6 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            linkLblAlimentosDia = new LinkLabel();
-            linkLblEscolhas = new LinkLabel();
-            pictureBox4 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            linkLblFontes = new LinkLabel();
-            linkLblClasAlimentos = new LinkLabel();
+            panel1 = new Panel();
             pnlMain = new Panel();
             pnlHeader.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // linlLblInicio
-            // 
-            linlLblInicio.AutoSize = true;
-            linlLblInicio.Font = new Font("Segoe UI", 12F);
-            linlLblInicio.ForeColor = Color.CornflowerBlue;
-            linlLblInicio.LinkColor = Color.White;
-            linlLblInicio.Location = new Point(58, 140);
-            linlLblInicio.Name = "linlLblInicio";
-            linlLblInicio.Size = new Size(47, 21);
-            linlLblInicio.TabIndex = 0;
-            linlLblInicio.TabStop = true;
-            linlLblInicio.Text = "Inicio";
-            linlLblInicio.LinkClicked += linkLblInicio_LinkClicked;
-            // 
-            // linkLblNutrientes
-            // 
-            linkLblNutrientes.AutoSize = true;
-            linkLblNutrientes.Font = new Font("Segoe UI", 12F);
-            linkLblNutrientes.LinkColor = Color.White;
-            linkLblNutrientes.Location = new Point(58, 200);
-            linkLblNutrientes.Name = "linkLblNutrientes";
-            linkLblNutrientes.Size = new Size(83, 21);
-            linkLblNutrientes.TabIndex = 1;
-            linkLblNutrientes.TabStop = true;
-            linkLblNutrientes.Text = "Nutrientes";
-            linkLblNutrientes.LinkClicked += linkLblNutrientes_LinkClicked;
             // 
             // pnlHeader
             // 
             pnlHeader.BackColor = Color.FromArgb(15, 72, 47);
+            pnlHeader.Controls.Add(tableLayoutPanel1);
             pnlHeader.Controls.Add(pictureBox7);
             pnlHeader.Controls.Add(label1);
-            pnlHeader.Controls.Add(pictureBox6);
-            pnlHeader.Controls.Add(pictureBox5);
-            pnlHeader.Controls.Add(linkLblAlimentosDia);
-            pnlHeader.Controls.Add(linkLblEscolhas);
-            pnlHeader.Controls.Add(pictureBox4);
-            pnlHeader.Controls.Add(pictureBox3);
-            pnlHeader.Controls.Add(pictureBox2);
-            pnlHeader.Controls.Add(pictureBox1);
-            pnlHeader.Controls.Add(linkLblFontes);
-            pnlHeader.Controls.Add(linkLblClasAlimentos);
-            pnlHeader.Controls.Add(linkLblNutrientes);
-            pnlHeader.Controls.Add(linlLblInicio);
+            pnlHeader.Controls.Add(panel1);
             pnlHeader.Dock = DockStyle.Left;
             pnlHeader.Location = new Point(0, 0);
             pnlHeader.Name = "pnlHeader";
             pnlHeader.Size = new Size(265, 681);
             pnlHeader.TabIndex = 7;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(cBtnFontes, 0, 5);
+            tableLayoutPanel1.Controls.Add(cBtnInicio, 0, 0);
+            tableLayoutPanel1.Controls.Add(cBtnAlimentacaoDiaDia, 0, 4);
+            tableLayoutPanel1.Controls.Add(cBtnEscolhendoMelhor, 0, 3);
+            tableLayoutPanel1.Controls.Add(cBtnNutrientes, 0, 1);
+            tableLayoutPanel1.Controls.Add(cBtnClasAlimentos, 0, 2);
+            tableLayoutPanel1.Location = new Point(0, 130);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 6;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.Size = new Size(265, 359);
+            tableLayoutPanel1.TabIndex = 14;
+            // 
+            // cBtnFontes
+            // 
+            cBtnFontes.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnFontes.FlatAppearance.BorderSize = 0;
+            cBtnFontes.FlatStyle = FlatStyle.Flat;
+            cBtnFontes.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnFontes.ForeColor = Color.White;
+            cBtnFontes.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnFontes.Image = (Image)resources.GetObject("cBtnFontes.Image");
+            cBtnFontes.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnFontes.Location = new Point(3, 298);
+            cBtnFontes.Name = "cBtnFontes";
+            cBtnFontes.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnFontes.Size = new Size(250, 45);
+            cBtnFontes.TabIndex = 16;
+            cBtnFontes.Text = "          Fontes/Referências";
+            cBtnFontes.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnFontes.UseVisualStyleBackColor = false;
+            cBtnFontes.Click += cBtnFontes_Click;
+            // 
+            // cBtnInicio
+            // 
+            cBtnInicio.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnInicio.FlatAppearance.BorderSize = 0;
+            cBtnInicio.FlatStyle = FlatStyle.Flat;
+            cBtnInicio.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnInicio.ForeColor = Color.White;
+            cBtnInicio.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnInicio.Image = (Image)resources.GetObject("cBtnInicio.Image");
+            cBtnInicio.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnInicio.Location = new Point(3, 3);
+            cBtnInicio.Name = "cBtnInicio";
+            cBtnInicio.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnInicio.Size = new Size(250, 45);
+            cBtnInicio.TabIndex = 0;
+            cBtnInicio.Text = "          Início";
+            cBtnInicio.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnInicio.UseVisualStyleBackColor = false;
+            cBtnInicio.Click += cBtnInicio_Click;
+            // 
+            // cBtnAlimentacaoDiaDia
+            // 
+            cBtnAlimentacaoDiaDia.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnAlimentacaoDiaDia.FlatAppearance.BorderSize = 0;
+            cBtnAlimentacaoDiaDia.FlatStyle = FlatStyle.Flat;
+            cBtnAlimentacaoDiaDia.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnAlimentacaoDiaDia.ForeColor = Color.White;
+            cBtnAlimentacaoDiaDia.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnAlimentacaoDiaDia.Image = (Image)resources.GetObject("cBtnAlimentacaoDiaDia.Image");
+            cBtnAlimentacaoDiaDia.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnAlimentacaoDiaDia.Location = new Point(3, 239);
+            cBtnAlimentacaoDiaDia.Name = "cBtnAlimentacaoDiaDia";
+            cBtnAlimentacaoDiaDia.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnAlimentacaoDiaDia.Size = new Size(250, 45);
+            cBtnAlimentacaoDiaDia.TabIndex = 15;
+            cBtnAlimentacaoDiaDia.Text = "          Alimentação no dia a dia";
+            cBtnAlimentacaoDiaDia.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnAlimentacaoDiaDia.UseVisualStyleBackColor = false;
+            cBtnAlimentacaoDiaDia.Click += cBtnAlimentacaoDiaDia_Click;
+            // 
+            // cBtnEscolhendoMelhor
+            // 
+            cBtnEscolhendoMelhor.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnEscolhendoMelhor.FlatAppearance.BorderSize = 0;
+            cBtnEscolhendoMelhor.FlatStyle = FlatStyle.Flat;
+            cBtnEscolhendoMelhor.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnEscolhendoMelhor.ForeColor = Color.White;
+            cBtnEscolhendoMelhor.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnEscolhendoMelhor.Image = (Image)resources.GetObject("cBtnEscolhendoMelhor.Image");
+            cBtnEscolhendoMelhor.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnEscolhendoMelhor.Location = new Point(3, 180);
+            cBtnEscolhendoMelhor.Name = "cBtnEscolhendoMelhor";
+            cBtnEscolhendoMelhor.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnEscolhendoMelhor.Size = new Size(250, 45);
+            cBtnEscolhendoMelhor.TabIndex = 14;
+            cBtnEscolhendoMelhor.Text = "          Escolhendo melhor";
+            cBtnEscolhendoMelhor.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnEscolhendoMelhor.UseVisualStyleBackColor = false;
+            cBtnEscolhendoMelhor.Click += cBtnEscolhendoMelhor_Click;
+            // 
+            // cBtnNutrientes
+            // 
+            cBtnNutrientes.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnNutrientes.FlatAppearance.BorderSize = 0;
+            cBtnNutrientes.FlatStyle = FlatStyle.Flat;
+            cBtnNutrientes.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnNutrientes.ForeColor = Color.White;
+            cBtnNutrientes.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnNutrientes.Image = (Image)resources.GetObject("cBtnNutrientes.Image");
+            cBtnNutrientes.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnNutrientes.Location = new Point(3, 62);
+            cBtnNutrientes.Name = "cBtnNutrientes";
+            cBtnNutrientes.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnNutrientes.Size = new Size(250, 45);
+            cBtnNutrientes.TabIndex = 1;
+            cBtnNutrientes.Text = "          Nutrientes";
+            cBtnNutrientes.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnNutrientes.UseVisualStyleBackColor = false;
+            cBtnNutrientes.Click += cBtnNutrientes_Click;
+            // 
+            // cBtnClasAlimentos
+            // 
+            cBtnClasAlimentos.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnClasAlimentos.FlatAppearance.BorderSize = 0;
+            cBtnClasAlimentos.FlatStyle = FlatStyle.Flat;
+            cBtnClasAlimentos.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnClasAlimentos.ForeColor = Color.White;
+            cBtnClasAlimentos.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnClasAlimentos.Image = (Image)resources.GetObject("cBtnClasAlimentos.Image");
+            cBtnClasAlimentos.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnClasAlimentos.Location = new Point(3, 121);
+            cBtnClasAlimentos.Name = "cBtnClasAlimentos";
+            cBtnClasAlimentos.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnClasAlimentos.Size = new Size(250, 45);
+            cBtnClasAlimentos.TabIndex = 2;
+            cBtnClasAlimentos.Text = "          Classificação dos alimentos";
+            cBtnClasAlimentos.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnClasAlimentos.UseVisualStyleBackColor = false;
+            cBtnClasAlimentos.Click += cBtnClasAlimentos_Click;
             // 
             // pictureBox7
             // 
@@ -124,110 +220,13 @@
             label1.TabIndex = 11;
             label1.Text = "Alimentação Saudável";
             // 
-            // pictureBox6
+            // panel1
             // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(18, 371);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(32, 32);
-            pictureBox6.TabIndex = 10;
-            pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(20, 311);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(32, 32);
-            pictureBox5.TabIndex = 9;
-            pictureBox5.TabStop = false;
-            // 
-            // linkLblAlimentosDia
-            // 
-            linkLblAlimentosDia.AutoSize = true;
-            linkLblAlimentosDia.Font = new Font("Segoe UI", 12F);
-            linkLblAlimentosDia.LinkColor = Color.White;
-            linkLblAlimentosDia.Location = new Point(58, 382);
-            linkLblAlimentosDia.Name = "linkLblAlimentosDia";
-            linkLblAlimentosDia.Size = new Size(184, 21);
-            linkLblAlimentosDia.TabIndex = 8;
-            linkLblAlimentosDia.TabStop = true;
-            linkLblAlimentosDia.Text = "Alimentação no Dia a Dia";
-            linkLblAlimentosDia.LinkClicked += linkLblAlimentosDia_LinkClicked;
-            // 
-            // linkLblEscolhas
-            // 
-            linkLblEscolhas.AutoSize = true;
-            linkLblEscolhas.Font = new Font("Segoe UI", 12F);
-            linkLblEscolhas.LinkColor = Color.White;
-            linkLblEscolhas.Location = new Point(57, 322);
-            linkLblEscolhas.Name = "linkLblEscolhas";
-            linkLblEscolhas.Size = new Size(143, 21);
-            linkLblEscolhas.TabIndex = 7;
-            linkLblEscolhas.TabStop = true;
-            linkLblEscolhas.Text = "Escolhendo Melhor";
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(20, 431);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(32, 32);
-            pictureBox4.TabIndex = 6;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(20, 249);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(32, 32);
-            pictureBox3.TabIndex = 5;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(18, 189);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(32, 32);
-            pictureBox2.TabIndex = 4;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(18, 127);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(32, 32);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // linkLblFontes
-            // 
-            linkLblFontes.AutoSize = true;
-            linkLblFontes.Font = new Font("Segoe UI", 12F);
-            linkLblFontes.LinkColor = Color.White;
-            linkLblFontes.Location = new Point(58, 442);
-            linkLblFontes.Name = "linkLblFontes";
-            linkLblFontes.Size = new Size(142, 21);
-            linkLblFontes.TabIndex = 3;
-            linkLblFontes.TabStop = true;
-            linkLblFontes.Text = "Fontes/Referências";
-            linkLblFontes.LinkClicked += linkLblFontes_LinkClicked;
-            // 
-            // linkLblClasAlimentos
-            // 
-            linkLblClasAlimentos.AutoSize = true;
-            linkLblClasAlimentos.Font = new Font("Segoe UI", 12F);
-            linkLblClasAlimentos.LinkColor = Color.White;
-            linkLblClasAlimentos.Location = new Point(58, 260);
-            linkLblClasAlimentos.Name = "linkLblClasAlimentos";
-            linkLblClasAlimentos.Size = new Size(201, 21);
-            linkLblClasAlimentos.TabIndex = 2;
-            linkLblClasAlimentos.TabStop = true;
-            linkLblClasAlimentos.Text = "Classificação dos Alimentos";
-            linkLblClasAlimentos.LinkClicked += linkLblClasAlimentos_LinkClicked;
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(265, 130);
+            panel1.TabIndex = 13;
             // 
             // pnlMain
             // 
@@ -250,34 +249,23 @@
             Text = "HealtyhEating";
             Load += Main_Load;
             pnlHeader.ResumeLayout(false);
-            pnlHeader.PerformLayout();
+            tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private LinkLabel linlLblInicio;
-        private LinkLabel linkLblNutrientes;
         private Panel pnlHeader;
-        private LinkLabel linkLblClasAlimentos;
-        private LinkLabel linkLblFontes;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox3;
-        private LinkLabel linkLblEscolhas;
-        private LinkLabel linkLblAlimentosDia;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox6;
         private Label label1;
         private PictureBox pictureBox7;
         private Panel pnlMain;
+        private Panel panel1;
+        private CustomButton cBtnInicio;
+        private CustomButton cBtnClasAlimentos;
+        private CustomButton cBtnNutrientes;
+        private CustomButton cBtnEscolhendoMelhor;
+        private CustomButton cBtnFontes;
+        private CustomButton cBtnAlimentacaoDiaDia;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }
