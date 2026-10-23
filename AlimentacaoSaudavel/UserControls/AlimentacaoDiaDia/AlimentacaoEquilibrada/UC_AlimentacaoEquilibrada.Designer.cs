@@ -69,7 +69,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 14;
             // 
             // txtDescricaoInicio
@@ -109,7 +109,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1190, 335);
+            tableLayoutPanel1.Size = new Size(915, 299);
             tableLayoutPanel1.TabIndex = 15;
             // 
             // pnlAlimentacaosDiaADia
@@ -121,12 +121,11 @@
             pnlAlimentacaosDiaADia.Controls.Add(label8);
             pnlAlimentacaosDiaADia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlAlimentacaosDiaADia.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlAlimentacaosDiaADia.Location = new Point(896, 5);
+            pnlAlimentacaosDiaADia.Location = new Point(689, 5);
             pnlAlimentacaosDiaADia.Margin = new Padding(5);
-            pnlAlimentacaosDiaADia.MaximumSize = new Size(385, 420);
-            pnlAlimentacaosDiaADia.MinimumSize = new Size(285, 320);
+            pnlAlimentacaosDiaADia.MaximumSize = new Size(345, 420);
             pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
-            pnlAlimentacaosDiaADia.Size = new Size(289, 325);
+            pnlAlimentacaosDiaADia.Size = new Size(221, 289);
             pnlAlimentacaosDiaADia.TabIndex = 7;
             // 
             // pictureBox4
@@ -144,7 +143,7 @@
             label7.ForeColor = Color.FromArgb(102, 128, 120);
             label7.Location = new Point(18, 134);
             label7.Name = "label7";
-            label7.Size = new Size(259, 121);
+            label7.Size = new Size(189, 121);
             label7.TabIndex = 5;
             label7.Text = "Dicas práticas para montar refeições equilibradas e realizar uma alimentação mais saudável";
             // 
@@ -168,12 +167,11 @@
             pnlEscolhendoMelhor.Controls.Add(label6);
             pnlEscolhendoMelhor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlEscolhendoMelhor.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlEscolhendoMelhor.Location = new Point(599, 5);
+            pnlEscolhendoMelhor.Location = new Point(461, 5);
             pnlEscolhendoMelhor.Margin = new Padding(5);
-            pnlEscolhendoMelhor.MaximumSize = new Size(385, 420);
-            pnlEscolhendoMelhor.MinimumSize = new Size(285, 320);
+            pnlEscolhendoMelhor.MaximumSize = new Size(345, 420);
             pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
-            pnlEscolhendoMelhor.Size = new Size(287, 325);
+            pnlEscolhendoMelhor.Size = new Size(218, 289);
             pnlEscolhendoMelhor.TabIndex = 6;
             // 
             // pictureBox3
@@ -191,7 +189,7 @@
             label5.ForeColor = Color.FromArgb(102, 128, 120);
             label5.Location = new Point(16, 134);
             label5.Name = "label5";
-            label5.Size = new Size(259, 121);
+            label5.Size = new Size(185, 121);
             label5.TabIndex = 4;
             label5.Text = "Aprenda a interpretar rótulos, identificar boas escolhas e evitar armalihas alimentares";
             // 
@@ -215,12 +213,11 @@
             pnlClasAlimentos.Controls.Add(label4);
             pnlClasAlimentos.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlClasAlimentos.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlClasAlimentos.Location = new Point(302, 5);
+            pnlClasAlimentos.Location = new Point(233, 5);
             pnlClasAlimentos.Margin = new Padding(5);
-            pnlClasAlimentos.MaximumSize = new Size(385, 420);
-            pnlClasAlimentos.MinimumSize = new Size(285, 320);
+            pnlClasAlimentos.MaximumSize = new Size(345, 420);
             pnlClasAlimentos.Name = "pnlClasAlimentos";
-            pnlClasAlimentos.Size = new Size(287, 325);
+            pnlClasAlimentos.Size = new Size(218, 289);
             pnlClasAlimentos.TabIndex = 6;
             // 
             // pictureBox2
@@ -238,7 +235,7 @@
             label3.ForeColor = Color.FromArgb(102, 128, 120);
             label3.Location = new Point(16, 162);
             label3.Name = "label3";
-            label3.Size = new Size(259, 121);
+            label3.Size = new Size(193, 121);
             label3.TabIndex = 3;
             label3.Text = "Saiba como os alimentos são classificados e entenda a diferença entre eles";
             // 
@@ -263,10 +260,9 @@
             pnlNutrientes.ForeColor = Color.FromArgb(107, 143, 11);
             pnlNutrientes.Location = new Point(5, 5);
             pnlNutrientes.Margin = new Padding(5);
-            pnlNutrientes.MaximumSize = new Size(385, 420);
-            pnlNutrientes.MinimumSize = new Size(285, 320);
+            pnlNutrientes.MaximumSize = new Size(345, 420);
             pnlNutrientes.Name = "pnlNutrientes";
-            pnlNutrientes.Size = new Size(287, 325);
+            pnlNutrientes.Size = new Size(218, 289);
             pnlNutrientes.TabIndex = 5;
             // 
             // pictureBox1
@@ -284,7 +280,7 @@
             label2.ForeColor = Color.FromArgb(102, 128, 120);
             label2.Location = new Point(16, 151);
             label2.Name = "label2";
-            label2.Size = new Size(259, 121);
+            label2.Size = new Size(187, 121);
             label2.TabIndex = 1;
             label2.Text = "Conheça os macro e micronutrientes e entenda a importância de cada um para o seu organismo";
             // 
@@ -305,8 +301,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_AlimentacaoEquilibrada";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

@@ -60,7 +60,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 13;
             // 
             // txtDescricaoInicio
@@ -98,7 +98,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 14;
             // 
             // pnlPlanejamentoAlimentar
@@ -107,9 +107,9 @@
             pnlPlanejamentoAlimentar.BackColor = Color.FromArgb(240, 232, 247);
             pnlPlanejamentoAlimentar.Controls.Add(pctBPlanejamentoAlimentar);
             pnlPlanejamentoAlimentar.Controls.Add(label6);
-            pnlPlanejamentoAlimentar.Location = new Point(795, 3);
+            pnlPlanejamentoAlimentar.Location = new Point(613, 3);
             pnlPlanejamentoAlimentar.Name = "pnlPlanejamentoAlimentar";
-            pnlPlanejamentoAlimentar.Size = new Size(392, 114);
+            pnlPlanejamentoAlimentar.Size = new Size(299, 114);
             pnlPlanejamentoAlimentar.TabIndex = 7;
             // 
             // pctBPlanejamentoAlimentar
@@ -124,9 +124,10 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(187, 21);
+            label6.Location = new Point(94, 21);
             label6.Name = "label6";
             label6.Size = new Size(202, 74);
             label6.TabIndex = 5;
@@ -138,9 +139,9 @@
             pnlRefeicoesDia.BackColor = Color.FromArgb(255, 244, 220);
             pnlRefeicoesDia.Controls.Add(pctBRefeicoesDia);
             pnlRefeicoesDia.Controls.Add(label2);
-            pnlRefeicoesDia.Location = new Point(399, 3);
+            pnlRefeicoesDia.Location = new Point(308, 3);
             pnlRefeicoesDia.Name = "pnlRefeicoesDia";
-            pnlRefeicoesDia.Size = new Size(390, 114);
+            pnlRefeicoesDia.Size = new Size(299, 114);
             pnlRefeicoesDia.TabIndex = 6;
             // 
             // pctBRefeicoesDia
@@ -155,9 +156,10 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(187, 21);
+            label2.Location = new Point(96, 20);
             label2.Name = "label2";
             label2.Size = new Size(200, 75);
             label2.TabIndex = 5;
@@ -171,7 +173,7 @@
             pnlAlimentacaoEquilibrada.Controls.Add(label3);
             pnlAlimentacaoEquilibrada.Location = new Point(3, 3);
             pnlAlimentacaoEquilibrada.Name = "pnlAlimentacaoEquilibrada";
-            pnlAlimentacaoEquilibrada.Size = new Size(390, 114);
+            pnlAlimentacaoEquilibrada.Size = new Size(299, 114);
             pnlAlimentacaoEquilibrada.TabIndex = 2;
             // 
             // pctBAlimentacaoEquilibrada
@@ -186,9 +188,10 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(207, 21);
+            label3.Location = new Point(116, 20);
             label3.Name = "label3";
             label3.Size = new Size(180, 75);
             label3.TabIndex = 5;
@@ -200,8 +203,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_AlimentacaoDiaDia";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

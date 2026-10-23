@@ -60,7 +60,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 15;
             // 
             // txtDescricaoInicio
@@ -98,7 +98,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 16;
             // 
             // pnlSubstituicoes
@@ -107,9 +107,9 @@
             pnlSubstituicoes.BackColor = Color.FromArgb(240, 232, 247);
             pnlSubstituicoes.Controls.Add(pctBSubstituicoes);
             pnlSubstituicoes.Controls.Add(label6);
-            pnlSubstituicoes.Location = new Point(795, 3);
+            pnlSubstituicoes.Location = new Point(613, 3);
             pnlSubstituicoes.Name = "pnlSubstituicoes";
-            pnlSubstituicoes.Size = new Size(392, 114);
+            pnlSubstituicoes.Size = new Size(299, 114);
             pnlSubstituicoes.TabIndex = 7;
             // 
             // pctBSubstituicoes
@@ -123,9 +123,10 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(192, 27);
+            label6.Location = new Point(96, 27);
             label6.Name = "label6";
             label6.Size = new Size(200, 80);
             label6.TabIndex = 5;
@@ -137,9 +138,9 @@
             pnlComparandoAlimentos.BackColor = Color.FromArgb(255, 244, 220);
             pnlComparandoAlimentos.Controls.Add(pctBComparandoAlimentos);
             pnlComparandoAlimentos.Controls.Add(label2);
-            pnlComparandoAlimentos.Location = new Point(399, 3);
+            pnlComparandoAlimentos.Location = new Point(308, 3);
             pnlComparandoAlimentos.Name = "pnlComparandoAlimentos";
-            pnlComparandoAlimentos.Size = new Size(390, 114);
+            pnlComparandoAlimentos.Size = new Size(299, 114);
             pnlComparandoAlimentos.TabIndex = 6;
             // 
             // pctBComparandoAlimentos
@@ -153,9 +154,10 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(187, 27);
+            label2.Location = new Point(96, 27);
             label2.Name = "label2";
             label2.Size = new Size(200, 75);
             label2.TabIndex = 5;
@@ -169,7 +171,7 @@
             pnlRotulo.Controls.Add(label3);
             pnlRotulo.Location = new Point(3, 3);
             pnlRotulo.Name = "pnlRotulo";
-            pnlRotulo.Size = new Size(390, 114);
+            pnlRotulo.Size = new Size(299, 114);
             pnlRotulo.TabIndex = 2;
             // 
             // pctBRotulo
@@ -183,9 +185,10 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(223, 27);
+            label3.Location = new Point(132, 27);
             label3.Name = "label3";
             label3.Size = new Size(164, 75);
             label3.TabIndex = 5;
@@ -197,8 +200,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_EscolhendoMelhor";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

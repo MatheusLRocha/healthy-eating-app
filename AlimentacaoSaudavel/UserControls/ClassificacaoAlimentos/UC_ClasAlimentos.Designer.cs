@@ -73,7 +73,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 81);
             tableLayoutPanel1.TabIndex = 8;
             // 
             // pnlUltraProcessados
@@ -84,16 +84,16 @@
             pnlUltraProcessados.Controls.Add(label9);
             pnlUltraProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlUltraProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlUltraProcessados.Location = new Point(896, 5);
+            pnlUltraProcessados.Location = new Point(689, 5);
             pnlUltraProcessados.Margin = new Padding(5);
             pnlUltraProcessados.Name = "pnlUltraProcessados";
-            pnlUltraProcessados.Size = new Size(289, 110);
+            pnlUltraProcessados.Size = new Size(221, 71);
             pnlUltraProcessados.TabIndex = 7;
             // 
             // pctBUltraprocessados
             // 
             pctBUltraprocessados.Image = (Image)resources.GetObject("pctBUltraprocessados.Image");
-            pctBUltraprocessados.Location = new Point(19, 41);
+            pctBUltraprocessados.Location = new Point(13, 21);
             pctBUltraprocessados.Name = "pctBUltraprocessados";
             pctBUltraprocessados.Size = new Size(32, 32);
             pctBUltraprocessados.TabIndex = 11;
@@ -102,11 +102,12 @@
             // 
             // label9
             // 
+            label9.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label9.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label9.ForeColor = Color.FromArgb(15, 72, 47);
-            label9.Location = new Point(116, 43);
+            label9.Location = new Point(97, 10);
             label9.Name = "label9";
-            label9.Size = new Size(173, 30);
+            label9.Size = new Size(121, 50);
             label9.TabIndex = 0;
             label9.Text = "Ultra Processados";
             // 
@@ -118,16 +119,16 @@
             pnlMinProcessados.Controls.Add(label4);
             pnlMinProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlMinProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlMinProcessados.Location = new Point(599, 5);
+            pnlMinProcessados.Location = new Point(461, 5);
             pnlMinProcessados.Margin = new Padding(5);
             pnlMinProcessados.Name = "pnlMinProcessados";
-            pnlMinProcessados.Size = new Size(287, 110);
+            pnlMinProcessados.Size = new Size(218, 71);
             pnlMinProcessados.TabIndex = 6;
             // 
             // pctBProcessados
             // 
             pctBProcessados.Image = (Image)resources.GetObject("pctBProcessados.Image");
-            pctBProcessados.Location = new Point(19, 41);
+            pctBProcessados.Location = new Point(13, 21);
             pctBProcessados.Name = "pctBProcessados";
             pctBProcessados.Size = new Size(32, 32);
             pctBProcessados.TabIndex = 10;
@@ -136,9 +137,10 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label4.ForeColor = Color.FromArgb(15, 72, 47);
-            label4.Location = new Point(161, 43);
+            label4.Location = new Point(92, 21);
             label4.Name = "label4";
             label4.Size = new Size(123, 30);
             label4.TabIndex = 0;
@@ -152,16 +154,16 @@
             pnlProcessados.Controls.Add(label6);
             pnlProcessados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlProcessados.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlProcessados.Location = new Point(302, 5);
+            pnlProcessados.Location = new Point(233, 5);
             pnlProcessados.Margin = new Padding(5);
             pnlProcessados.Name = "pnlProcessados";
-            pnlProcessados.Size = new Size(287, 110);
+            pnlProcessados.Size = new Size(218, 71);
             pnlProcessados.TabIndex = 6;
             // 
             // pctBMinProcessados
             // 
             pctBMinProcessados.Image = (Image)resources.GetObject("pctBMinProcessados.Image");
-            pctBMinProcessados.Location = new Point(19, 41);
+            pctBMinProcessados.Location = new Point(13, 21);
             pctBMinProcessados.Name = "pctBMinProcessados";
             pctBMinProcessados.Size = new Size(32, 32);
             pctBMinProcessados.TabIndex = 9;
@@ -170,9 +172,10 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(133, 34);
+            label6.Location = new Point(64, 10);
             label6.Name = "label6";
             label6.Size = new Size(151, 53);
             label6.TabIndex = 0;
@@ -189,13 +192,13 @@
             pnlNatura.Location = new Point(5, 5);
             pnlNatura.Margin = new Padding(5);
             pnlNatura.Name = "pnlNatura";
-            pnlNatura.Size = new Size(287, 110);
+            pnlNatura.Size = new Size(218, 71);
             pnlNatura.TabIndex = 5;
             // 
             // pctBNatura
             // 
             pctBNatura.Image = (Image)resources.GetObject("pctBNatura.Image");
-            pctBNatura.Location = new Point(19, 41);
+            pctBNatura.Location = new Point(13, 21);
             pctBNatura.Name = "pctBNatura";
             pctBNatura.Size = new Size(32, 32);
             pctBNatura.TabIndex = 8;
@@ -204,10 +207,11 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label7.ForeColor = Color.FromArgb(15, 72, 47);
-            label7.Location = new Point(176, 43);
+            label7.Location = new Point(118, 26);
             label7.Name = "label7";
             label7.Size = new Size(97, 25);
             label7.TabIndex = 0;
@@ -222,7 +226,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 13;
             // 
             // txtDescricaoInicio
@@ -253,9 +257,9 @@
             BackColor = Color.White;
             Controls.Add(panel1);
             Controls.Add(tableLayoutPanel1);
-            MinimumSize = new Size(1280, 720);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_ClasAlimentos";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             tableLayoutPanel1.ResumeLayout(false);
             pnlUltraProcessados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBUltraprocessados).EndInit();

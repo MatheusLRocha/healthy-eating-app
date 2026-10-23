@@ -81,12 +81,11 @@
             pnlClasAlimentos.Controls.Add(label4);
             pnlClasAlimentos.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlClasAlimentos.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlClasAlimentos.Location = new Point(323, 5);
+            pnlClasAlimentos.Location = new Point(254, 5);
             pnlClasAlimentos.Margin = new Padding(5);
-            pnlClasAlimentos.MaximumSize = new Size(385, 420);
-            pnlClasAlimentos.MinimumSize = new Size(285, 320);
+            pnlClasAlimentos.MaximumSize = new Size(345, 420);
             pnlClasAlimentos.Name = "pnlClasAlimentos";
-            pnlClasAlimentos.Size = new Size(308, 344);
+            pnlClasAlimentos.Size = new Size(239, 325);
             pnlClasAlimentos.TabIndex = 6;
             // 
             // pctBClasAlimentos
@@ -114,13 +113,13 @@
             label3.ForeColor = Color.FromArgb(102, 128, 120);
             label3.Location = new Point(16, 162);
             label3.Name = "label3";
-            label3.Size = new Size(259, 121);
+            label3.Size = new Size(209, 121);
             label3.TabIndex = 3;
             label3.Text = "Saiba como os alimentos são classificados e entenda a diferença entre eles";
             // 
             // label4
             // 
-            label4.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label4.ForeColor = Color.FromArgb(15, 72, 47);
             label4.Location = new Point(16, 98);
             label4.Name = "label4";
@@ -140,10 +139,9 @@
             pnlNutrientes.ForeColor = Color.FromArgb(107, 143, 11);
             pnlNutrientes.Location = new Point(5, 5);
             pnlNutrientes.Margin = new Padding(5);
-            pnlNutrientes.MaximumSize = new Size(385, 420);
-            pnlNutrientes.MinimumSize = new Size(285, 320);
+            pnlNutrientes.MaximumSize = new Size(345, 420);
             pnlNutrientes.Name = "pnlNutrientes";
-            pnlNutrientes.Size = new Size(308, 344);
+            pnlNutrientes.Size = new Size(239, 325);
             pnlNutrientes.TabIndex = 5;
             // 
             // pctBNutrientes
@@ -171,23 +169,24 @@
             label2.ForeColor = Color.FromArgb(102, 128, 120);
             label2.Location = new Point(16, 151);
             label2.Name = "label2";
-            label2.Size = new Size(259, 121);
+            label2.Size = new Size(203, 121);
             label2.TabIndex = 1;
             label2.Text = "Conheça os macro e micronutrientes e entenda a importância de cada um para o seu organismo";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(15, 72, 47);
             label1.Location = new Point(16, 98);
             label1.Name = "label1";
-            label1.Size = new Size(113, 28);
+            label1.Size = new Size(106, 25);
             label1.TabIndex = 0;
             label1.Text = "Nutrientes";
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 4;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -197,12 +196,11 @@
             tableLayoutPanel1.Controls.Add(pnlEscolhendoMelhor, 2, 0);
             tableLayoutPanel1.Controls.Add(pnlClasAlimentos, 1, 0);
             tableLayoutPanel1.Controls.Add(pnlNutrientes, 0, 0);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(3, 363);
+            tableLayoutPanel1.Location = new Point(3, 343);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1274, 354);
+            tableLayoutPanel1.Size = new Size(999, 335);
             tableLayoutPanel1.TabIndex = 8;
             // 
             // pnlAlimentacaosDiaADia
@@ -215,12 +213,11 @@
             pnlAlimentacaosDiaADia.Controls.Add(label8);
             pnlAlimentacaosDiaADia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlAlimentacaosDiaADia.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlAlimentacaosDiaADia.Location = new Point(959, 5);
+            pnlAlimentacaosDiaADia.Location = new Point(752, 5);
             pnlAlimentacaosDiaADia.Margin = new Padding(5);
-            pnlAlimentacaosDiaADia.MaximumSize = new Size(385, 420);
-            pnlAlimentacaosDiaADia.MinimumSize = new Size(285, 320);
+            pnlAlimentacaosDiaADia.MaximumSize = new Size(345, 420);
             pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
-            pnlAlimentacaosDiaADia.Size = new Size(310, 344);
+            pnlAlimentacaosDiaADia.Size = new Size(242, 325);
             pnlAlimentacaosDiaADia.TabIndex = 7;
             // 
             // pctBAlimentacaoDiaDia
@@ -246,20 +243,19 @@
             // 
             label7.Font = new Font("Segoe UI", 12F);
             label7.ForeColor = Color.FromArgb(102, 128, 120);
-            label7.Location = new Point(18, 134);
+            label7.Location = new Point(17, 151);
             label7.Name = "label7";
-            label7.Size = new Size(259, 121);
+            label7.Size = new Size(207, 109);
             label7.TabIndex = 5;
             label7.Text = "Dicas práticas para montar refeições equilibradas e realizar uma alimentação mais saudável";
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label8.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label8.ForeColor = Color.FromArgb(15, 72, 47);
             label8.Location = new Point(17, 98);
             label8.Name = "label8";
-            label8.Size = new Size(254, 28);
+            label8.Size = new Size(132, 53);
             label8.TabIndex = 0;
             label8.Text = "Alimentação no Dia a Dia";
             // 
@@ -273,12 +269,11 @@
             pnlEscolhendoMelhor.Controls.Add(label6);
             pnlEscolhendoMelhor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pnlEscolhendoMelhor.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlEscolhendoMelhor.Location = new Point(641, 5);
+            pnlEscolhendoMelhor.Location = new Point(503, 5);
             pnlEscolhendoMelhor.Margin = new Padding(5);
-            pnlEscolhendoMelhor.MaximumSize = new Size(385, 420);
-            pnlEscolhendoMelhor.MinimumSize = new Size(285, 320);
+            pnlEscolhendoMelhor.MaximumSize = new Size(345, 420);
             pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
-            pnlEscolhendoMelhor.Size = new Size(308, 344);
+            pnlEscolhendoMelhor.Size = new Size(239, 325);
             pnlEscolhendoMelhor.TabIndex = 6;
             // 
             // pctBEscolhas
@@ -289,6 +284,7 @@
             pctBEscolhas.Size = new Size(32, 32);
             pctBEscolhas.TabIndex = 5;
             pctBEscolhas.TabStop = false;
+            pctBEscolhas.Click += pctBEscolhas_Click;
             // 
             // pictureBox3
             // 
@@ -305,30 +301,30 @@
             label5.ForeColor = Color.FromArgb(102, 128, 120);
             label5.Location = new Point(16, 134);
             label5.Name = "label5";
-            label5.Size = new Size(259, 121);
+            label5.Size = new Size(213, 121);
             label5.TabIndex = 4;
             label5.Text = "Aprenda a interpretar rótulos, identificar boas escolhas e evitar armalihas alimentares";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label6.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
             label6.Location = new Point(16, 98);
             label6.Name = "label6";
-            label6.Size = new Size(193, 28);
+            label6.Size = new Size(182, 25);
             label6.TabIndex = 0;
             label6.Text = "Escolhendo Melhor";
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = Color.FromArgb(227, 238, 220);
             panel1.Controls.Add(txtDescricaoInicio);
             panel1.Controls.Add(txtTituloInicio);
-            panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(3, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1274, 314);
+            panel1.Size = new Size(999, 314);
             panel1.TabIndex = 9;
             // 
             // txtDescricaoInicio
@@ -365,7 +361,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel2.Size = new Size(1280, 720);
+            tableLayoutPanel2.Size = new Size(1005, 681);
             tableLayoutPanel2.TabIndex = 10;
             // 
             // UC_Main
@@ -374,9 +370,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(tableLayoutPanel2);
-            MinimumSize = new Size(1280, 720);
             Name = "UC_Main";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             pnlClasAlimentos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBClasAlimentos).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -386,7 +381,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             pnlAlimentacaosDiaADia.ResumeLayout(false);
-            pnlAlimentacaosDiaADia.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pctBAlimentacaoDiaDia).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             pnlEscolhendoMelhor.ResumeLayout(false);

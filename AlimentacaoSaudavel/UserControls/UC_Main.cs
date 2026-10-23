@@ -1,4 +1,5 @@
 ﻿using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia;
+using AlimentacaoSaudavel.UserControls.EscolhendoMelhor;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -36,6 +37,17 @@ namespace AlimentacaoSaudavel.UserControls
         {
             UC_AlimentacaoDiaDia ucAlimentacaoDiaDia = new UC_AlimentacaoDiaDia();
             _main.addUserControl(ucAlimentacaoDiaDia);
+        }
+
+        private void pctBEscolhas_Click(object sender, EventArgs e)
+        {
+            UC_EscolhendoMelhor ucEscolhendoMelhor = new UC_EscolhendoMelhor();
+            _main.addUserControl(ucEscolhendoMelhor);
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
