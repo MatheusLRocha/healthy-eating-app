@@ -33,8 +33,8 @@
             pctBMacro = new PictureBox();
             label2 = new Label();
             pnlMicro = new Panel();
-            pctBMicro = new PictureBox();
             label3 = new Label();
+            pctBMicro = new PictureBox();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel1 = new Panel();
             txtDescricaoInicio = new Label();
@@ -55,13 +55,13 @@
             pnlMacro.Controls.Add(label2);
             pnlMacro.Location = new Point(3, 3);
             pnlMacro.Name = "pnlMacro";
-            pnlMacro.Size = new Size(589, 114);
+            pnlMacro.Size = new Size(451, 114);
             pnlMacro.TabIndex = 0;
             // 
             // pctBMacro
             // 
             pctBMacro.Image = (Image)resources.GetObject("pctBMacro.Image");
-            pctBMacro.Location = new Point(22, 44);
+            pctBMacro.Location = new Point(19, 43);
             pctBMacro.Name = "pctBMacro";
             pctBMacro.Size = new Size(32, 32);
             pctBMacro.TabIndex = 7;
@@ -70,9 +70,10 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(339, 44);
+            label2.Location = new Point(212, 37);
             label2.Name = "label2";
             label2.Size = new Size(236, 43);
             label2.TabIndex = 4;
@@ -82,32 +83,33 @@
             // 
             pnlMicro.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlMicro.BackColor = Color.FromArgb(227, 238, 220);
-            pnlMicro.Controls.Add(pctBMicro);
             pnlMicro.Controls.Add(label3);
-            pnlMicro.Location = new Point(598, 3);
+            pnlMicro.Controls.Add(pctBMicro);
+            pnlMicro.Location = new Point(460, 3);
             pnlMicro.Name = "pnlMicro";
-            pnlMicro.Size = new Size(589, 114);
+            pnlMicro.Size = new Size(452, 114);
             pnlMicro.TabIndex = 1;
+            // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(15, 72, 47);
+            label3.Location = new Point(224, 37);
+            label3.Name = "label3";
+            label3.Size = new Size(226, 43);
+            label3.TabIndex = 5;
+            label3.Text = "Micronutrientes";
             // 
             // pctBMicro
             // 
             pctBMicro.Image = (Image)resources.GetObject("pctBMicro.Image");
-            pctBMicro.Location = new Point(22, 44);
+            pctBMicro.Location = new Point(18, 43);
             pctBMicro.Name = "pctBMicro";
             pctBMicro.Size = new Size(32, 32);
             pctBMicro.TabIndex = 8;
             pctBMicro.TabStop = false;
             pctBMicro.Click += pctBMicro_Click;
-            // 
-            // label3
-            // 
-            label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(339, 44);
-            label3.Name = "label3";
-            label3.Size = new Size(236, 43);
-            label3.TabIndex = 5;
-            label3.Text = "Micronutrientes";
             // 
             // tableLayoutPanel1
             // 
@@ -122,7 +124,7 @@
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 3;
             // 
             // panel1
@@ -133,7 +135,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 12;
             // 
             // txtDescricaoInicio
@@ -164,9 +166,9 @@
             BackColor = Color.White;
             Controls.Add(panel1);
             Controls.Add(tableLayoutPanel1);
-            MinimumSize = new Size(1280, 720);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_Nutrientes";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             pnlMacro.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBMacro).EndInit();
             pnlMicro.ResumeLayout(false);
@@ -187,7 +189,7 @@
         private Panel panel1;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
-        private PictureBox pctBMacro;
         private PictureBox pctBMicro;
+        private PictureBox pctBMacro;
     }
 }

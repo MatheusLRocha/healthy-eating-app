@@ -60,7 +60,7 @@
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 4;
             // 
             // pnlVitaminas
@@ -71,7 +71,7 @@
             pnlVitaminas.Controls.Add(lblVitaminas);
             pnlVitaminas.Location = new Point(3, 3);
             pnlVitaminas.Name = "pnlVitaminas";
-            pnlVitaminas.Size = new Size(589, 114);
+            pnlVitaminas.Size = new Size(451, 114);
             pnlVitaminas.TabIndex = 0;
             // 
             // pctBVitaminas
@@ -86,13 +86,13 @@
             // 
             // lblVitaminas
             // 
-            lblVitaminas.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            lblVitaminas.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblVitaminas.BackColor = Color.FromArgb(227, 238, 220);
             lblVitaminas.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblVitaminas.ForeColor = Color.FromArgb(15, 72, 47);
-            lblVitaminas.Location = new Point(388, 36);
+            lblVitaminas.Location = new Point(285, 39);
             lblVitaminas.Name = "lblVitaminas";
-            lblVitaminas.Size = new Size(171, 42);
+            lblVitaminas.Size = new Size(163, 42);
             lblVitaminas.TabIndex = 4;
             lblVitaminas.Text = "Vitaminas";
             lblVitaminas.TextAlign = ContentAlignment.MiddleCenter;
@@ -103,9 +103,9 @@
             pnlMinerais.BackColor = Color.FromArgb(255, 244, 220);
             pnlMinerais.Controls.Add(pctBMinerais);
             pnlMinerais.Controls.Add(lblMinerais);
-            pnlMinerais.Location = new Point(598, 3);
+            pnlMinerais.Location = new Point(460, 3);
             pnlMinerais.Name = "pnlMinerais";
-            pnlMinerais.Size = new Size(589, 114);
+            pnlMinerais.Size = new Size(452, 114);
             pnlMinerais.TabIndex = 1;
             // 
             // pctBMinerais
@@ -120,12 +120,12 @@
             // 
             // lblMinerais
             // 
-            lblMinerais.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            lblMinerais.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblMinerais.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblMinerais.ForeColor = Color.FromArgb(15, 72, 47);
-            lblMinerais.Location = new Point(388, 36);
+            lblMinerais.Location = new Point(317, 45);
             lblMinerais.Name = "lblMinerais";
-            lblMinerais.Size = new Size(131, 36);
+            lblMinerais.Size = new Size(132, 36);
             lblMinerais.TabIndex = 5;
             lblMinerais.Text = "Minerais";
             lblMinerais.TextAlign = ContentAlignment.MiddleCenter;
@@ -138,7 +138,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 11;
             // 
             // txtDescricaoInicio
@@ -169,9 +169,9 @@
             BackColor = Color.White;
             Controls.Add(panel1);
             Controls.Add(tableLayoutPanel1);
-            MinimumSize = new Size(1280, 720);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_MicroNutrientes";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             tableLayoutPanel1.ResumeLayout(false);
             pnlVitaminas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBVitaminas).EndInit();

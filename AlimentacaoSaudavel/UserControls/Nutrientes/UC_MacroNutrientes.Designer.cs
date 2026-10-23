@@ -66,7 +66,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // pnlGorduras
@@ -75,9 +75,9 @@
             pnlGorduras.BackColor = Color.FromArgb(240, 232, 247);
             pnlGorduras.Controls.Add(pctBGorduras);
             pnlGorduras.Controls.Add(label6);
-            pnlGorduras.Location = new Point(795, 3);
+            pnlGorduras.Location = new Point(613, 3);
             pnlGorduras.Name = "pnlGorduras";
-            pnlGorduras.Size = new Size(392, 114);
+            pnlGorduras.Size = new Size(299, 114);
             pnlGorduras.TabIndex = 7;
             // 
             // pctBGorduras
@@ -92,9 +92,10 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(225, 39);
+            label6.Location = new Point(150, 39);
             label6.Name = "label6";
             label6.Size = new Size(146, 43);
             label6.TabIndex = 5;
@@ -106,9 +107,9 @@
             pnlCarboidratos.BackColor = Color.FromArgb(255, 244, 220);
             pnlCarboidratos.Controls.Add(pctBCarboidratos);
             pnlCarboidratos.Controls.Add(label2);
-            pnlCarboidratos.Location = new Point(399, 3);
+            pnlCarboidratos.Location = new Point(308, 3);
             pnlCarboidratos.Name = "pnlCarboidratos";
-            pnlCarboidratos.Size = new Size(390, 114);
+            pnlCarboidratos.Size = new Size(299, 114);
             pnlCarboidratos.TabIndex = 6;
             // 
             // pctBCarboidratos
@@ -123,9 +124,10 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(181, 39);
+            label2.Location = new Point(96, 39);
             label2.Name = "label2";
             label2.Size = new Size(200, 43);
             label2.TabIndex = 5;
@@ -139,7 +141,7 @@
             pnlProteinas.Controls.Add(label3);
             pnlProteinas.Location = new Point(3, 3);
             pnlProteinas.Name = "pnlProteinas";
-            pnlProteinas.Size = new Size(390, 114);
+            pnlProteinas.Size = new Size(299, 114);
             pnlProteinas.TabIndex = 2;
             // 
             // pctBProteinas
@@ -154,9 +156,10 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(225, 39);
+            label3.Location = new Point(156, 39);
             label3.Name = "label3";
             label3.Size = new Size(140, 43);
             label3.TabIndex = 5;
@@ -170,7 +173,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 10;
             // 
             // txtDescricaoInicio
@@ -201,9 +204,9 @@
             BackColor = Color.White;
             Controls.Add(panel1);
             Controls.Add(tableLayoutPanel1);
-            MinimumSize = new Size(1280, 720);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_MacroNutrientes";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             tableLayoutPanel1.ResumeLayout(false);
             pnlGorduras.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBGorduras).EndInit();

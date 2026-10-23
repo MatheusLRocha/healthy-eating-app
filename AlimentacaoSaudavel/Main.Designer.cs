@@ -39,7 +39,7 @@
             cBtnClasAlimentos = new CustomButton();
             pictureBox7 = new PictureBox();
             label1 = new Label();
-            panel1 = new Panel();
+            pnlLogo = new Panel();
             pnlMain = new Panel();
             pnlHeader.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
@@ -52,11 +52,11 @@
             pnlHeader.Controls.Add(tableLayoutPanel1);
             pnlHeader.Controls.Add(pictureBox7);
             pnlHeader.Controls.Add(label1);
-            pnlHeader.Controls.Add(panel1);
+            pnlHeader.Controls.Add(pnlLogo);
             pnlHeader.Dock = DockStyle.Left;
             pnlHeader.Location = new Point(0, 0);
             pnlHeader.Name = "pnlHeader";
-            pnlHeader.Size = new Size(265, 681);
+            pnlHeader.Size = new Size(260, 681);
             pnlHeader.TabIndex = 7;
             // 
             // tableLayoutPanel1
@@ -78,7 +78,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.Size = new Size(265, 359);
+            tableLayoutPanel1.Size = new Size(260, 359);
             tableLayoutPanel1.TabIndex = 14;
             // 
             // cBtnFontes
@@ -220,20 +220,20 @@
             label1.TabIndex = 11;
             label1.Text = "Alimentação Saudável";
             // 
-            // panel1
+            // pnlLogo
             // 
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(265, 130);
-            panel1.TabIndex = 13;
+            pnlLogo.Dock = DockStyle.Top;
+            pnlLogo.Location = new Point(0, 0);
+            pnlLogo.Name = "pnlLogo";
+            pnlLogo.Size = new Size(260, 130);
+            pnlLogo.TabIndex = 13;
             // 
             // pnlMain
             // 
             pnlMain.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlMain.Location = new Point(265, 0);
+            pnlMain.Location = new Point(259, 0);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(999, 681);
+            pnlMain.Size = new Size(1005, 681);
             pnlMain.TabIndex = 8;
             // 
             // Main
@@ -259,7 +259,7 @@
         private Label label1;
         private PictureBox pictureBox7;
         private Panel pnlMain;
-        private Panel panel1;
+        private Panel pnlLogo;
         private CustomButton cBtnInicio;
         private CustomButton cBtnClasAlimentos;
         private CustomButton cBtnNutrientes;

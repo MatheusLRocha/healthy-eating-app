@@ -60,7 +60,7 @@
             panel1.Controls.Add(txtTitulo);
             panel1.Location = new Point(40, 17);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 314);
+            panel1.Size = new Size(915, 314);
             panel1.TabIndex = 15;
             // 
             // txtDescricaoInicio
@@ -98,7 +98,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(1190, 120);
+            tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 16;
             // 
             // pnlRotinaCorrida
@@ -107,9 +107,9 @@
             pnlRotinaCorrida.BackColor = Color.FromArgb(240, 232, 247);
             pnlRotinaCorrida.Controls.Add(pctBRotinaCorrida);
             pnlRotinaCorrida.Controls.Add(label6);
-            pnlRotinaCorrida.Location = new Point(795, 3);
+            pnlRotinaCorrida.Location = new Point(613, 3);
             pnlRotinaCorrida.Name = "pnlRotinaCorrida";
-            pnlRotinaCorrida.Size = new Size(392, 114);
+            pnlRotinaCorrida.Size = new Size(299, 114);
             pnlRotinaCorrida.TabIndex = 7;
             // 
             // pctBRotinaCorrida
@@ -123,11 +123,12 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(243, 23);
+            label6.Location = new Point(176, 23);
             label6.Name = "label6";
-            label6.Size = new Size(146, 75);
+            label6.Size = new Size(120, 75);
             label6.TabIndex = 5;
             label6.Text = "Rotina corrida";
             // 
@@ -137,9 +138,9 @@
             pnlPraticidade.BackColor = Color.FromArgb(255, 244, 220);
             pnlPraticidade.Controls.Add(pctBPraticidade);
             pnlPraticidade.Controls.Add(label2);
-            pnlPraticidade.Location = new Point(399, 3);
+            pnlPraticidade.Location = new Point(308, 3);
             pnlPraticidade.Name = "pnlPraticidade";
-            pnlPraticidade.Size = new Size(390, 114);
+            pnlPraticidade.Size = new Size(299, 114);
             pnlPraticidade.TabIndex = 6;
             // 
             // pctBPraticidade
@@ -153,11 +154,12 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(181, 39);
+            label2.Location = new Point(132, 45);
             label2.Name = "label2";
-            label2.Size = new Size(200, 43);
+            label2.Size = new Size(164, 43);
             label2.TabIndex = 5;
             label2.Text = "Praticidade";
             // 
@@ -169,7 +171,7 @@
             pnlOrganizandoSemana.Controls.Add(label3);
             pnlOrganizandoSemana.Location = new Point(3, 3);
             pnlOrganizandoSemana.Name = "pnlOrganizandoSemana";
-            pnlOrganizandoSemana.Size = new Size(390, 114);
+            pnlOrganizandoSemana.Size = new Size(299, 114);
             pnlOrganizandoSemana.TabIndex = 2;
             // 
             // pctBOrganizandoSemana
@@ -183,9 +185,10 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(203, 23);
+            label3.Location = new Point(112, 23);
             label3.Name = "label3";
             label3.Size = new Size(184, 75);
             label3.TabIndex = 5;
@@ -197,8 +200,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_PlanejamentoAlimentar";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

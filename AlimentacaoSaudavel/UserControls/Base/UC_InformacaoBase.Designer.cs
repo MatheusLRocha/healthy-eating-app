@@ -44,7 +44,7 @@
             pnlConteudo.Dock = DockStyle.Left;
             pnlConteudo.Location = new Point(0, 0);
             pnlConteudo.Name = "pnlConteudo";
-            pnlConteudo.Size = new Size(438, 720);
+            pnlConteudo.Size = new Size(438, 681);
             pnlConteudo.TabIndex = 11;
             // 
             // lblDescricao
@@ -78,8 +78,9 @@
             // 
             // panel2
             // 
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             panel2.BackColor = Color.FromArgb(107, 143, 11);
-            panel2.Location = new Point(257, 137);
+            panel2.Location = new Point(123, 107);
             panel2.Name = "panel2";
             panel2.Size = new Size(340, 454);
             panel2.TabIndex = 6;
@@ -91,9 +92,9 @@
             BackColor = Color.White;
             Controls.Add(pnlImagem);
             Controls.Add(pnlConteudo);
-            MinimumSize = new Size(1280, 720);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_InformacaoBase";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             Resize += UC_InformacaoBase_Resize;
             pnlConteudo.ResumeLayout(false);
             pnlConteudo.PerformLayout();
