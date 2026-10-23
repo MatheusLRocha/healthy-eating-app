@@ -28,46 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Nutrientes));
             pnlMacro = new Panel();
-            label4 = new Label();
+            pctBMacro = new PictureBox();
             label2 = new Label();
             pnlMicro = new Panel();
-            label5 = new Label();
+            pctBMicro = new PictureBox();
             label3 = new Label();
-            label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
+            panel1 = new Panel();
+            txtDescricaoInicio = new Label();
+            txtTitulo = new Label();
             pnlMacro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBMacro).BeginInit();
             pnlMicro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pctBMicro).BeginInit();
             tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // pnlMacro
             // 
-            pnlMacro.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlMacro.BackColor = Color.FromArgb(15, 72, 47);
-            pnlMacro.Controls.Add(label4);
+            pnlMacro.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlMacro.BackColor = Color.FromArgb(227, 238, 220);
+            pnlMacro.Controls.Add(pctBMacro);
             pnlMacro.Controls.Add(label2);
             pnlMacro.Location = new Point(3, 3);
             pnlMacro.Name = "pnlMacro";
-            pnlMacro.Size = new Size(477, 513);
+            pnlMacro.Size = new Size(589, 114);
             pnlMacro.TabIndex = 0;
-            pnlMacro.Click += pnlMacro_Click;
             // 
-            // label4
+            // pctBMacro
             // 
-            label4.Font = new Font("Segoe UI", 12F);
-            label4.ForeColor = Color.FromArgb(107, 143, 11);
-            label4.Location = new Point(15, 74);
-            label4.Name = "label4";
-            label4.Size = new Size(226, 77);
-            label4.TabIndex = 4;
-            label4.Text = "São os nutrientes que o corpo necessita em grandes quantidades";
+            pctBMacro.Image = (Image)resources.GetObject("pctBMacro.Image");
+            pctBMacro.Location = new Point(22, 44);
+            pctBMacro.Name = "pctBMacro";
+            pctBMacro.Size = new Size(32, 32);
+            pctBMacro.TabIndex = 7;
+            pctBMacro.TabStop = false;
+            pctBMacro.Click += pctBMacro_Click;
             // 
             // label2
             // 
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(107, 143, 11);
-            label2.Location = new Point(15, 15);
+            label2.ForeColor = Color.FromArgb(15, 72, 47);
+            label2.Location = new Point(339, 44);
             label2.Name = "label2";
             label2.Size = new Size(236, 43);
             label2.TabIndex = 4;
@@ -75,77 +80,100 @@
             // 
             // pnlMicro
             // 
-            pnlMicro.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlMicro.BackColor = Color.FromArgb(15, 72, 47);
-            pnlMicro.Controls.Add(label5);
+            pnlMicro.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlMicro.BackColor = Color.FromArgb(227, 238, 220);
+            pnlMicro.Controls.Add(pctBMicro);
             pnlMicro.Controls.Add(label3);
-            pnlMicro.Location = new Point(486, 3);
+            pnlMicro.Location = new Point(598, 3);
             pnlMicro.Name = "pnlMicro";
-            pnlMicro.Size = new Size(477, 513);
+            pnlMicro.Size = new Size(589, 114);
             pnlMicro.TabIndex = 1;
-            pnlMicro.Click += pnlMicro_Click;
             // 
-            // label5
+            // pctBMicro
             // 
-            label5.Font = new Font("Segoe UI", 12F);
-            label5.ForeColor = Color.FromArgb(107, 143, 11);
-            label5.Location = new Point(15, 74);
-            label5.Name = "label5";
-            label5.Size = new Size(230, 77);
-            label5.TabIndex = 5;
-            label5.Text = "São os nutrientes que o corpo necessita em pequenas doses essenciais";
+            pctBMicro.Image = (Image)resources.GetObject("pctBMicro.Image");
+            pctBMicro.Location = new Point(22, 44);
+            pctBMicro.Name = "pctBMicro";
+            pctBMicro.Size = new Size(32, 32);
+            pctBMicro.TabIndex = 8;
+            pctBMicro.TabStop = false;
+            pctBMicro.Click += pctBMicro_Click;
             // 
             // label3
             // 
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(107, 143, 11);
-            label3.Location = new Point(15, 15);
+            label3.ForeColor = Color.FromArgb(15, 72, 47);
+            label3.Location = new Point(339, 44);
             label3.Name = "label3";
             label3.Size = new Size(236, 43);
             label3.TabIndex = 5;
             label3.Text = "Micronutrientes";
             // 
-            // label1
-            // 
-            label1.Font = new Font("Segoe UI", 12F);
-            label1.ForeColor = Color.FromArgb(107, 143, 11);
-            label1.Location = new Point(63, 91);
-            label1.Name = "label1";
-            label1.Size = new Size(576, 55);
-            label1.TabIndex = 2;
-            label1.Text = "Os nutrientes são os compostos químicos contidos nos alimentos que as nossas células usam para viver. Eles são divididos em dois grandes blocos:";
-            // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(pnlMacro, 0, 0);
             tableLayoutPanel1.Controls.Add(pnlMicro, 1, 0);
-            tableLayoutPanel1.Location = new Point(119, 161);
-            tableLayoutPanel1.MaximumSize = new Size(1000, 580);
-            tableLayoutPanel1.MinimumSize = new Size(520, 320);
+            tableLayoutPanel1.Location = new Point(40, 470);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(966, 519);
+            tableLayoutPanel1.Size = new Size(1190, 120);
             tableLayoutPanel1.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.FromArgb(227, 238, 220);
+            panel1.Controls.Add(txtDescricaoInicio);
+            panel1.Controls.Add(txtTitulo);
+            panel1.Location = new Point(40, 17);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1190, 314);
+            panel1.TabIndex = 12;
+            // 
+            // txtDescricaoInicio
+            // 
+            txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
+            txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
+            txtDescricaoInicio.Location = new Point(34, 146);
+            txtDescricaoInicio.Name = "txtDescricaoInicio";
+            txtDescricaoInicio.Size = new Size(558, 127);
+            txtDescricaoInicio.TabIndex = 5;
+            txtDescricaoInicio.Text = "Os nutrientes são os compostos químicos contidos nos alimentos que as nossas células usam para viver. Eles são divididos em dois grandes blocos:";
+            // 
+            // txtTitulo
+            // 
+            txtTitulo.AutoSize = true;
+            txtTitulo.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            txtTitulo.ForeColor = Color.FromArgb(15, 72, 47);
+            txtTitulo.Location = new Point(34, 38);
+            txtTitulo.Name = "txtTitulo";
+            txtTitulo.Size = new Size(177, 45);
+            txtTitulo.TabIndex = 4;
+            txtTitulo.Text = "Nutrientes";
             // 
             // UC_Nutrientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(235, 226, 217);
-            Controls.Add(label1);
+            BackColor = Color.White;
+            Controls.Add(panel1);
             Controls.Add(tableLayoutPanel1);
             MinimumSize = new Size(1280, 720);
             Name = "UC_Nutrientes";
             Size = new Size(1280, 720);
             pnlMacro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBMacro).EndInit();
             pnlMicro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pctBMicro).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -153,11 +181,13 @@
 
         private Panel pnlMacro;
         private Panel pnlMicro;
-        private Label label1;
         private TableLayoutPanel tableLayoutPanel1;
         private Label label2;
-        private Label label4;
-        private Label label5;
         private Label label3;
+        private Panel panel1;
+        private Label txtDescricaoInicio;
+        private Label txtTitulo;
+        private PictureBox pctBMacro;
+        private PictureBox pctBMicro;
     }
 }

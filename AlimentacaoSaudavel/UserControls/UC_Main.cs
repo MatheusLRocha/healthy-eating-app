@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,16 +19,23 @@ namespace AlimentacaoSaudavel.UserControls
             _main = main;
         }
 
-        private void pnlNutrientes_Click_1(object sender, EventArgs e)
+
+        private void pctBNutrientes_Click(object sender, EventArgs e)
         {
             UC_Nutrientes ucNutrientes = new UC_Nutrientes();
             _main.addUserControl(ucNutrientes);
         }
 
-        private void pnlClasAlimentos_Click(object sender, EventArgs e)
+        private void pctBClasAlimentos_Click(object sender, EventArgs e)
         {
             UC_ClasAlimentos ucClasAlimentos = new UC_ClasAlimentos();
             _main.addUserControl(ucClasAlimentos);
+        }
+
+        private void pctBAlimentacaoDiaDia_Click(object sender, EventArgs e)
+        {
+            UC_AlimentacaoDiaDia ucAlimentacaoDiaDia = new UC_AlimentacaoDiaDia();
+            _main.addUserControl(ucAlimentacaoDiaDia);
         }
     }
 }

@@ -16,28 +16,16 @@ namespace AlimentacaoSaudavel.UserControls
             InitializeComponent();
         }
 
-        private void pnlVitaminas_Click(object sender, EventArgs e)
+        private void pctBVitaminas_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_Vitaminas());
         }
 
-        private void pnlMinerais_Click(object sender, EventArgs e)
+        private void pctBMinerais_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
-
             main.addUserControl(new UC_Minerais());
-        }
-
-        private void lblVitaminas_Click(object sender, EventArgs e)
-        {
-            pnlVitaminas_Click(sender, e);
-        }
-
-        private void lblMinerais_Click(object sender, EventArgs e)
-        {
-            pnlMinerais_Click(sender, e);
         }
     }
 }
