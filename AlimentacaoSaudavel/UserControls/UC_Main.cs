@@ -20,6 +20,7 @@ namespace AlimentacaoSaudavel.UserControls
             _main = main;
         }
 
+        PanelRound panelRound = new PanelRound();
 
         private void pctBNutrientes_Click(object sender, EventArgs e)
         {
@@ -45,9 +46,29 @@ namespace AlimentacaoSaudavel.UserControls
             _main.addUserControl(ucEscolhendoMelhor);
         }
 
-        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        private void pnlNutrientes_Resize(object sender, EventArgs e)
         {
+            panelRound.ArredondarCantos(pnlNutrientes, 20);
+        }
 
+        private void pnlClasAlimentos_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlClasAlimentos, 20);
+        }
+
+        private void pnlEscolhendoMelhor_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlEscolhendoMelhor, 20);
+        }
+
+        private void pnlAlimentacaosDiaADia_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlAlimentacaosDiaADia, 20);
+        }
+
+        private void pnlApresentacao_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
         }
     }
 }

@@ -40,6 +40,9 @@
     <Compile Update="UserControls\EscolhendoMelhor\UC_EscolhendoMelhor.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\EscolhendoMelhor\UC_LerRotulos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\Nutrientes\MacroNutrientes\UC_Carboidratos.cs">
       <SubType>UserControl</SubType>
     </Compile>

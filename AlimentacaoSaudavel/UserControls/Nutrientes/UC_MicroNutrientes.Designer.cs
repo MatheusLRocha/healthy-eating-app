@@ -36,7 +36,7 @@
             pnlMinerais = new Panel();
             pctBMinerais = new PictureBox();
             lblMinerais = new Label();
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1.SuspendLayout();
@@ -44,7 +44,7 @@
             ((System.ComponentModel.ISupportInitialize)pctBVitaminas).BeginInit();
             pnlMinerais.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctBMinerais).BeginInit();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -73,6 +73,7 @@
             pnlVitaminas.Name = "pnlVitaminas";
             pnlVitaminas.Size = new Size(451, 114);
             pnlVitaminas.TabIndex = 0;
+            pnlVitaminas.Resize += pnlVitaminas_Resize;
             // 
             // pctBVitaminas
             // 
@@ -107,6 +108,7 @@
             pnlMinerais.Name = "pnlMinerais";
             pnlMinerais.Size = new Size(452, 114);
             pnlMinerais.TabIndex = 1;
+            pnlMinerais.Resize += pnlMinerais_Resize;
             // 
             // pctBMinerais
             // 
@@ -130,16 +132,17 @@
             lblMinerais.Text = "Minerais";
             lblMinerais.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(txtDescricaoInicio);
-            panel1.Controls.Add(txtTitulo);
-            panel1.Location = new Point(40, 17);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(915, 314);
-            panel1.TabIndex = 11;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(txtTitulo);
+            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(915, 314);
+            pnlApresentacao.TabIndex = 11;
+            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 
@@ -167,7 +170,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            Controls.Add(panel1);
+            Controls.Add(pnlApresentacao);
             Controls.Add(tableLayoutPanel1);
             MinimumSize = new Size(1005, 681);
             Name = "UC_MicroNutrientes";
@@ -177,8 +180,8 @@
             ((System.ComponentModel.ISupportInitialize)pctBVitaminas).EndInit();
             pnlMinerais.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBMinerais).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -189,7 +192,7 @@
         private Label lblVitaminas;
         private Panel pnlMinerais;
         private Label lblMinerais;
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private PictureBox pctBVitaminas;
