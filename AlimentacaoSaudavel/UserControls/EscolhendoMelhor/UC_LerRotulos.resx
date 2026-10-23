@@ -125,7 +125,7 @@
         BMgWSYewNUDsJAjbBsQuLykoAbIDQOyikCBnIDsFyNZIR2InIbGTC4pA6nuAbJvcnNJkhLsZeFLzQoOB
         NAcQyzAUMwQxuDM4gfwPUZK/iIHB4isDA/MEhFjSTAaG7a0MDBK3EGIqCxgY+FsYGLadR4ghwqQgsSgR
         LMQCxExpaQwMn5YzMPBGMjAIX2Bg4IqGBQQOtymA3ebOkA+E6Qw5DKlAEU+GPIZkBj0gy4jBgMGQwQwA
-        ptY/P1N/5B4AAAAJcEhZcwAADsEAAA7BAbiRa+0AAP6vSURBVHhe5L0HlFTFtj5+37tXyTAzTM6hp8N0
+        ptY/P1N/5B4AAAAJcEhZcwAADsAAAA7AAWrWiQkAAP6vSURBVHhe5L0HlFTFtj5+37tXyTAzTM6hp8N0
         TyZHERURE+acs2IEFEQEFSPmHDCjYkBFJZjAAAqSw8TOfXLO3T2D9/7XruppmukB0XfvW++3/mvtddbM
         6RPq1Kn6zq4dvv03WfTLol+RAqoc1A4Svyr5VMmnKwFDDaqSTxZ8qhQw5YQYkt+QgoeQsClHTDliKYSl
         hC0lbMqhIxRDDetKKFUMNWyoYdyqXj/9BUm/4+Gl1+nJ/knfo0oBVQoc3IeHk792vCGFDSmsIVHloCoH
@@ -5049,5 +5049,11 @@
         8b9PYtQX01+1jPl9H0Msu32e8P8NEBHf8VtyvNff37HP5d+8yP8Hkf+rIMISMt7034PI/waTI+/yDqk0
         qgAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Os ingredientes aparecem em ordem decrescente de quantidade: os primeiros são os que estão presentes em maior quantidade no produto. A lista ajuda a conhecer a composição, mas não deve ser usada sozinha para avaliar a qualidade nutricional.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>A rotulagem nutricional frontal da Anvisa utiliza lupa para alertar quando o produto apresenta alto teor de açúcares adicionados, gordura saturada ou sódio. O alerta é uma informação para ajudar na comparação, não uma descrição completa do alimento.</value>
   </data>
 </root>

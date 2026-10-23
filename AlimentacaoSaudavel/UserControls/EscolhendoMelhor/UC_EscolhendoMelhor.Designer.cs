@@ -182,6 +182,7 @@
             pctBRotulo.Size = new Size(32, 32);
             pctBRotulo.TabIndex = 6;
             pctBRotulo.TabStop = false;
+            pctBRotulo.Click += pctBRotulo_Click;
             // 
             // label3
             // 
