@@ -7,6 +7,12 @@
     <Compile Update="UserControls\AlimentacaoDiaDia\AlimentacaoEquilibrada\UC_AlimentacaoEquilibrada.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\AlimentacaoDiaDia\PlanejamentoAlimentar\UC_PlanejamentoAlimentar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\AlimentacaoDiaDia\RefeicoesDia\UC_RefeicoesDia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\AlimentacaoDiaDia\UC_AlimentacaoDiaDia.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -120,6 +120,7 @@
             pctBPlanejamentoAlimentar.Size = new Size(32, 32);
             pctBPlanejamentoAlimentar.TabIndex = 8;
             pctBPlanejamentoAlimentar.TabStop = false;
+            pctBPlanejamentoAlimentar.Click += pctBPlanejamentoAlimentar_Click;
             // 
             // label6
             // 
@@ -150,6 +151,7 @@
             pctBRefeicoesDia.Size = new Size(32, 32);
             pctBRefeicoesDia.TabIndex = 7;
             pctBRefeicoesDia.TabStop = false;
+            pctBRefeicoesDia.Click += pctBRefeicoesDia_Click;
             // 
             // label2
             // 
