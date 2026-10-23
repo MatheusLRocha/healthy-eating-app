@@ -14,5 +14,11 @@ namespace AlimentacaoSaudavel.UserControls.EscolhendoMelhor
         {
             InitializeComponent();
         }
+
+        private void pctBRotulo_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+            main.addUserControl(new UC_LerRotulos());
+        }
     }
 }
