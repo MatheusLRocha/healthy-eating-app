@@ -18,6 +18,8 @@ namespace AlimentacaoSaudavel.UserControls.MacroNutrientes
             Titulo = "Carboidratos";
 
             Descricao = "São a moeda de energia preferida do organismo. Quando consumidos, transformam-se em glicose, que abastece o cérebro e os músculos rapidamente. Fornecem energia para as atividades do organismo. Estão presentes em alimentos como arroz, batata, mandioca, aveia, milho, pães, massas e frutas.";
+
+            ImagemGrupo.Image = Properties.Resources.Carboidratos;
         }
     }
 }

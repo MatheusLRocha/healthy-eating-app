@@ -117,4 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Carboidratos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carboidratos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gorduras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gorduras.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InNatura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in natura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minerais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minerais.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MiniProcessados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimamente processados.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Processados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alimentos processados.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Proteinas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proteinas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltraProcessados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ultra processados.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vitaminas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vitaminas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
