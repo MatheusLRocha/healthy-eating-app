@@ -15,9 +15,31 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.PlanejamentoAliment
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
         private void label12_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void UC_Praticidade_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlDica1, 20);
+            panelRound.ArredondarCantos(pnlDica2, 20);
+            panelRound.ArredondarCantos(pnlDica3, 20);
+            panelRound.ArredondarCantos(pnlDica4, 20);
+            panelRound.ArredondarCantos(pnlDicasRapidas, 20);
+        }
+
+        private void UC_Praticidade_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlDica1, 20);
+            panelRound.ArredondarCantos(pnlDica2, 20);
+            panelRound.ArredondarCantos(pnlDica3, 20);
+            panelRound.ArredondarCantos(pnlDica4, 20);
+            panelRound.ArredondarCantos(pnlDicasRapidas, 20);
         }
     }
 }

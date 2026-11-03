@@ -14,5 +14,27 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.RotinaCorrida
         {
             InitializeComponent();
         }
+
+        PanelRound panelRound = new PanelRound();
+
+        private void UC_RefeicoesDia_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlCafeManha, 20);
+            panelRound.ArredondarCantos(pnlAlmoco, 20);
+            panelRound.ArredondarCantos(pnlJanta, 20);
+            panelRound.ArredondarCantos(pnlLanches, 20);
+            panelRound.ArredondarCantos(pnlDica, 20);
+        }
+
+        private void UC_RefeicoesDia_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlCafeManha, 20);
+            panelRound.ArredondarCantos(pnlAlmoco, 20);
+            panelRound.ArredondarCantos(pnlJanta, 20);
+            panelRound.ArredondarCantos(pnlLanches, 20);
+            panelRound.ArredondarCantos(pnlDica, 20);
+        }
     }
 }

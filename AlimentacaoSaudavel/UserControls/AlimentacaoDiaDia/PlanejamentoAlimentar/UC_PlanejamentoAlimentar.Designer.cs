@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_PlanejamentoAlimentar));
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -39,7 +39,7 @@
             pnlOrganizandoSemana = new Panel();
             pctBOrganizandoSemana = new PictureBox();
             label3 = new Label();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             pnlPraticidade.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctBPraticidade).BeginInit();
@@ -47,16 +47,16 @@
             ((System.ComponentModel.ISupportInitialize)pctBOrganizandoSemana).BeginInit();
             SuspendLayout();
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(txtDescricaoInicio);
-            panel1.Controls.Add(txtTitulo);
-            panel1.Location = new Point(40, 17);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(915, 314);
-            panel1.TabIndex = 15;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(txtTitulo);
+            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(915, 314);
+            pnlApresentacao.TabIndex = 15;
             // 
             // txtDescricaoInicio
             // 
@@ -163,12 +163,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
-            Controls.Add(panel1);
+            Controls.Add(pnlApresentacao);
             MinimumSize = new Size(1005, 681);
             Name = "UC_PlanejamentoAlimentar";
             Size = new Size(1005, 681);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += UC_PlanejamentoAlimentar_Load;
+            Resize += UC_PlanejamentoAlimentar_Resize;
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
             pnlPraticidade.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBPraticidade).EndInit();
@@ -179,7 +181,7 @@
 
         #endregion
 
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private TableLayoutPanel tableLayoutPanel1;

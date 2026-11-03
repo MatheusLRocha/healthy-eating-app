@@ -29,60 +29,60 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Praticidade));
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            pnlAlimentacaosDiaADia = new Panel();
+            pnlDica4 = new Panel();
             label12 = new Label();
             label11 = new Label();
             pictureBox4 = new PictureBox();
             label8 = new Label();
-            pnlEscolhendoMelhor = new Panel();
+            pnlDica3 = new Panel();
             label10 = new Label();
             label7 = new Label();
             pictureBox3 = new PictureBox();
             label6 = new Label();
-            pnlClasAlimentos = new Panel();
+            pnlDica2 = new Panel();
             label5 = new Label();
             label3 = new Label();
             pictureBox2 = new PictureBox();
             label4 = new Label();
-            pnlNutrientes = new Panel();
+            pnlDica1 = new Panel();
             label9 = new Label();
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
-            panel2 = new Panel();
+            pnlDicasRapidas = new Panel();
             label17 = new Label();
             label18 = new Label();
             label15 = new Label();
             label16 = new Label();
             label14 = new Label();
             label13 = new Label();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
-            pnlAlimentacaosDiaADia.SuspendLayout();
+            pnlDica4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            pnlEscolhendoMelhor.SuspendLayout();
+            pnlDica3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            pnlClasAlimentos.SuspendLayout();
+            pnlDica2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            pnlNutrientes.SuspendLayout();
+            pnlDica1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
+            pnlDicasRapidas.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(txtDescricaoInicio);
-            panel1.Controls.Add(txtTitulo);
-            panel1.Location = new Point(40, 17);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(613, 314);
-            panel1.TabIndex = 17;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(txtTitulo);
+            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(613, 314);
+            pnlApresentacao.TabIndex = 17;
             // 
             // txtDescricaoInicio
             // 
@@ -113,33 +113,33 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Controls.Add(pnlAlimentacaosDiaADia, 3, 0);
-            tableLayoutPanel1.Controls.Add(pnlEscolhendoMelhor, 2, 0);
-            tableLayoutPanel1.Controls.Add(pnlClasAlimentos, 1, 0);
-            tableLayoutPanel1.Controls.Add(pnlNutrientes, 0, 0);
-            tableLayoutPanel1.Location = new Point(44, 337);
+            tableLayoutPanel1.Controls.Add(pnlDica4, 3, 0);
+            tableLayoutPanel1.Controls.Add(pnlDica3, 2, 0);
+            tableLayoutPanel1.Controls.Add(pnlDica2, 1, 0);
+            tableLayoutPanel1.Controls.Add(pnlDica1, 0, 0);
+            tableLayoutPanel1.Location = new Point(3, 343);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(915, 344);
+            tableLayoutPanel1.Size = new Size(999, 335);
             tableLayoutPanel1.TabIndex = 18;
             // 
-            // pnlAlimentacaosDiaADia
+            // pnlDica4
             // 
-            pnlAlimentacaosDiaADia.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlAlimentacaosDiaADia.BackColor = Color.FromArgb(240, 232, 247);
-            pnlAlimentacaosDiaADia.Controls.Add(label12);
-            pnlAlimentacaosDiaADia.Controls.Add(label11);
-            pnlAlimentacaosDiaADia.Controls.Add(pictureBox4);
-            pnlAlimentacaosDiaADia.Controls.Add(label8);
-            pnlAlimentacaosDiaADia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlAlimentacaosDiaADia.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlAlimentacaosDiaADia.Location = new Point(689, 5);
-            pnlAlimentacaosDiaADia.Margin = new Padding(5);
-            pnlAlimentacaosDiaADia.MaximumSize = new Size(345, 420);
-            pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
-            pnlAlimentacaosDiaADia.Size = new Size(221, 334);
-            pnlAlimentacaosDiaADia.TabIndex = 7;
+            pnlDica4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDica4.BackColor = Color.FromArgb(240, 232, 247);
+            pnlDica4.Controls.Add(label12);
+            pnlDica4.Controls.Add(label11);
+            pnlDica4.Controls.Add(pictureBox4);
+            pnlDica4.Controls.Add(label8);
+            pnlDica4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDica4.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDica4.Location = new Point(752, 5);
+            pnlDica4.Margin = new Padding(5);
+            pnlDica4.MaximumSize = new Size(345, 420);
+            pnlDica4.Name = "pnlDica4";
+            pnlDica4.Size = new Size(242, 325);
+            pnlDica4.TabIndex = 7;
             // 
             // label12
             // 
@@ -180,22 +180,22 @@
             label8.TabIndex = 0;
             label8.Text = "Facilite suas próximas refeições";
             // 
-            // pnlEscolhendoMelhor
+            // pnlDica3
             // 
-            pnlEscolhendoMelhor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlEscolhendoMelhor.BackColor = Color.FromArgb(227, 242, 243);
-            pnlEscolhendoMelhor.Controls.Add(label10);
-            pnlEscolhendoMelhor.Controls.Add(label7);
-            pnlEscolhendoMelhor.Controls.Add(pictureBox3);
-            pnlEscolhendoMelhor.Controls.Add(label6);
-            pnlEscolhendoMelhor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlEscolhendoMelhor.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlEscolhendoMelhor.Location = new Point(461, 5);
-            pnlEscolhendoMelhor.Margin = new Padding(5);
-            pnlEscolhendoMelhor.MaximumSize = new Size(345, 420);
-            pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
-            pnlEscolhendoMelhor.Size = new Size(218, 334);
-            pnlEscolhendoMelhor.TabIndex = 6;
+            pnlDica3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDica3.BackColor = Color.FromArgb(227, 242, 243);
+            pnlDica3.Controls.Add(label10);
+            pnlDica3.Controls.Add(label7);
+            pnlDica3.Controls.Add(pictureBox3);
+            pnlDica3.Controls.Add(label6);
+            pnlDica3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDica3.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDica3.Location = new Point(503, 5);
+            pnlDica3.Margin = new Padding(5);
+            pnlDica3.MaximumSize = new Size(345, 420);
+            pnlDica3.Name = "pnlDica3";
+            pnlDica3.Size = new Size(239, 325);
+            pnlDica3.TabIndex = 6;
             // 
             // label10
             // 
@@ -236,22 +236,22 @@
             label6.TabIndex = 0;
             label6.Text = "Faça escolhas ao comer fora";
             // 
-            // pnlClasAlimentos
+            // pnlDica2
             // 
-            pnlClasAlimentos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlClasAlimentos.BackColor = Color.FromArgb(255, 244, 220);
-            pnlClasAlimentos.Controls.Add(label5);
-            pnlClasAlimentos.Controls.Add(label3);
-            pnlClasAlimentos.Controls.Add(pictureBox2);
-            pnlClasAlimentos.Controls.Add(label4);
-            pnlClasAlimentos.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlClasAlimentos.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlClasAlimentos.Location = new Point(233, 5);
-            pnlClasAlimentos.Margin = new Padding(5);
-            pnlClasAlimentos.MaximumSize = new Size(345, 420);
-            pnlClasAlimentos.Name = "pnlClasAlimentos";
-            pnlClasAlimentos.Size = new Size(218, 334);
-            pnlClasAlimentos.TabIndex = 6;
+            pnlDica2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDica2.BackColor = Color.FromArgb(255, 244, 220);
+            pnlDica2.Controls.Add(label5);
+            pnlDica2.Controls.Add(label3);
+            pnlDica2.Controls.Add(pictureBox2);
+            pnlDica2.Controls.Add(label4);
+            pnlDica2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDica2.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDica2.Location = new Point(254, 5);
+            pnlDica2.Margin = new Padding(5);
+            pnlDica2.MaximumSize = new Size(345, 420);
+            pnlDica2.Name = "pnlDica2";
+            pnlDica2.Size = new Size(239, 325);
+            pnlDica2.TabIndex = 6;
             // 
             // label5
             // 
@@ -292,22 +292,22 @@
             label4.TabIndex = 0;
             label4.Text = "Aproveite alimentos que facilitam o preparo";
             // 
-            // pnlNutrientes
+            // pnlDica1
             // 
-            pnlNutrientes.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlNutrientes.BackColor = Color.FromArgb(227, 238, 220);
-            pnlNutrientes.Controls.Add(label9);
-            pnlNutrientes.Controls.Add(pictureBox1);
-            pnlNutrientes.Controls.Add(label2);
-            pnlNutrientes.Controls.Add(label1);
-            pnlNutrientes.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlNutrientes.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlNutrientes.Location = new Point(5, 5);
-            pnlNutrientes.Margin = new Padding(5);
-            pnlNutrientes.MaximumSize = new Size(345, 420);
-            pnlNutrientes.Name = "pnlNutrientes";
-            pnlNutrientes.Size = new Size(218, 334);
-            pnlNutrientes.TabIndex = 5;
+            pnlDica1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDica1.BackColor = Color.FromArgb(227, 238, 220);
+            pnlDica1.Controls.Add(label9);
+            pnlDica1.Controls.Add(pictureBox1);
+            pnlDica1.Controls.Add(label2);
+            pnlDica1.Controls.Add(label1);
+            pnlDica1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDica1.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDica1.Location = new Point(5, 5);
+            pnlDica1.Margin = new Padding(5);
+            pnlDica1.MaximumSize = new Size(345, 420);
+            pnlDica1.Name = "pnlDica1";
+            pnlDica1.Size = new Size(239, 325);
+            pnlDica1.TabIndex = 5;
             // 
             // label9
             // 
@@ -348,20 +348,20 @@
             label1.TabIndex = 0;
             label1.Text = "Tenha opções práticas por perto";
             // 
-            // panel2
+            // pnlDicasRapidas
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            panel2.BackColor = Color.FromArgb(227, 238, 220);
-            panel2.Controls.Add(label17);
-            panel2.Controls.Add(label18);
-            panel2.Controls.Add(label15);
-            panel2.Controls.Add(label16);
-            panel2.Controls.Add(label14);
-            panel2.Controls.Add(label13);
-            panel2.Location = new Point(659, 17);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(300, 314);
-            panel2.TabIndex = 18;
+            pnlDicasRapidas.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pnlDicasRapidas.BackColor = Color.FromArgb(227, 238, 220);
+            pnlDicasRapidas.Controls.Add(label17);
+            pnlDicasRapidas.Controls.Add(label18);
+            pnlDicasRapidas.Controls.Add(label15);
+            pnlDicasRapidas.Controls.Add(label16);
+            pnlDicasRapidas.Controls.Add(label14);
+            pnlDicasRapidas.Controls.Add(label13);
+            pnlDicasRapidas.Location = new Point(659, 17);
+            pnlDicasRapidas.Name = "pnlDicasRapidas";
+            pnlDicasRapidas.Size = new Size(300, 314);
+            pnlDicasRapidas.TabIndex = 18;
             // 
             // label17
             // 
@@ -430,44 +430,46 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(panel2);
+            Controls.Add(pnlDicasRapidas);
             Controls.Add(tableLayoutPanel1);
-            Controls.Add(panel1);
+            Controls.Add(pnlApresentacao);
             MinimumSize = new Size(1005, 681);
             Name = "UC_Praticidade";
             Size = new Size(1005, 681);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += UC_Praticidade_Load;
+            Resize += UC_Praticidade_Resize;
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
-            pnlAlimentacaosDiaADia.ResumeLayout(false);
+            pnlDica4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            pnlEscolhendoMelhor.ResumeLayout(false);
+            pnlDica3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            pnlClasAlimentos.ResumeLayout(false);
+            pnlDica2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            pnlNutrientes.ResumeLayout(false);
+            pnlDica1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            pnlDicasRapidas.ResumeLayout(false);
+            pnlDicasRapidas.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private TableLayoutPanel tableLayoutPanel1;
-        private Panel pnlAlimentacaosDiaADia;
+        private Panel pnlDica4;
         private PictureBox pictureBox4;
         private Label label8;
-        private Panel pnlEscolhendoMelhor;
+        private Panel pnlDica3;
         private PictureBox pictureBox3;
         private Label label6;
-        private Panel pnlClasAlimentos;
+        private Panel pnlDica2;
         private PictureBox pictureBox2;
         private Label label4;
-        private Panel pnlNutrientes;
+        private Panel pnlDica1;
         private PictureBox pictureBox1;
         private Label label2;
         private Label label1;
@@ -478,7 +480,7 @@
         private Label label7;
         private Label label5;
         private Label label3;
-        private Panel panel2;
+        private Panel pnlDicasRapidas;
         private Label label15;
         private Label label16;
         private Label label14;

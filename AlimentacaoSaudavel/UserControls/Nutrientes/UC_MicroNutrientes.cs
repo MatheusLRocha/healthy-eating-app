@@ -44,5 +44,19 @@ namespace AlimentacaoSaudavel.UserControls
         {
             panelRound.ArredondarCantos(pnlApresentacao, 20);
         }
+
+        private void UC_MicroNutrientes_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlVitaminas, 20);
+            panelRound.ArredondarCantos(pnlMinerais, 20);
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+        }
+
+        private void UC_MicroNutrientes_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlVitaminas, 20);
+            panelRound.ArredondarCantos(pnlMinerais, 20);
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+        }
     }
 }
