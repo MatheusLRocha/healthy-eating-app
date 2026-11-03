@@ -14,6 +14,7 @@ namespace AlimentacaoSaudavel.UserControls.Base
         {
             InitializeComponent();
         }
+        protected PictureBox ImagemGrupo => picImagem;
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public string Titulo

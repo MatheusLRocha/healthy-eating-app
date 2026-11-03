@@ -19,6 +19,8 @@ namespace AlimentacaoSaudavel.UserControls
 
             Descricao = "Funcionam como os tijolos do corpo. Elas quebram-se em aminoácidos para construir e reparar os músculos, a pele, o cabelo e produzir hormônios e anticorpos.";
 
+            ImagemGrupo.Image = Properties.Resources.Proteinas;
+
         }
     }
 }

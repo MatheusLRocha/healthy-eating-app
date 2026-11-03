@@ -18,6 +18,8 @@ namespace AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos
             Titulo = "Processados";
 
             Descricao = "Alimentos processados são aqueles que passaram por algum tipo de processamento industrial, como a adição de sal, açúcar, óleos ou conservantes. Esses alimentos podem ter uma vida útil mais longa e podem ser mais convenientes para o consumo. Exemplos incluem pães, queijos, enlatados e produtos congelados. Embora possam ser parte de uma dieta equilibrada, é importante consumi-los com moderação devido ao seu conteúdo de sódio, açúcares e gorduras.";
+
+            ImagemGrupo.Image = Properties.Resources.Processados;
         }
     }
 }

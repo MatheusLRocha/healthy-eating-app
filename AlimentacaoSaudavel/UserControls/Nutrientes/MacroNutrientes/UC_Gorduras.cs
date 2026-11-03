@@ -18,6 +18,8 @@ namespace AlimentacaoSaudavel.UserControls.MacroNutrientes
             Titulo = "Gorduras";
 
             Descricao = "São o estoque de energia de longo prazo. Além disso, protegem os órgãos contra impactos, mantêm a temperatura corporal e são indispensáveis para a absorção das vitaminas lipossolúveis (A, D, E e K). Estão presentes em azeite, abacate, castanhas, sementes, peixes, manteiga e outros alimentos. ";
+
+            ImagemGrupo.Image = Properties.Resources.Gorduras;
         }
     }
 }
