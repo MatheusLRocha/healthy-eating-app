@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_RefeicoesDia));
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -52,10 +52,10 @@
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
-            panel2 = new Panel();
+            pnlDica = new Panel();
             label12 = new Label();
             label13 = new Label();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             pnlLanches.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -65,19 +65,19 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pnlCafeManha.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
+            pnlDica.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(txtDescricaoInicio);
-            panel1.Controls.Add(txtTitulo);
-            panel1.Location = new Point(40, 17);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(915, 200);
-            panel1.TabIndex = 15;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(txtTitulo);
+            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(915, 200);
+            pnlApresentacao.TabIndex = 15;
             // 
             // txtDescricaoInicio
             // 
@@ -335,17 +335,17 @@
             label1.TabIndex = 0;
             label1.Text = "Café da manhã";
             // 
-            // panel2
+            // pnlDica
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel2.BackColor = Color.FromArgb(227, 238, 220);
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(label12);
-            panel2.Controls.Add(label13);
-            panel2.Location = new Point(45, 556);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(902, 122);
-            panel2.TabIndex = 16;
+            pnlDica.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDica.BackColor = Color.FromArgb(227, 238, 220);
+            pnlDica.BorderStyle = BorderStyle.FixedSingle;
+            pnlDica.Controls.Add(label12);
+            pnlDica.Controls.Add(label13);
+            pnlDica.Location = new Point(45, 556);
+            pnlDica.Name = "pnlDica";
+            pnlDica.Size = new Size(902, 122);
+            pnlDica.TabIndex = 16;
             // 
             // label12
             // 
@@ -372,15 +372,17 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(panel2);
+            Controls.Add(pnlDica);
             Controls.Add(tableLayoutPanel1);
-            Controls.Add(panel1);
+            Controls.Add(pnlApresentacao);
             ForeColor = SystemColors.ActiveCaption;
             MinimumSize = new Size(1005, 681);
             Name = "UC_RefeicoesDia";
             Size = new Size(1005, 681);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += UC_RefeicoesDia_Load;
+            Resize += UC_RefeicoesDia_Resize;
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
             pnlLanches.ResumeLayout(false);
             pnlLanches.PerformLayout();
@@ -393,12 +395,12 @@
             pnlCafeManha.ResumeLayout(false);
             pnlCafeManha.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
+            pnlDica.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private TableLayoutPanel tableLayoutPanel1;
@@ -421,7 +423,7 @@
         private Label label11;
         private Label label10;
         private Label label9;
-        private Panel panel2;
+        private Panel pnlDica;
         private Label label12;
         private Label label13;
     }

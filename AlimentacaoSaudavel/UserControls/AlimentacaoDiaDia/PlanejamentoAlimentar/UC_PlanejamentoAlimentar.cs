@@ -15,6 +15,8 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.PlanejamentoAliment
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
         private void pctBOrganizandoSemana_Click(object sender, EventArgs e)
         {
             Main main = (Main)this.FindForm();
@@ -25,6 +27,20 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.PlanejamentoAliment
         {
             Main main = (Main)this.FindForm();
             main.addUserControl(new UC_Praticidade());
+        }
+
+        private void UC_PlanejamentoAlimentar_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlOrganizandoSemana, 20);
+            panelRound.ArredondarCantos(pnlPraticidade, 20);
+        }
+
+        private void UC_PlanejamentoAlimentar_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlOrganizandoSemana, 20);
+            panelRound.ArredondarCantos(pnlPraticidade, 20);
         }
     }
 }

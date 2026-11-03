@@ -175,6 +175,8 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_MicroNutrientes";
             Size = new Size(1005, 681);
+            Load += UC_MicroNutrientes_Load;
+            Resize += UC_MicroNutrientes_Resize;
             tableLayoutPanel1.ResumeLayout(false);
             pnlVitaminas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBVitaminas).EndInit();

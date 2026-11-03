@@ -71,5 +71,14 @@ namespace AlimentacaoSaudavel.UserControls
         {
             panelRound.ArredondarCantos(pnlApresentacao, 20);
         }
+
+        private void UC_ClasAlimentos_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlNatura, 20);
+            panelRound.ArredondarCantos(pnlProcessados, 20);
+            panelRound.ArredondarCantos(pnlMinProcessados, 20);
+            panelRound.ArredondarCantos(pnlUltraProcessados, 20);
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+        }
     }
 }

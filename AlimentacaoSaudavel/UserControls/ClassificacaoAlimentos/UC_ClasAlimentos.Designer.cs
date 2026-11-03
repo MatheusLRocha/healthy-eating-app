@@ -265,6 +265,7 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_ClasAlimentos";
             Size = new Size(1005, 681);
+            Load += UC_ClasAlimentos_Load;
             tableLayoutPanel1.ResumeLayout(false);
             pnlUltraProcessados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBUltraprocessados).EndInit();

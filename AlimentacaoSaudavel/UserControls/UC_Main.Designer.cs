@@ -330,9 +330,10 @@
             pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
             pnlApresentacao.Controls.Add(txtDescricaoInicio);
             pnlApresentacao.Controls.Add(txtTituloInicio);
-            pnlApresentacao.Location = new Point(3, 3);
+            pnlApresentacao.Location = new Point(8, 8);
+            pnlApresentacao.Margin = new Padding(8);
             pnlApresentacao.Name = "pnlApresentacao";
-            pnlApresentacao.Size = new Size(999, 314);
+            pnlApresentacao.Size = new Size(989, 314);
             pnlApresentacao.TabIndex = 9;
             pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
@@ -381,6 +382,7 @@
             Controls.Add(tableLayoutPanel2);
             Name = "UC_Main";
             Size = new Size(1005, 681);
+            Load += UC_Main_Load;
             pnlClasAlimentos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBClasAlimentos).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

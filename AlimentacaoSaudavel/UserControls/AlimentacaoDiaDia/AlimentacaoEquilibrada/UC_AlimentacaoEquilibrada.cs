@@ -14,5 +14,25 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.AlimentacaoEquilibr
         {
             InitializeComponent();
         }
+
+        PanelRound panelRound = new PanelRound();
+
+        private void UC_AlimentacaoEquilibrada_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlQualidade, 20);
+            panelRound.ArredondarCantos(pnlQuantidade, 20);
+            panelRound.ArredondarCantos(pnlVariedade, 20);
+            panelRound.ArredondarCantos(pnlHarmonia, 20);
+        }
+
+        private void UC_AlimentacaoEquilibrada_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlQualidade, 20);
+            panelRound.ArredondarCantos(pnlQuantidade, 20);
+            panelRound.ArredondarCantos(pnlVariedade, 20);
+            panelRound.ArredondarCantos(pnlHarmonia, 20);
+        }
     }
 }

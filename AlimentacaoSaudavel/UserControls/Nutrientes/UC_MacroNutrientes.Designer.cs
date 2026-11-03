@@ -211,6 +211,7 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_MacroNutrientes";
             Size = new Size(1005, 681);
+            Load += UC_MacroNutrientes_Load;
             tableLayoutPanel1.ResumeLayout(false);
             pnlGorduras.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBGorduras).EndInit();
