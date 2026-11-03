@@ -66,7 +66,7 @@
             txtDescricaoInicio.Name = "txtDescricaoInicio";
             txtDescricaoInicio.Size = new Size(558, 127);
             txtDescricaoInicio.TabIndex = 5;
-            txtDescricaoInicio.Text = "Resumo sobre a sessão";
+            txtDescricaoInicio.Text = resources.GetString("txtDescricaoInicio.Text");
             // 
             // txtTitulo
             // 
