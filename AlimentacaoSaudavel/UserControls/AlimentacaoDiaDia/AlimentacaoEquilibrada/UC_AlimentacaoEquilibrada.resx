@@ -167,6 +167,9 @@
         67feDbQL+QS0E4FStwm8jEDwQOO/ntSqFmyoAbQAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Variar frutas, verduras, legumes, cereais, leguminosas e fontes de proteínas amplia a diversidade de nutrientes. Não é necessário que todas as refeições sejam perfeitas ou contenham todos os nutrientes. Não existe uma proporção única de macronutrientes que sirva para todas as pessoas. </value>
+  </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -207,6 +210,9 @@
         AAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Os nutrientes desempenham funções diferentes e complementares. Carboidratos, proteínas, gorduras, vitaminas, minerais e fibras devem ser considerados no conjunto da alimentação, sem dar importância exclusiva a um deles. </value>
+  </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -243,6 +249,9 @@
         QmCC
 </value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>A quantidade de alimentos deve fornecer energia e nutrientes suficientes para as necessidades do organismo. Essas necessidades variam conforme idade, fase de crescimento, características individuais e rotina.</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -275,5 +284,8 @@
         1K6XMKFMikTnXsGEMikSnXsFE8qkSHTuFUwoG9fo3CuYUAUu0blXMGHQYMKgwYRBgwmDBhMGjX8BWAsq
         xI0FTpcAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Além da quantidade, é importante observar a variedade e os nutrientes presentes nos alimentos. Incluir diferentes grupos alimentares e priorizar alimentos in natura ou minimamente processados contribui para uma alimentação variada.</value>
   </data>
 </root>
