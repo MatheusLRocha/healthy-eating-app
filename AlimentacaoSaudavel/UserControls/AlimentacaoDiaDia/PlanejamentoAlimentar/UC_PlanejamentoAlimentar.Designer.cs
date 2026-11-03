@@ -182,6 +182,7 @@
             pctBOrganizandoSemana.Size = new Size(32, 32);
             pctBOrganizandoSemana.TabIndex = 6;
             pctBOrganizandoSemana.TabStop = false;
+            pctBOrganizandoSemana.Click += pctBOrganizandoSemana_Click;
             // 
             // label3
             // 
