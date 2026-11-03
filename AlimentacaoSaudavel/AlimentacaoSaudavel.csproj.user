@@ -10,6 +10,9 @@
     <Compile Update="UserControls\AlimentacaoDiaDia\AlimentacaoEquilibrada\UC_AlimentacaoEquilibrada.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\AlimentacaoDiaDia\PlanejamentoAlimentar\UC_OrganizandoSemana.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\AlimentacaoDiaDia\PlanejamentoAlimentar\UC_PlanejamentoAlimentar.cs">
       <SubType>UserControl</SubType>
     </Compile>
