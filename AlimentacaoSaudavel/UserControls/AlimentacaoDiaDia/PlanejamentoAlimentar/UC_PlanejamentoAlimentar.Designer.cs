@@ -33,9 +33,6 @@
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            pnlRotinaCorrida = new Panel();
-            pctBRotinaCorrida = new PictureBox();
-            label6 = new Label();
             pnlPraticidade = new Panel();
             pctBPraticidade = new PictureBox();
             label2 = new Label();
@@ -44,8 +41,6 @@
             label3 = new Label();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
-            pnlRotinaCorrida.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pctBRotinaCorrida).BeginInit();
             pnlPraticidade.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctBPraticidade).BeginInit();
             pnlOrganizandoSemana.SuspendLayout();
@@ -87,11 +82,9 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel1.Controls.Add(pnlRotinaCorrida, 2, 0);
             tableLayoutPanel1.Controls.Add(pnlPraticidade, 1, 0);
             tableLayoutPanel1.Controls.Add(pnlOrganizandoSemana, 0, 0);
             tableLayoutPanel1.Location = new Point(40, 470);
@@ -101,46 +94,15 @@
             tableLayoutPanel1.Size = new Size(915, 120);
             tableLayoutPanel1.TabIndex = 16;
             // 
-            // pnlRotinaCorrida
-            // 
-            pnlRotinaCorrida.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            pnlRotinaCorrida.BackColor = Color.FromArgb(240, 232, 247);
-            pnlRotinaCorrida.Controls.Add(pctBRotinaCorrida);
-            pnlRotinaCorrida.Controls.Add(label6);
-            pnlRotinaCorrida.Location = new Point(613, 3);
-            pnlRotinaCorrida.Name = "pnlRotinaCorrida";
-            pnlRotinaCorrida.Size = new Size(299, 114);
-            pnlRotinaCorrida.TabIndex = 7;
-            // 
-            // pctBRotinaCorrida
-            // 
-            pctBRotinaCorrida.Image = (Image)resources.GetObject("pctBRotinaCorrida.Image");
-            pctBRotinaCorrida.Location = new Point(26, 45);
-            pctBRotinaCorrida.Name = "pctBRotinaCorrida";
-            pctBRotinaCorrida.Size = new Size(32, 32);
-            pctBRotinaCorrida.TabIndex = 8;
-            pctBRotinaCorrida.TabStop = false;
-            // 
-            // label6
-            // 
-            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label6.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(176, 23);
-            label6.Name = "label6";
-            label6.Size = new Size(120, 75);
-            label6.TabIndex = 5;
-            label6.Text = "Rotina corrida";
-            // 
             // pnlPraticidade
             // 
             pnlPraticidade.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlPraticidade.BackColor = Color.FromArgb(255, 244, 220);
             pnlPraticidade.Controls.Add(pctBPraticidade);
             pnlPraticidade.Controls.Add(label2);
-            pnlPraticidade.Location = new Point(308, 3);
+            pnlPraticidade.Location = new Point(460, 3);
             pnlPraticidade.Name = "pnlPraticidade";
-            pnlPraticidade.Size = new Size(299, 114);
+            pnlPraticidade.Size = new Size(452, 114);
             pnlPraticidade.TabIndex = 6;
             // 
             // pctBPraticidade
@@ -151,13 +113,14 @@
             pctBPraticidade.Size = new Size(32, 32);
             pctBPraticidade.TabIndex = 7;
             pctBPraticidade.TabStop = false;
+            pctBPraticidade.Click += pctBPraticidade_Click;
             // 
             // label2
             // 
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 72, 47);
-            label2.Location = new Point(132, 45);
+            label2.Location = new Point(285, 45);
             label2.Name = "label2";
             label2.Size = new Size(164, 43);
             label2.TabIndex = 5;
@@ -171,7 +134,7 @@
             pnlOrganizandoSemana.Controls.Add(label3);
             pnlOrganizandoSemana.Location = new Point(3, 3);
             pnlOrganizandoSemana.Name = "pnlOrganizandoSemana";
-            pnlOrganizandoSemana.Size = new Size(299, 114);
+            pnlOrganizandoSemana.Size = new Size(451, 114);
             pnlOrganizandoSemana.TabIndex = 2;
             // 
             // pctBOrganizandoSemana
@@ -189,7 +152,7 @@
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(15, 72, 47);
-            label3.Location = new Point(112, 23);
+            label3.Location = new Point(264, 23);
             label3.Name = "label3";
             label3.Size = new Size(184, 75);
             label3.TabIndex = 5;
@@ -207,8 +170,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
-            pnlRotinaCorrida.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pctBRotinaCorrida).EndInit();
             pnlPraticidade.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBPraticidade).EndInit();
             pnlOrganizandoSemana.ResumeLayout(false);
@@ -222,9 +183,6 @@
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private TableLayoutPanel tableLayoutPanel1;
-        private Panel pnlRotinaCorrida;
-        private PictureBox pctBRotinaCorrida;
-        private Label label6;
         private Panel pnlPraticidade;
         private PictureBox pctBPraticidade;
         private Label label2;

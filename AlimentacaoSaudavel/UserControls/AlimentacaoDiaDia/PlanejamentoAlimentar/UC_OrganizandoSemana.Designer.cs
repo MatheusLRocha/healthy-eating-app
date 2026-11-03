@@ -34,25 +34,25 @@
             txtTitulo = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlAlimentacaosDiaADia = new Panel();
+            label9 = new Label();
             pictureBox4 = new PictureBox();
             label7 = new Label();
             label8 = new Label();
             pnlEscolhendoMelhor = new Panel();
+            label10 = new Label();
             pictureBox3 = new PictureBox();
             label5 = new Label();
             label6 = new Label();
             pnlClasAlimentos = new Panel();
+            label11 = new Label();
             pictureBox2 = new PictureBox();
             label3 = new Label();
             label4 = new Label();
             pnlNutrientes = new Panel();
+            label12 = new Label();
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             pnlAlimentacaosDiaADia.SuspendLayout();
@@ -133,6 +133,17 @@
             pnlAlimentacaosDiaADia.Size = new Size(221, 334);
             pnlAlimentacaosDiaADia.TabIndex = 7;
             // 
+            // label9
+            // 
+            label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
+            label9.ForeColor = Color.FromArgb(102, 128, 120);
+            label9.Location = new Point(17, 231);
+            label9.Name = "label9";
+            label9.Size = new Size(200, 65);
+            label9.TabIndex = 6;
+            label9.Text = "Exemplos: frutas, ovos, legumes congelados, feijão já cozido e preparações simples.";
+            label9.Click += label9_Click;
+            // 
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
@@ -178,6 +189,16 @@
             pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
             pnlEscolhendoMelhor.Size = new Size(218, 334);
             pnlEscolhendoMelhor.TabIndex = 6;
+            // 
+            // label10
+            // 
+            label10.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
+            label10.ForeColor = Color.FromArgb(102, 128, 120);
+            label10.Location = new Point(15, 273);
+            label10.Name = "label10";
+            label10.Size = new Size(200, 57);
+            label10.TabIndex = 7;
+            label10.Text = "Dica: cozinhe alguns alimentos que possam ser aproveitados em diferentes refeições.";
             // 
             // pictureBox3
             // 
@@ -225,6 +246,16 @@
             pnlClasAlimentos.Size = new Size(218, 334);
             pnlClasAlimentos.TabIndex = 6;
             // 
+            // label11
+            // 
+            label11.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
+            label11.ForeColor = Color.FromArgb(102, 128, 120);
+            label11.Location = new Point(15, 256);
+            label11.Name = "label11";
+            label11.Size = new Size(200, 57);
+            label11.TabIndex = 8;
+            label11.Text = "Dica: considere alimentos da estação e opções que cabem no seu orçamento.";
+            // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
@@ -271,6 +302,16 @@
             pnlNutrientes.Size = new Size(218, 334);
             pnlNutrientes.TabIndex = 5;
             // 
+            // label12
+            // 
+            label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
+            label12.ForeColor = Color.FromArgb(102, 128, 120);
+            label12.Location = new Point(14, 273);
+            label12.Name = "label12";
+            label12.Size = new Size(200, 57);
+            label12.TabIndex = 9;
+            label12.Text = "Dica: confira a geladeira, o congelador e a despensa.";
+            // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
@@ -299,47 +340,6 @@
             label1.Size = new Size(168, 62);
             label1.TabIndex = 0;
             label1.Text = "Confira o que você já tem";
-            // 
-            // label9
-            // 
-            label9.Font = new Font("Segoe UI", 10F);
-            label9.ForeColor = Color.FromArgb(102, 128, 120);
-            label9.Location = new Point(17, 231);
-            label9.Name = "label9";
-            label9.Size = new Size(200, 65);
-            label9.TabIndex = 6;
-            label9.Text = "Exemplos: frutas, ovos, legumes congelados, feijão já cozido e preparações simples.";
-            label9.Click += label9_Click;
-            // 
-            // label10
-            // 
-            label10.Font = new Font("Segoe UI", 10F);
-            label10.ForeColor = Color.FromArgb(102, 128, 120);
-            label10.Location = new Point(15, 273);
-            label10.Name = "label10";
-            label10.Size = new Size(200, 57);
-            label10.TabIndex = 7;
-            label10.Text = "Dica: cozinhe alguns alimentos que possam ser aproveitados em diferentes refeições.";
-            // 
-            // label11
-            // 
-            label11.Font = new Font("Segoe UI", 10F);
-            label11.ForeColor = Color.FromArgb(102, 128, 120);
-            label11.Location = new Point(15, 256);
-            label11.Name = "label11";
-            label11.Size = new Size(200, 57);
-            label11.TabIndex = 8;
-            label11.Text = "Dica: considere alimentos da estação e opções que cabem no seu orçamento.";
-            // 
-            // label12
-            // 
-            label12.Font = new Font("Segoe UI", 10F);
-            label12.ForeColor = Color.FromArgb(102, 128, 120);
-            label12.Location = new Point(14, 273);
-            label12.Name = "label12";
-            label12.Size = new Size(200, 57);
-            label12.TabIndex = 9;
-            label12.Text = "Dica: confira a geladeira, o congelador e a despensa.";
             // 
             // UC_OrganizandoSemana
             // 
