@@ -50,6 +50,13 @@ namespace AlimentacaoSaudavel.UserControls.Base
         }
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public string SubTitulo1
+        {
+            get => lblSubtitulo1.Text;
+            set => lblSubtitulo1.Text = value;
+        }
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public string Descricao1
         {
             get => lblDescricao1.Text;
@@ -57,10 +64,24 @@ namespace AlimentacaoSaudavel.UserControls.Base
         }
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public string SubTitulo2
+        {
+            get => lblSubtitulo2.Text;
+            set => lblSubtitulo2.Text = value;
+        }
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public string Descricao2
         {
             get => lblDescricao2.Text;
             set => lblDescricao2.Text = value;
+        }
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public string SubTitulo3
+        {
+            get => lblSubtitulo3.Text;
+            set => lblSubtitulo3.Text = value;
         }
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]

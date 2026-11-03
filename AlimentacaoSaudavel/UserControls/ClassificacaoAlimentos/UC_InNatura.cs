@@ -9,17 +9,25 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos
 {
-    public partial class UC_InNatura : UC_InformacaoBase
+    public partial class UC_InNatura : UC_InformacaoBaseNovo
     {
         public UC_InNatura()
         {
             InitializeComponent();
 
-            Titulo = "In Natura";
+            TituloInicio = "In Natura";
 
-            Descricao = "Alimentos in natura são aqueles que não passaram por nenhum tipo de processamento industrial. São consumidos em seu estado natural, sem adição de ingredientes ou alterações significativas. Exemplos incluem frutas, verduras, legumes, grãos e carnes frescas. Esses alimentos são ricos em nutrientes essenciais e devem ser a base de uma alimentação saudável.";
+            DescricaoInicio = "São consumidos em seu estado natural, sem adição de ingredientes ou alterações significativas. Esses alimentos são ricos em nutrientes essenciais e devem ser a base de uma alimentação saudável.";
 
             ImagemGrupo.Image = Properties.Resources.InNatura;
+
+            Descricao1 = "Alimentos que não passaram por nenhum tipo de processamento industrial, obtidos diretamente de plantas ou animais";
+
+            SubTitulo2 = "Quais são suas características?";
+            Descricao2 = "Geralmente não recebem ingredientes como sal, açúcar ou óleos para modificar sua composição.";
+
+            SubTitulo3 = "Exemplos";
+            Descricao3 = "frutas, verduras, legumes, grãos e carnes frescas";
         }
     }
 }

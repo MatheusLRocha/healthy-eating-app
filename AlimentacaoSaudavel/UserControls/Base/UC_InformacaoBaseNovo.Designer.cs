@@ -81,7 +81,7 @@
             // 
             // lblDescricaoInicio
             // 
-            lblDescricaoInicio.Font = new Font("Segoe UI", 14F);
+            lblDescricaoInicio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
             lblDescricaoInicio.Location = new Point(34, 83);
             lblDescricaoInicio.Name = "lblDescricaoInicio";
@@ -137,9 +137,9 @@
             // 
             lblDescricao2.Font = new Font("Segoe UI", 10F);
             lblDescricao2.ForeColor = Color.FromArgb(102, 128, 120);
-            lblDescricao2.Location = new Point(16, 124);
+            lblDescricao2.Location = new Point(16, 150);
             lblDescricao2.Name = "lblDescricao2";
-            lblDescricao2.Size = new Size(287, 188);
+            lblDescricao2.Size = new Size(287, 162);
             lblDescricao2.TabIndex = 3;
             lblDescricao2.Text = "texto";
             // 
@@ -158,7 +158,7 @@
             lblSubtitulo2.ForeColor = Color.FromArgb(15, 72, 47);
             lblSubtitulo2.Location = new Point(16, 84);
             lblSubtitulo2.Name = "lblSubtitulo2";
-            lblSubtitulo2.Size = new Size(193, 40);
+            lblSubtitulo2.Size = new Size(287, 66);
             lblSubtitulo2.TabIndex = 0;
             lblSubtitulo2.Text = "Para que servem?";
             // 
@@ -191,9 +191,9 @@
             // 
             lblDescricao1.Font = new Font("Segoe UI", 10F);
             lblDescricao1.ForeColor = Color.FromArgb(102, 128, 120);
-            lblDescricao1.Location = new Point(16, 124);
+            lblDescricao1.Location = new Point(16, 150);
             lblDescricao1.Name = "lblDescricao1";
-            lblDescricao1.Size = new Size(287, 188);
+            lblDescricao1.Size = new Size(287, 162);
             lblDescricao1.TabIndex = 1;
             lblDescricao1.Text = "texto";
             // 
@@ -203,7 +203,7 @@
             lblSubtitulo1.ForeColor = Color.FromArgb(15, 72, 47);
             lblSubtitulo1.Location = new Point(16, 84);
             lblSubtitulo1.Name = "lblSubtitulo1";
-            lblSubtitulo1.Size = new Size(168, 40);
+            lblSubtitulo1.Size = new Size(287, 66);
             lblSubtitulo1.TabIndex = 0;
             lblSubtitulo1.Text = "O que são?";
             // 
@@ -227,9 +227,9 @@
             // 
             lblDescricao3.Font = new Font("Segoe UI", 10F);
             lblDescricao3.ForeColor = Color.FromArgb(102, 128, 120);
-            lblDescricao3.Location = new Point(18, 124);
+            lblDescricao3.Location = new Point(18, 150);
             lblDescricao3.Name = "lblDescricao3";
-            lblDescricao3.Size = new Size(287, 188);
+            lblDescricao3.Size = new Size(287, 162);
             lblDescricao3.TabIndex = 4;
             lblDescricao3.Text = "texto";
             // 
@@ -248,7 +248,7 @@
             lblSubtitulo3.ForeColor = Color.FromArgb(15, 72, 47);
             lblSubtitulo3.Location = new Point(17, 84);
             lblSubtitulo3.Name = "lblSubtitulo3";
-            lblSubtitulo3.Size = new Size(201, 40);
+            lblSubtitulo3.Size = new Size(288, 66);
             lblSubtitulo3.TabIndex = 0;
             lblSubtitulo3.Text = "Onde encontramos?";
             // 
