@@ -29,45 +29,45 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_InformacaoBaseNovo));
-            panel1 = new Panel();
+            pnlApresentacao = new Panel();
             picImagem = new PictureBox();
             lblDescricaoInicio = new Label();
             lblTituloInicio = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            pnlDica2 = new Panel();
+            pnlDescricao2 = new Panel();
             lblDescricao2 = new Label();
             pictureBox2 = new PictureBox();
             lblSubtitulo2 = new Label();
-            pnlDica1 = new Panel();
+            pnlDescricao1 = new Panel();
             pictureBox1 = new PictureBox();
             lblDescricao1 = new Label();
             lblSubtitulo1 = new Label();
-            pnlDica4 = new Panel();
+            pnlDescricao3 = new Panel();
             lblDescricao3 = new Label();
             pictureBox4 = new PictureBox();
             lblSubtitulo3 = new Label();
-            panel1.SuspendLayout();
+            pnlApresentacao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picImagem).BeginInit();
             tableLayoutPanel1.SuspendLayout();
-            pnlDica2.SuspendLayout();
+            pnlDescricao2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            pnlDica1.SuspendLayout();
+            pnlDescricao1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            pnlDica4.SuspendLayout();
+            pnlDescricao3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
-            // panel1
+            // pnlApresentacao
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(227, 238, 220);
-            panel1.Controls.Add(picImagem);
-            panel1.Controls.Add(lblDescricaoInicio);
-            panel1.Controls.Add(lblTituloInicio);
-            panel1.Location = new Point(45, 15);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(915, 314);
-            panel1.TabIndex = 10;
+            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(picImagem);
+            pnlApresentacao.Controls.Add(lblDescricaoInicio);
+            pnlApresentacao.Controls.Add(lblTituloInicio);
+            pnlApresentacao.Location = new Point(45, 15);
+            pnlApresentacao.Name = "pnlApresentacao";
+            pnlApresentacao.Size = new Size(915, 314);
+            pnlApresentacao.TabIndex = 10;
             // 
             // picImagem
             // 
@@ -107,9 +107,9 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Controls.Add(pnlDica2, 1, 0);
-            tableLayoutPanel1.Controls.Add(pnlDica1, 0, 0);
-            tableLayoutPanel1.Controls.Add(pnlDica4, 2, 0);
+            tableLayoutPanel1.Controls.Add(pnlDescricao2, 1, 0);
+            tableLayoutPanel1.Controls.Add(pnlDescricao1, 0, 0);
+            tableLayoutPanel1.Controls.Add(pnlDescricao3, 2, 0);
             tableLayoutPanel1.Location = new Point(3, 343);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
@@ -117,21 +117,21 @@
             tableLayoutPanel1.Size = new Size(999, 335);
             tableLayoutPanel1.TabIndex = 18;
             // 
-            // pnlDica2
+            // pnlDescricao2
             // 
-            pnlDica2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlDica2.BackColor = Color.FromArgb(255, 244, 220);
-            pnlDica2.Controls.Add(lblDescricao2);
-            pnlDica2.Controls.Add(pictureBox2);
-            pnlDica2.Controls.Add(lblSubtitulo2);
-            pnlDica2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlDica2.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlDica2.Location = new Point(338, 5);
-            pnlDica2.Margin = new Padding(5);
-            pnlDica2.MaximumSize = new Size(345, 420);
-            pnlDica2.Name = "pnlDica2";
-            pnlDica2.Size = new Size(323, 325);
-            pnlDica2.TabIndex = 6;
+            pnlDescricao2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDescricao2.BackColor = Color.FromArgb(255, 244, 220);
+            pnlDescricao2.Controls.Add(lblDescricao2);
+            pnlDescricao2.Controls.Add(pictureBox2);
+            pnlDescricao2.Controls.Add(lblSubtitulo2);
+            pnlDescricao2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDescricao2.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDescricao2.Location = new Point(338, 5);
+            pnlDescricao2.Margin = new Padding(5);
+            pnlDescricao2.MaximumSize = new Size(345, 420);
+            pnlDescricao2.Name = "pnlDescricao2";
+            pnlDescricao2.Size = new Size(323, 325);
+            pnlDescricao2.TabIndex = 6;
             // 
             // lblDescricao2
             // 
@@ -162,21 +162,21 @@
             lblSubtitulo2.TabIndex = 0;
             lblSubtitulo2.Text = "Para que servem?";
             // 
-            // pnlDica1
+            // pnlDescricao1
             // 
-            pnlDica1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlDica1.BackColor = Color.FromArgb(227, 238, 220);
-            pnlDica1.Controls.Add(pictureBox1);
-            pnlDica1.Controls.Add(lblDescricao1);
-            pnlDica1.Controls.Add(lblSubtitulo1);
-            pnlDica1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlDica1.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlDica1.Location = new Point(5, 5);
-            pnlDica1.Margin = new Padding(5);
-            pnlDica1.MaximumSize = new Size(345, 420);
-            pnlDica1.Name = "pnlDica1";
-            pnlDica1.Size = new Size(323, 325);
-            pnlDica1.TabIndex = 5;
+            pnlDescricao1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDescricao1.BackColor = Color.FromArgb(227, 238, 220);
+            pnlDescricao1.Controls.Add(pictureBox1);
+            pnlDescricao1.Controls.Add(lblDescricao1);
+            pnlDescricao1.Controls.Add(lblSubtitulo1);
+            pnlDescricao1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDescricao1.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDescricao1.Location = new Point(5, 5);
+            pnlDescricao1.Margin = new Padding(5);
+            pnlDescricao1.MaximumSize = new Size(345, 420);
+            pnlDescricao1.Name = "pnlDescricao1";
+            pnlDescricao1.Size = new Size(323, 325);
+            pnlDescricao1.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -207,21 +207,21 @@
             lblSubtitulo1.TabIndex = 0;
             lblSubtitulo1.Text = "O que são?";
             // 
-            // pnlDica4
+            // pnlDescricao3
             // 
-            pnlDica4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlDica4.BackColor = Color.FromArgb(240, 232, 247);
-            pnlDica4.Controls.Add(lblDescricao3);
-            pnlDica4.Controls.Add(pictureBox4);
-            pnlDica4.Controls.Add(lblSubtitulo3);
-            pnlDica4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            pnlDica4.ForeColor = Color.FromArgb(107, 143, 11);
-            pnlDica4.Location = new Point(671, 5);
-            pnlDica4.Margin = new Padding(5);
-            pnlDica4.MaximumSize = new Size(345, 420);
-            pnlDica4.Name = "pnlDica4";
-            pnlDica4.Size = new Size(323, 325);
-            pnlDica4.TabIndex = 7;
+            pnlDescricao3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDescricao3.BackColor = Color.FromArgb(240, 232, 247);
+            pnlDescricao3.Controls.Add(lblDescricao3);
+            pnlDescricao3.Controls.Add(pictureBox4);
+            pnlDescricao3.Controls.Add(lblSubtitulo3);
+            pnlDescricao3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pnlDescricao3.ForeColor = Color.FromArgb(107, 143, 11);
+            pnlDescricao3.Location = new Point(671, 5);
+            pnlDescricao3.Margin = new Padding(5);
+            pnlDescricao3.MaximumSize = new Size(345, 420);
+            pnlDescricao3.Name = "pnlDescricao3";
+            pnlDescricao3.Size = new Size(323, 325);
+            pnlDescricao3.TabIndex = 7;
             // 
             // lblDescricao3
             // 
@@ -257,37 +257,39 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(tableLayoutPanel1);
-            Controls.Add(panel1);
+            Controls.Add(pnlApresentacao);
             MinimumSize = new Size(1005, 681);
             Name = "UC_InformacaoBaseNovo";
             Size = new Size(1005, 681);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += UC_InformacaoBaseNovo_Load;
+            Resize += UC_InformacaoBaseNovo_Resize;
+            pnlApresentacao.ResumeLayout(false);
+            pnlApresentacao.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picImagem).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
-            pnlDica2.ResumeLayout(false);
+            pnlDescricao2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            pnlDica1.ResumeLayout(false);
+            pnlDescricao1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            pnlDica4.ResumeLayout(false);
+            pnlDescricao3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
+        private Panel pnlApresentacao;
         private Label lblDescricaoInicio;
         private Label lblTituloInicio;
         private TableLayoutPanel tableLayoutPanel1;
-        private Panel pnlDica2;
+        private Panel pnlDescricao2;
         private PictureBox pictureBox2;
         private Label lblSubtitulo2;
-        private Panel pnlDica1;
+        private Panel pnlDescricao1;
         private PictureBox pictureBox1;
         private Label lblDescricao1;
         private Label lblSubtitulo1;
-        private Panel pnlDica4;
+        private Panel pnlDescricao3;
         private PictureBox pictureBox4;
         private Label lblSubtitulo3;
         private Label lblDescricao2;

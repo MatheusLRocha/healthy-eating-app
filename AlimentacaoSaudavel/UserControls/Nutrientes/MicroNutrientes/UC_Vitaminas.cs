@@ -9,17 +9,23 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls.MicroNutrientes
 {
-    public partial class UC_Vitaminas : UC_InformacaoBase
+    public partial class UC_Vitaminas : UC_InformacaoBaseNovo
     {
         public UC_Vitaminas()
         {
             InitializeComponent();
 
-            Titulo = "Vitaminas";
+            TituloInicio = "Vitaminas";
 
-            Descricao = "Compostos orgânicos que atuam como facilitadores de reações químicas. Por exemplo, a Vitamina C ajuda na imunidade e na absorção de ferro; a Vitamina D atua na saúde dos ossos. Participam de diversas reações e funções do organismo. Frutas, verduras e legumes fornecem diferentes vitaminas; por exemplo, frutas cítricas são fontes de vitamina C e cenoura contém betacaroteno, que pode ser convertido em vitamina A.";
+            DescricaoInicio = "Compostos orgânicos que atuam como facilitadores de reações químicas. Por exemplo, a Vitamina C ajuda na imunidade e na absorção de ferro; a Vitamina D atua na saúde dos ossos. Participam de diversas reações e funções do organismo. Frutas, verduras e legumes fornecem diferentes vitaminas; por exemplo, frutas cítricas são fontes de vitamina C e cenoura contém betacaroteno, que pode ser convertido em vitamina A.";
 
             ImagemGrupo.Image = Properties.Resources.Vitaminas;
+
+            Descricao1 = "São nutrientes que participam de diversas reações e processos do organismo.";
+
+            Descricao2 = "Contribuem para funções como imunidade, saúde dos ossos e funcionamento do organismo.";
+
+            Descricao3 = "Frutas, verduras e legumes. Frutas cítricas fornecem vitamina C e a cenoura contém betacaroteno.";
         }
     }
 }

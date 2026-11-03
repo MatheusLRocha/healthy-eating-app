@@ -15,6 +15,24 @@ namespace AlimentacaoSaudavel.UserControls.Base
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
+        private void UC_InformacaoBaseNovo_Load(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlDescricao1, 20);
+            panelRound.ArredondarCantos(pnlDescricao2, 20);
+            panelRound.ArredondarCantos(pnlDescricao3, 20);
+        }
+
+        private void UC_InformacaoBaseNovo_Resize(object sender, EventArgs e)
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlDescricao1, 20);
+            panelRound.ArredondarCantos(pnlDescricao2, 20);
+            panelRound.ArredondarCantos(pnlDescricao3, 20);
+        }
+
         protected PictureBox ImagemGrupo => picImagem;
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
