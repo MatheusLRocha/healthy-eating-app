@@ -16,6 +16,9 @@
     <Compile Update="UserControls\AlimentacaoDiaDia\PlanejamentoAlimentar\UC_PlanejamentoAlimentar.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\AlimentacaoDiaDia\PlanejamentoAlimentar\UC_Praticidade.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\AlimentacaoDiaDia\RefeicoesDia\UC_RefeicoesDia.cs">
       <SubType>UserControl</SubType>
     </Compile>
