@@ -17,7 +17,7 @@ namespace AlimentacaoSaudavel.UserControls.Base
 
         PanelRound panelRound = new PanelRound();
 
-        private void UC_InformacaoBaseNovo_Load(object sender, EventArgs e)
+        private void AlterarBordas()
         {
             panelRound.ArredondarCantos(pnlApresentacao, 20);
             panelRound.ArredondarCantos(pnlDescricao1, 20);
@@ -25,11 +25,16 @@ namespace AlimentacaoSaudavel.UserControls.Base
             panelRound.ArredondarCantos(pnlDescricao3, 20);
         }
 
+        private void UC_InformacaoBaseNovo_Load(object sender, EventArgs e)
+        {
+            AlterarBordas();
+        }
+
         private static float CalcularTamanhoFonte(float proporcao)
         {
             float tamanhoOriginal = 10f * proporcao;
             float tamanhoMinimo = 12f;
-            float tamanhoMaximo = 20f;
+            float tamanhoMaximo = 18f;
 
             float tamanhoFonte = Math.Clamp(
                 tamanhoOriginal,
@@ -40,18 +45,21 @@ namespace AlimentacaoSaudavel.UserControls.Base
             return tamanhoFonte;
         }
 
-        private void UC_InformacaoBaseNovo_Resize(object sender, EventArgs e)
+        private void AlterarTamanhoFonte(float proporcao)
         {
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-            panelRound.ArredondarCantos(pnlDescricao1, 20);
-            panelRound.ArredondarCantos(pnlDescricao2, 20);
-            panelRound.ArredondarCantos(pnlDescricao3, 20);
-
-            float proporcao = this.Width / 1000f;
-
             lblDescricao1.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
             lblDescricao2.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
             lblDescricao3.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            lblDescricaoInicio.Font = new Font(lblDescricaoInicio.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+        }
+
+        private void UC_InformacaoBaseNovo_Resize(object sender, EventArgs e)
+        {
+            AlterarBordas();
+
+            float proporcao = this.Width / 1000f;
+
+            AlterarTamanhoFonte(proporcao);
         }
 
         protected PictureBox ImagemGrupo => picImagem;
