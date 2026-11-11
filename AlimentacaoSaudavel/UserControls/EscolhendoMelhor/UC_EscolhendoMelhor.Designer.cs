@@ -132,6 +132,7 @@
             pctBSubstituicoes.Size = new Size(32, 32);
             pctBSubstituicoes.TabIndex = 8;
             pctBSubstituicoes.TabStop = false;
+            pctBSubstituicoes.Click += pctBSubstituicoes_Click;
             // 
             // label6
             // 

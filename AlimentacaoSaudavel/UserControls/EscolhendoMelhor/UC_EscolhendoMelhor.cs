@@ -38,5 +38,11 @@ namespace AlimentacaoSaudavel.UserControls.EscolhendoMelhor
             panelRound.ArredondarCantos(pnlComparandoAlimentos, 20);
             panelRound.ArredondarCantos(pnlSubstituicoes, 20);
         }
+
+        private void pctBSubstituicoes_Click(object sender, EventArgs e)
+        {
+            Main main = (Main)this.FindForm();
+            main.addUserControl(new UC_SubstituicoesPraticas());
+        }
     }
 }
