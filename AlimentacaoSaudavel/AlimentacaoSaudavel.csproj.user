@@ -25,9 +25,6 @@
     <Compile Update="UserControls\AlimentacaoDiaDia\UC_AlimentacaoDiaDia.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControls\Base\UC_InformacaoBase.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="UserControls\Base\UC_InformacaoBaseNovo.cs">
       <SubType>UserControl</SubType>
     </Compile>
