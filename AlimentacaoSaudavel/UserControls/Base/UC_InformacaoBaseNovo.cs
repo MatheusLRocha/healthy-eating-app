@@ -27,13 +27,13 @@ namespace AlimentacaoSaudavel.UserControls.Base
 
         private static float CalcularTamanhoFonte(float proporcao)
         {
-            float tamanhoMinimo = 10f * proporcao;
-            float tamanhoIdeal = 12f;
+            float tamanhoOriginal = 10f * proporcao;
+            float tamanhoMinimo = 12f;
             float tamanhoMaximo = 20f;
 
             float tamanhoFonte = Math.Clamp(
+                tamanhoOriginal,
                 tamanhoMinimo,
-                tamanhoIdeal,
                 tamanhoMaximo
             );
 
