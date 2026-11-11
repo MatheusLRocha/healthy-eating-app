@@ -53,6 +53,8 @@
             pictureBox4 = new PictureBox();
             lblSubtitulo3 = new Label();
             tableLayoutPanel2 = new TableLayoutPanel();
+            panel7 = new Panel();
+            panel8 = new Panel();
             pnlApresentacao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picImagem).BeginInit();
             tableLayoutPanel1.SuspendLayout();
@@ -69,15 +71,16 @@
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             tableLayoutPanel2.SuspendLayout();
+            panel7.SuspendLayout();
+            panel8.SuspendLayout();
             SuspendLayout();
             // 
             // pnlApresentacao
             // 
             pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
-            pnlApresentacao.Controls.Add(picImagem);
-            pnlApresentacao.Controls.Add(lblDescricaoInicio);
-            pnlApresentacao.Controls.Add(lblTituloInicio);
+            pnlApresentacao.Controls.Add(panel8);
+            pnlApresentacao.Controls.Add(panel7);
             pnlApresentacao.Location = new Point(8, 8);
             pnlApresentacao.Margin = new Padding(8);
             pnlApresentacao.Name = "pnlApresentacao";
@@ -87,7 +90,7 @@
             // picImagem
             // 
             picImagem.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            picImagem.Location = new Point(557, 38);
+            picImagem.Location = new Point(45, 38);
             picImagem.Name = "picImagem";
             picImagem.Size = new Size(400, 248);
             picImagem.SizeMode = PictureBoxSizeMode.Zoom;
@@ -96,9 +99,10 @@
             // 
             // lblDescricaoInicio
             // 
+            lblDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblDescricaoInicio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
-            lblDescricaoInicio.Location = new Point(34, 83);
+            lblDescricaoInicio.Location = new Point(28, 83);
             lblDescricaoInicio.Name = "lblDescricaoInicio";
             lblDescricaoInicio.Size = new Size(422, 203);
             lblDescricaoInicio.TabIndex = 5;
@@ -109,7 +113,7 @@
             lblTituloInicio.AutoSize = true;
             lblTituloInicio.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             lblTituloInicio.ForeColor = Color.FromArgb(15, 72, 47);
-            lblTituloInicio.Location = new Point(34, 38);
+            lblTituloInicio.Location = new Point(18, 34);
             lblTituloInicio.Name = "lblTituloInicio";
             lblTituloInicio.Size = new Size(108, 45);
             lblTituloInicio.TabIndex = 4;
@@ -339,6 +343,25 @@
             tableLayoutPanel2.Size = new Size(1005, 681);
             tableLayoutPanel2.TabIndex = 19;
             // 
+            // panel7
+            // 
+            panel7.Controls.Add(picImagem);
+            panel7.Dock = DockStyle.Right;
+            panel7.Location = new Point(522, 0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(467, 314);
+            panel7.TabIndex = 8;
+            // 
+            // panel8
+            // 
+            panel8.Controls.Add(lblTituloInicio);
+            panel8.Controls.Add(lblDescricaoInicio);
+            panel8.Dock = DockStyle.Fill;
+            panel8.Location = new Point(0, 0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(522, 314);
+            panel8.TabIndex = 9;
+            // 
             // UC_InformacaoBaseNovo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -350,7 +373,6 @@
             Load += UC_InformacaoBaseNovo_Load;
             Resize += UC_InformacaoBaseNovo_Resize;
             pnlApresentacao.ResumeLayout(false);
-            pnlApresentacao.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picImagem).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             pnlDescricao2.ResumeLayout(false);
@@ -366,6 +388,9 @@
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             tableLayoutPanel2.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -395,5 +420,7 @@
         private Panel panel4;
         private Panel panel6;
         private Panel panel3;
+        private Panel panel8;
+        private Panel panel7;
     }
 }

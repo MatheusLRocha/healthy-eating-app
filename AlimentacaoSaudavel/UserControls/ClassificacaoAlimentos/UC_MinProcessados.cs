@@ -27,7 +27,7 @@ namespace AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos
             Descricao2 = "Geralmente não recebem ingredientes como sal, açúcar ou óleos para modificar sua composição.";
 
             SubTitulo3 = "Exemplos";
-            Descricao3 = "frutas e vegetais frescos embalados, leite pasteurizado e arroz integral";
+            Descricao3 = "frutas e vegetais frescos embalados, leite pasteurizado e arroz integral.";
         }
     }
 }

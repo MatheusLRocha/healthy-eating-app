@@ -21,13 +21,13 @@ namespace AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos
 
             ImagemGrupo.Image = Properties.Resources.InNatura;
 
-            Descricao1 = "Alimentos que não passaram por nenhum tipo de processamento industrial, obtidos diretamente de plantas ou animais";
+            Descricao1 = "Alimentos que não passaram por nenhum tipo de processamento industrial, obtidos diretamente de plantas ou animais.";
 
             SubTitulo2 = "Quais são suas características?";
             Descricao2 = "Geralmente não recebem ingredientes como sal, açúcar ou óleos para modificar sua composição.";
 
             SubTitulo3 = "Exemplos";
-            Descricao3 = "frutas, verduras, legumes, grãos e carnes frescas";
+            Descricao3 = "frutas, verduras, legumes, grãos e carnes frescas.";
         }
     }
 }
