@@ -46,7 +46,7 @@
             // 
             // lblSessao
             // 
-            lblSessao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lblSessao.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblSessao.BackColor = Color.FromArgb(227, 238, 220);
             lblSessao.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSessao.ForeColor = Color.FromArgb(15, 72, 47);
