@@ -28,6 +28,9 @@
     <Compile Update="UserControls\Base\UC_InformacaoBaseNovo.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\Base\UC_IntroducaoSessoes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\ClassificacaoAlimentos\UC_InNatura.cs">
       <SubType>UserControl</SubType>
     </Compile>
