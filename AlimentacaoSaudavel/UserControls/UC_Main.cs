@@ -44,6 +44,8 @@ namespace AlimentacaoSaudavel.UserControls
             lblDescricao2.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
             lblDescricao3.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
             lblDescricao4.Font = new Font(lblDescricao4.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+
+            txtDescricaoInicio.Font = new Font(txtDescricaoInicio.Font.FontFamily, CalcularTamanhoFonte(proporcao));
         }
 
         private void pctBNutrientes_Click(object sender, EventArgs e)
