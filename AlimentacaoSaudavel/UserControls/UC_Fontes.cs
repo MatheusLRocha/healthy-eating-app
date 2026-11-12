@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlimentacaoSaudavel.UserControls.Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls
 {
-    public partial class UC_Fontes : UserControl
+    public partial class UC_Fontes : UC_IntroducaoSessoes
     {
         public UC_Fontes()
         {

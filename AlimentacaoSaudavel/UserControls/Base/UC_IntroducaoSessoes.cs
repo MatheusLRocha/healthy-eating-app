@@ -20,6 +20,8 @@ namespace AlimentacaoSaudavel.UserControls.Base
         public void ConfigurarSessoes(List<string> sessoes)
         {
             tlpSessoes.Controls.Clear();
+            tlpSessoes.ColumnStyles.Clear();
+
             tlpSessoes.ColumnCount = sessoes.Count;
 
             for (int i = 0; i < sessoes.Count; i++)
