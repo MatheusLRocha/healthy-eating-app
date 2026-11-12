@@ -83,7 +83,6 @@
             pnlClasAlimentos.ForeColor = Color.FromArgb(107, 143, 11);
             pnlClasAlimentos.Location = new Point(254, 5);
             pnlClasAlimentos.Margin = new Padding(5);
-            pnlClasAlimentos.MaximumSize = new Size(345, 420);
             pnlClasAlimentos.Name = "pnlClasAlimentos";
             pnlClasAlimentos.Size = new Size(239, 325);
             pnlClasAlimentos.TabIndex = 6;
@@ -141,7 +140,6 @@
             pnlNutrientes.ForeColor = Color.FromArgb(107, 143, 11);
             pnlNutrientes.Location = new Point(5, 5);
             pnlNutrientes.Margin = new Padding(5);
-            pnlNutrientes.MaximumSize = new Size(345, 420);
             pnlNutrientes.Name = "pnlNutrientes";
             pnlNutrientes.Size = new Size(239, 325);
             pnlNutrientes.TabIndex = 5;
@@ -190,7 +188,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 4;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -219,7 +217,6 @@
             pnlAlimentacaosDiaADia.ForeColor = Color.FromArgb(107, 143, 11);
             pnlAlimentacaosDiaADia.Location = new Point(752, 5);
             pnlAlimentacaosDiaADia.Margin = new Padding(5);
-            pnlAlimentacaosDiaADia.MaximumSize = new Size(345, 420);
             pnlAlimentacaosDiaADia.Name = "pnlAlimentacaosDiaADia";
             pnlAlimentacaosDiaADia.Size = new Size(242, 325);
             pnlAlimentacaosDiaADia.TabIndex = 7;
@@ -277,7 +274,6 @@
             pnlEscolhendoMelhor.ForeColor = Color.FromArgb(107, 143, 11);
             pnlEscolhendoMelhor.Location = new Point(503, 5);
             pnlEscolhendoMelhor.Margin = new Padding(5);
-            pnlEscolhendoMelhor.MaximumSize = new Size(345, 420);
             pnlEscolhendoMelhor.Name = "pnlEscolhendoMelhor";
             pnlEscolhendoMelhor.Size = new Size(239, 325);
             pnlEscolhendoMelhor.TabIndex = 6;
