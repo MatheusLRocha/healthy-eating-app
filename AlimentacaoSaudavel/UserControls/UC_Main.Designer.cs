@@ -339,11 +339,12 @@
             // 
             // txtDescricaoInicio
             // 
+            txtDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
             txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
             txtDescricaoInicio.Location = new Point(34, 146);
             txtDescricaoInicio.Name = "txtDescricaoInicio";
-            txtDescricaoInicio.Size = new Size(558, 85);
+            txtDescricaoInicio.Size = new Size(558, 139);
             txtDescricaoInicio.TabIndex = 5;
             txtDescricaoInicio.Text = "Explore conteúdos práticos sobre nutrientes, classificação dos alimentos e muito mais. Aprenda a fazer escolhas melhores para o seu dia a dia.";
             // 
