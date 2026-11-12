@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Text;
 using System.Windows.Forms;
 
@@ -21,6 +22,29 @@ namespace AlimentacaoSaudavel.UserControls
         }
 
         PanelRound panelRound = new PanelRound();
+
+        private static float CalcularTamanhoFonte(float proporcao)
+        {
+            float tamanhoOriginal = 10f * proporcao;
+            float tamanhoMinimo = 12f;
+            float tamanhoMaximo = 14f;
+
+            float tamanhoFonte = Math.Clamp(
+                tamanhoOriginal,
+                tamanhoMinimo,
+                tamanhoMaximo
+            );
+
+            return tamanhoFonte;
+        }
+
+        private void AlterarTamanhoFonte(float proporcao)
+        {
+            lblDescricao1.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            lblDescricao2.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            lblDescricao3.Font = new Font(lblDescricao1.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            lblDescricao4.Font = new Font(lblDescricao4.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+        }
 
         private void pctBNutrientes_Click(object sender, EventArgs e)
         {
@@ -78,6 +102,13 @@ namespace AlimentacaoSaudavel.UserControls
             panelRound.ArredondarCantos(pnlEscolhendoMelhor, 20);
             panelRound.ArredondarCantos(pnlAlimentacaosDiaADia, 20);
             panelRound.ArredondarCantos(pnlApresentacao, 20);
+        }
+
+        private void UC_Main_Resize(object sender, EventArgs e)
+        {
+            float proporcao = this.Width / 1000f;
+
+            AlterarTamanhoFonte(proporcao);
         }
     }
 }

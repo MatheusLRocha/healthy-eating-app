@@ -30,9 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_InformacaoBaseNovo));
             pnlApresentacao = new Panel();
-            picImagem = new PictureBox();
-            lblDescricaoInicio = new Label();
+            panel8 = new Panel();
             lblTituloInicio = new Label();
+            lblDescricaoInicio = new Label();
+            panel7 = new Panel();
+            picImagem = new PictureBox();
             tableLayoutPanel1 = new TableLayoutPanel();
             pnlDescricao2 = new Panel();
             panel5 = new Panel();
@@ -53,9 +55,9 @@
             pictureBox4 = new PictureBox();
             lblSubtitulo3 = new Label();
             tableLayoutPanel2 = new TableLayoutPanel();
-            panel7 = new Panel();
-            panel8 = new Panel();
             pnlApresentacao.SuspendLayout();
+            panel8.SuspendLayout();
+            panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picImagem).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             pnlDescricao2.SuspendLayout();
@@ -71,8 +73,6 @@
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             tableLayoutPanel2.SuspendLayout();
-            panel7.SuspendLayout();
-            panel8.SuspendLayout();
             SuspendLayout();
             // 
             // pnlApresentacao
@@ -87,26 +87,15 @@
             pnlApresentacao.Size = new Size(989, 314);
             pnlApresentacao.TabIndex = 10;
             // 
-            // picImagem
+            // panel8
             // 
-            picImagem.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            picImagem.Location = new Point(45, 38);
-            picImagem.Name = "picImagem";
-            picImagem.Size = new Size(400, 248);
-            picImagem.SizeMode = PictureBoxSizeMode.Zoom;
-            picImagem.TabIndex = 7;
-            picImagem.TabStop = false;
-            // 
-            // lblDescricaoInicio
-            // 
-            lblDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            lblDescricaoInicio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
-            lblDescricaoInicio.Location = new Point(28, 83);
-            lblDescricaoInicio.Name = "lblDescricaoInicio";
-            lblDescricaoInicio.Size = new Size(422, 203);
-            lblDescricaoInicio.TabIndex = 5;
-            lblDescricaoInicio.Text = "Resumo rápido";
+            panel8.Controls.Add(lblTituloInicio);
+            panel8.Controls.Add(lblDescricaoInicio);
+            panel8.Dock = DockStyle.Fill;
+            panel8.Location = new Point(0, 0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(522, 314);
+            panel8.TabIndex = 9;
             // 
             // lblTituloInicio
             // 
@@ -119,9 +108,39 @@
             lblTituloInicio.TabIndex = 4;
             lblTituloInicio.Text = "Titulo";
             // 
+            // lblDescricaoInicio
+            // 
+            lblDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lblDescricaoInicio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
+            lblDescricaoInicio.Location = new Point(28, 83);
+            lblDescricaoInicio.Name = "lblDescricaoInicio";
+            lblDescricaoInicio.Size = new Size(422, 203);
+            lblDescricaoInicio.TabIndex = 5;
+            lblDescricaoInicio.Text = "Resumo rápido";
+            // 
+            // panel7
+            // 
+            panel7.Controls.Add(picImagem);
+            panel7.Dock = DockStyle.Right;
+            panel7.Location = new Point(522, 0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(467, 314);
+            panel7.TabIndex = 8;
+            // 
+            // picImagem
+            // 
+            picImagem.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            picImagem.Location = new Point(45, 38);
+            picImagem.Name = "picImagem";
+            picImagem.Size = new Size(400, 248);
+            picImagem.SizeMode = PictureBoxSizeMode.Zoom;
+            picImagem.TabIndex = 7;
+            picImagem.TabStop = false;
+            // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -343,25 +362,6 @@
             tableLayoutPanel2.Size = new Size(1005, 681);
             tableLayoutPanel2.TabIndex = 19;
             // 
-            // panel7
-            // 
-            panel7.Controls.Add(picImagem);
-            panel7.Dock = DockStyle.Right;
-            panel7.Location = new Point(522, 0);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(467, 314);
-            panel7.TabIndex = 8;
-            // 
-            // panel8
-            // 
-            panel8.Controls.Add(lblTituloInicio);
-            panel8.Controls.Add(lblDescricaoInicio);
-            panel8.Dock = DockStyle.Fill;
-            panel8.Location = new Point(0, 0);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(522, 314);
-            panel8.TabIndex = 9;
-            // 
             // UC_InformacaoBaseNovo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -373,6 +373,9 @@
             Load += UC_InformacaoBaseNovo_Load;
             Resize += UC_InformacaoBaseNovo_Resize;
             pnlApresentacao.ResumeLayout(false);
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
+            panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)picImagem).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             pnlDescricao2.ResumeLayout(false);
@@ -388,9 +391,6 @@
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             tableLayoutPanel2.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            panel8.ResumeLayout(false);
-            panel8.PerformLayout();
             ResumeLayout(false);
         }
 
