@@ -43,6 +43,9 @@
     <Compile Update="UserControls\ClassificacaoAlimentos\UC_UltraProcessados.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\EscolhendoMelhor\UC_ComparandoAlimentos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\EscolhendoMelhor\UC_EscolhendoMelhor.cs">
       <SubType>UserControl</SubType>
     </Compile>
