@@ -11,6 +11,8 @@ namespace AlimentacaoSaudavel.UserControls.Base
 {
     public partial class UC_Sessao : UserControl
     {
+        
+
         public UC_Sessao()
         {
             InitializeComponent();
@@ -21,6 +23,13 @@ namespace AlimentacaoSaudavel.UserControls.Base
         {
             get => lblSessao.Text;
             set => lblSessao.Text = value;
+        }
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public Type? TelaResponsavel
+        {
+            get;
+            set;
         }
 
         public event EventHandler? SessaoClicada;

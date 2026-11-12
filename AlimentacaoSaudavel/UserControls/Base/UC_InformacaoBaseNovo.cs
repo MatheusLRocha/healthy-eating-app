@@ -34,7 +34,7 @@ namespace AlimentacaoSaudavel.UserControls.Base
         {
             float tamanhoOriginal = 10f * proporcao;
             float tamanhoMinimo = 12f;
-            float tamanhoMaximo = 18f;
+            float tamanhoMaximo = 14f;
 
             float tamanhoFonte = Math.Clamp(
                 tamanhoOriginal,
