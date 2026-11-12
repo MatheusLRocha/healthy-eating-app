@@ -164,6 +164,7 @@
             pctBComparandoAlimentos.Size = new Size(32, 32);
             pctBComparandoAlimentos.TabIndex = 7;
             pctBComparandoAlimentos.TabStop = false;
+            pctBComparandoAlimentos.Click += pctBComparandoAlimentos_Click;
             // 
             // label2
             // 
