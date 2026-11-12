@@ -31,6 +31,9 @@
     <Compile Update="UserControls\Base\UC_IntroducaoSessoes.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\Base\UC_Sessao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\ClassificacaoAlimentos\UC_InNatura.cs">
       <SubType>UserControl</SubType>
     </Compile>
