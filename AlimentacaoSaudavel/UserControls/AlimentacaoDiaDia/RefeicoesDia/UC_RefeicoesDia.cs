@@ -17,6 +17,36 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.RotinaCorrida
 
         PanelRound panelRound = new PanelRound();
 
+        private static float CalcularTamanhoFonte(float proporcao)
+        {
+            float tamanhoOriginal = 10f * proporcao;
+            float tamanhoMinimo = 12f;
+            float tamanhoMaximo = 14f;
+
+            float tamanhoFonte = Math.Clamp(
+                tamanhoOriginal,
+                tamanhoMinimo,
+                tamanhoMaximo
+            );
+
+            return tamanhoFonte;
+        }
+
+        private void AlterarTamanhoFonte(float proporcao)
+        {
+            label2.Font = new Font(label2.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label3.Font = new Font(label3.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label5.Font = new Font(label5.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label7.Font = new Font(label7.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label9.Font = new Font(label9.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label10.Font = new Font(label10.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label11.Font = new Font(label11.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label12.Font = new Font(label12.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+            label14.Font = new Font(label14.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+
+            txtDescricaoInicio.Font = new Font(txtDescricaoInicio.Font.FontFamily, CalcularTamanhoFonte(proporcao));
+        }
+
         private void UC_RefeicoesDia_Load(object sender, EventArgs e)
         {
             panelRound.ArredondarCantos(pnlApresentacao, 20);
@@ -35,6 +65,11 @@ namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.RotinaCorrida
             panelRound.ArredondarCantos(pnlJanta, 20);
             panelRound.ArredondarCantos(pnlLanches, 20);
             panelRound.ArredondarCantos(pnlDica, 20);
+
+            float proporcao = this.Width / 1000f;
+
+            AlterarTamanhoFonte(proporcao);
         }
+
     }
 }

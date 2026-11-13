@@ -81,16 +81,17 @@
             pnlApresentacao.Controls.Add(txtTitulo);
             pnlApresentacao.Location = new Point(40, 17);
             pnlApresentacao.Name = "pnlApresentacao";
-            pnlApresentacao.Size = new Size(613, 314);
+            pnlApresentacao.Size = new Size(565, 314);
             pnlApresentacao.TabIndex = 17;
             // 
             // txtDescricaoInicio
             // 
+            txtDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
             txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
-            txtDescricaoInicio.Location = new Point(34, 146);
+            txtDescricaoInicio.Location = new Point(34, 86);
             txtDescricaoInicio.Name = "txtDescricaoInicio";
-            txtDescricaoInicio.Size = new Size(522, 127);
+            txtDescricaoInicio.Size = new Size(474, 213);
             txtDescricaoInicio.TabIndex = 5;
             txtDescricaoInicio.Text = resources.GetString("txtDescricaoInicio.Text");
             // 
@@ -107,7 +108,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 4;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -136,16 +137,16 @@
             pnlDica4.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica4.Location = new Point(752, 5);
             pnlDica4.Margin = new Padding(5);
-            pnlDica4.MaximumSize = new Size(345, 420);
             pnlDica4.Name = "pnlDica4";
             pnlDica4.Size = new Size(242, 325);
             pnlDica4.TabIndex = 7;
             // 
             // label12
             // 
+            label12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label12.ForeColor = Color.FromArgb(102, 128, 120);
-            label12.Location = new Point(17, 255);
+            label12.Location = new Point(17, 242);
             label12.Name = "label12";
             label12.Size = new Size(199, 72);
             label12.TabIndex = 6;
@@ -153,6 +154,7 @@
             // 
             // label11
             // 
+            label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label11.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.FromArgb(102, 128, 120);
             label11.Location = new Point(18, 148);
@@ -192,16 +194,16 @@
             pnlDica3.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica3.Location = new Point(503, 5);
             pnlDica3.Margin = new Padding(5);
-            pnlDica3.MaximumSize = new Size(345, 420);
             pnlDica3.Name = "pnlDica3";
             pnlDica3.Size = new Size(239, 325);
             pnlDica3.TabIndex = 6;
             // 
             // label10
             // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label10.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label10.ForeColor = Color.FromArgb(102, 128, 120);
-            label10.Location = new Point(16, 255);
+            label10.Location = new Point(16, 242);
             label10.Name = "label10";
             label10.Size = new Size(199, 72);
             label10.TabIndex = 5;
@@ -209,6 +211,7 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.FromArgb(102, 128, 120);
             label7.Location = new Point(16, 148);
@@ -248,16 +251,16 @@
             pnlDica2.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica2.Location = new Point(254, 5);
             pnlDica2.Margin = new Padding(5);
-            pnlDica2.MaximumSize = new Size(345, 420);
             pnlDica2.Name = "pnlDica2";
             pnlDica2.Size = new Size(239, 325);
             pnlDica2.TabIndex = 6;
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label5.ForeColor = Color.FromArgb(102, 128, 120);
-            label5.Location = new Point(16, 255);
+            label5.Location = new Point(16, 242);
             label5.Name = "label5";
             label5.Size = new Size(199, 72);
             label5.TabIndex = 4;
@@ -265,6 +268,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(102, 128, 120);
             label3.Location = new Point(16, 169);
@@ -304,16 +308,16 @@
             pnlDica1.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica1.Location = new Point(5, 5);
             pnlDica1.Margin = new Padding(5);
-            pnlDica1.MaximumSize = new Size(345, 420);
             pnlDica1.Name = "pnlDica1";
             pnlDica1.Size = new Size(239, 325);
             pnlDica1.TabIndex = 5;
             // 
             // label9
             // 
+            label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.FromArgb(102, 128, 120);
-            label9.Location = new Point(16, 255);
+            label9.Location = new Point(16, 242);
             label9.Name = "label9";
             label9.Size = new Size(199, 72);
             label9.TabIndex = 3;
@@ -330,6 +334,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(102, 128, 120);
             label2.Location = new Point(15, 148);
@@ -358,13 +363,14 @@
             pnlDicasRapidas.Controls.Add(label16);
             pnlDicasRapidas.Controls.Add(label14);
             pnlDicasRapidas.Controls.Add(label13);
-            pnlDicasRapidas.Location = new Point(659, 17);
+            pnlDicasRapidas.Location = new Point(611, 17);
             pnlDicasRapidas.Name = "pnlDicasRapidas";
-            pnlDicasRapidas.Size = new Size(300, 314);
+            pnlDicasRapidas.Size = new Size(348, 314);
             pnlDicasRapidas.TabIndex = 18;
             // 
             // label17
             // 
+            label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label17.ForeColor = Color.FromArgb(102, 128, 120);
             label17.Location = new Point(10, 229);
@@ -386,6 +392,7 @@
             // 
             // label15
             // 
+            label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label15.ForeColor = Color.FromArgb(102, 128, 120);
             label15.Location = new Point(9, 122);
@@ -407,6 +414,7 @@
             // 
             // label14
             // 
+            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label14.ForeColor = Color.FromArgb(102, 128, 120);
             label14.Location = new Point(9, 47);

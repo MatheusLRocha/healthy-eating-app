@@ -55,6 +55,7 @@
             pnlDica = new Panel();
             label12 = new Label();
             label13 = new Label();
+            label14 = new Label();
             pnlApresentacao.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             pnlLanches.SuspendLayout();
@@ -102,7 +103,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 4;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -131,16 +132,16 @@
             pnlLanches.ForeColor = Color.FromArgb(107, 143, 11);
             pnlLanches.Location = new Point(689, 5);
             pnlLanches.Margin = new Padding(5);
-            pnlLanches.MaximumSize = new Size(345, 420);
             pnlLanches.Name = "pnlLanches";
             pnlLanches.Size = new Size(221, 317);
             pnlLanches.TabIndex = 7;
             // 
             // label11
             // 
+            label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label11.Font = new Font("Segoe UI", 12F);
             label11.ForeColor = Color.FromArgb(102, 128, 120);
-            label11.Location = new Point(18, 205);
+            label11.Location = new Point(18, 201);
             label11.Name = "label11";
             label11.Size = new Size(196, 107);
             label11.TabIndex = 6;
@@ -157,9 +158,10 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label7.Font = new Font("Segoe UI", 12F);
             label7.ForeColor = Color.FromArgb(102, 128, 120);
-            label7.Location = new Point(18, 134);
+            label7.Location = new Point(18, 107);
             label7.Name = "label7";
             label7.Size = new Size(196, 69);
             label7.TabIndex = 5;
@@ -170,7 +172,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             label8.ForeColor = Color.FromArgb(15, 72, 47);
-            label8.Location = new Point(17, 98);
+            label8.Location = new Point(17, 82);
             label8.Name = "label8";
             label8.Size = new Size(87, 28);
             label8.TabIndex = 0;
@@ -180,6 +182,7 @@
             // 
             pnlJanta.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlJanta.BackColor = Color.FromArgb(227, 242, 243);
+            pnlJanta.Controls.Add(label14);
             pnlJanta.Controls.Add(pictureBox3);
             pnlJanta.Controls.Add(label5);
             pnlJanta.Controls.Add(label6);
@@ -187,7 +190,6 @@
             pnlJanta.ForeColor = Color.FromArgb(107, 143, 11);
             pnlJanta.Location = new Point(461, 5);
             pnlJanta.Margin = new Padding(5);
-            pnlJanta.MaximumSize = new Size(345, 420);
             pnlJanta.Name = "pnlJanta";
             pnlJanta.Size = new Size(218, 317);
             pnlJanta.TabIndex = 6;
@@ -203,20 +205,21 @@
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label5.Font = new Font("Segoe UI", 12F);
             label5.ForeColor = Color.FromArgb(102, 128, 120);
-            label5.Location = new Point(16, 130);
+            label5.Location = new Point(16, 111);
             label5.Name = "label5";
-            label5.Size = new Size(199, 183);
+            label5.Size = new Size(199, 53);
             label5.TabIndex = 4;
-            label5.Text = "Pode ter composição semelhante à do almoço. Não precisa ser necessariamente menor ou incluir apenas determinados alimentos. A escolha depende da rotina, da fome e dos hábitos.";
+            label5.Text = "Pode ter composição semelhante à do almoço.";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             label6.ForeColor = Color.FromArgb(15, 72, 47);
-            label6.Location = new Point(16, 98);
+            label6.Location = new Point(16, 82);
             label6.Name = "label6";
             label6.Size = new Size(71, 28);
             label6.TabIndex = 0;
@@ -234,16 +237,16 @@
             pnlAlmoco.ForeColor = Color.FromArgb(107, 143, 11);
             pnlAlmoco.Location = new Point(233, 5);
             pnlAlmoco.Margin = new Padding(5);
-            pnlAlmoco.MaximumSize = new Size(345, 420);
             pnlAlmoco.Name = "pnlAlmoco";
             pnlAlmoco.Size = new Size(218, 317);
             pnlAlmoco.TabIndex = 6;
             // 
             // label10
             // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label10.Font = new Font("Segoe UI", 12F);
             label10.ForeColor = Color.FromArgb(102, 128, 120);
-            label10.Location = new Point(16, 204);
+            label10.Location = new Point(16, 200);
             label10.Name = "label10";
             label10.Size = new Size(193, 105);
             label10.TabIndex = 4;
@@ -260,9 +263,10 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 12F);
             label3.ForeColor = Color.FromArgb(102, 128, 120);
-            label3.Location = new Point(16, 136);
+            label3.Location = new Point(16, 110);
             label3.Name = "label3";
             label3.Size = new Size(193, 67);
             label3.TabIndex = 3;
@@ -272,9 +276,9 @@
             // 
             label4.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             label4.ForeColor = Color.FromArgb(15, 72, 47);
-            label4.Location = new Point(16, 98);
+            label4.Location = new Point(16, 82);
             label4.Name = "label4";
-            label4.Size = new Size(193, 64);
+            label4.Size = new Size(193, 34);
             label4.TabIndex = 0;
             label4.Text = "Almoço";
             // 
@@ -290,13 +294,13 @@
             pnlCafeManha.ForeColor = Color.FromArgb(107, 143, 11);
             pnlCafeManha.Location = new Point(5, 5);
             pnlCafeManha.Margin = new Padding(5);
-            pnlCafeManha.MaximumSize = new Size(345, 420);
             pnlCafeManha.Name = "pnlCafeManha";
             pnlCafeManha.Size = new Size(218, 317);
             pnlCafeManha.TabIndex = 5;
             // 
             // label9
             // 
+            label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label9.Font = new Font("Segoe UI", 12F);
             label9.ForeColor = Color.FromArgb(102, 128, 120);
             label9.Location = new Point(16, 192);
@@ -316,9 +320,10 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 12F);
             label2.ForeColor = Color.FromArgb(102, 128, 120);
-            label2.Location = new Point(16, 134);
+            label2.Location = new Point(16, 115);
             label2.Name = "label2";
             label2.Size = new Size(187, 49);
             label2.TabIndex = 1;
@@ -329,7 +334,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(15, 72, 47);
-            label1.Location = new Point(16, 98);
+            label1.Location = new Point(16, 82);
             label1.Name = "label1";
             label1.Size = new Size(153, 28);
             label1.TabIndex = 0;
@@ -337,7 +342,7 @@
             // 
             // pnlDica
             // 
-            pnlDica.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlDica.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlDica.BackColor = Color.FromArgb(227, 238, 220);
             pnlDica.BorderStyle = BorderStyle.FixedSingle;
             pnlDica.Controls.Add(label12);
@@ -367,6 +372,17 @@
             label13.Size = new Size(443, 69);
             label13.TabIndex = 4;
             label13.Text = "Existe um horário certo para comer?";
+            // 
+            // label14
+            // 
+            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label14.Font = new Font("Segoe UI", 12F);
+            label14.ForeColor = Color.FromArgb(102, 128, 120);
+            label14.Location = new Point(16, 171);
+            label14.Name = "label14";
+            label14.Size = new Size(199, 134);
+            label14.TabIndex = 5;
+            label14.Text = "Não precisa ser necessariamente menor ou incluir apenas determinados alimentos. A escolha depende da rotina, da fome e dos hábitos.";
             // 
             // UC_RefeicoesDia
             // 
@@ -419,6 +435,7 @@
         private Panel pnlCafeManha;
         private PictureBox pictureBox1;
         private Label label2;
+        private Label lblParagrafo1Descricao1;
         private Label label1;
         private Label label11;
         private Label label10;
@@ -426,5 +443,6 @@
         private Panel pnlDica;
         private Label label12;
         private Label label13;
+        private Label label14;
     }
 }
