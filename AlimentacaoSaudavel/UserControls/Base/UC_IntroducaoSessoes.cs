@@ -17,6 +17,20 @@ namespace AlimentacaoSaudavel.UserControls.Base
             // ConfigurarSessoes(new List<string> { "Sessão1", "Sessão2", "Sessão3" });
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public string TituloInicio
+        {
+            get => txtTitulo.Text;
+            set => txtTitulo.Text = value;
+        }
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public string DescricaoInicio
+        {
+            get => txtDescricaoInicio.Text;
+            set => txtDescricaoInicio.Text = value;
+        }
+
         public void AdicionarSessao(string titulo, UserControl tela)
         {
             int coluna = tlpSessoes.Controls.Count;
@@ -25,14 +39,23 @@ namespace AlimentacaoSaudavel.UserControls.Base
 
             tlpSessoes.ColumnStyles.Add(
                 new ColumnStyle(
-                    SizeType.Percent, 100f / tlpSessoes.ColumnCount
+                    SizeType.Percent, 100f
                 )
             );
+
+            float largura = 100f / tlpSessoes.ColumnCount;
+
+            foreach(ColumnStyle style in tlpSessoes.ColumnStyles)
+            {
+                style.SizeType = SizeType.Percent;
+                style.Width = largura;
+            }
 
             UC_Sessao sessao = new UC_Sessao
             {
                 TituloSessao = titulo,
-                TelaResponsavel = tela
+                TelaResponsavel = tela,
+                Dock = DockStyle.Fill
             };
 
             sessao.SessaoClicada += (sender, e) =>
