@@ -14,29 +14,38 @@ namespace AlimentacaoSaudavel.UserControls.Base
         {
             InitializeComponent();
 
-            ConfigurarSessoes(new List<string> { "Sessão1", "Sessão2", "Sessão3" });
+            // ConfigurarSessoes(new List<string> { "Sessão1", "Sessão2", "Sessão3" });
         }
 
-        public void ConfigurarSessoes(List<string> sessoes)
+        public void AdicionarSessao(string titulo, UserControl tela)
         {
-            tlpSessoes.Controls.Clear();
-            tlpSessoes.ColumnStyles.Clear();
+            int coluna = tlpSessoes.Controls.Count;
 
-            tlpSessoes.ColumnCount = sessoes.Count;
+            tlpSessoes.ColumnCount++;
 
-            for (int i = 0; i < sessoes.Count; i++)
+            tlpSessoes.ColumnStyles.Add(
+                new ColumnStyle(
+                    SizeType.Percent, 100f / tlpSessoes.ColumnCount
+                )
+            );
+
+            UC_Sessao sessao = new UC_Sessao
             {
-                tlpSessoes.ColumnStyles.Add(
-                    new ColumnStyle(SizeType.Percent, 100f / sessoes.Count)
-                );
+                TituloSessao = titulo,
+                TelaResponsavel = tela
+            };
 
-                UC_Sessao sessao = new UC_Sessao();
+            sessao.SessaoClicada += (sender, e) =>
+            {
+                Main main = (Main)this.FindForm();
 
-                sessao.TituloSessao = sessoes[i];
-                sessao.Dock = DockStyle.Fill;
+                if (sessao.TelaResponsavel != null)
+                {
+                    main.addUserControl(sessao.TelaResponsavel);
+                }
+            };
 
-                tlpSessoes.Controls.Add(sessao, i, 0);
-            }
+            tlpSessoes.Controls.Add(sessao, coluna, 0);
         }
     }
 }

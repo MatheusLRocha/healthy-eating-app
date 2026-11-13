@@ -26,7 +26,7 @@ namespace AlimentacaoSaudavel.UserControls.Base
         }
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
-        public Type? TelaResponsavel
+        public UserControl? TelaResponsavel
         {
             get;
             set;

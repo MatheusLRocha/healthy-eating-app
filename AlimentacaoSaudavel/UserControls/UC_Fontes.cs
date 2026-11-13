@@ -9,11 +9,14 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls
 {
-    public partial class UC_Fontes : UserControl
+    public partial class UC_Fontes : UC_IntroducaoSessoes
     {
         public UC_Fontes()
         {
             InitializeComponent();
+
+            AdicionarSessao("Proteínas", new UC_Proteinas());
+
         }
 
 
