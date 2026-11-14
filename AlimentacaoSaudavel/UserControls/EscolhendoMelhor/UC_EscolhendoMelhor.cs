@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlimentacaoSaudavel.UserControls.Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,47 +9,18 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls.EscolhendoMelhor
 {
-    public partial class UC_EscolhendoMelhor : UserControl
+    public partial class UC_EscolhendoMelhor : UC_IntroducaoSessoes
     {
         public UC_EscolhendoMelhor()
         {
-            InitializeComponent();
-        }
+            // InitializeComponent();
 
-        PanelRound panelRound = new PanelRound();
+            TituloInicio = "Escolhendo o Melhor Alimento";
+            DescricaoInicio = "Aprenda a interpretar informações dos alimentos e faça escolhas mais conscientes no dia a dia. Descubra como ler rótulos, comparar produtos e encontrar alternativas para diferentes situações.";
 
-        private void pctBRotulo_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_LerRotulos());
-        }
-
-        private void UC_EscolhendoMelhor_Load(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlRotulo, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-            panelRound.ArredondarCantos(pnlComparandoAlimentos, 20);
-            panelRound.ArredondarCantos(pnlSubstituicoes, 20);
-        }
-
-        private void UC_EscolhendoMelhor_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlRotulo, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-            panelRound.ArredondarCantos(pnlComparandoAlimentos, 20);
-            panelRound.ArredondarCantos(pnlSubstituicoes, 20);
-        }
-
-        private void pctBSubstituicoes_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_SubstituicoesPraticas());
-        }
-
-        private void pctBComparandoAlimentos_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_ComparandoAlimentos());
+            AdicionarSessao("Leitura de Rótulos", new UC_LerRotulos());
+            AdicionarSessao("Comparando Alimentos", new UC_ComparandoAlimentos());
+            AdicionarSessao("Substituições Práticas", new UC_SubstituicoesPraticas());
         }
     }
 }

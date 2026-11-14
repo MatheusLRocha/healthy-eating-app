@@ -1,4 +1,5 @@
-﻿using AlimentacaoSaudavel.UserControls.MicroNutrientes;
+﻿using AlimentacaoSaudavel.UserControls.Base;
+using AlimentacaoSaudavel.UserControls.MicroNutrientes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,54 +10,19 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls
 {
-    public partial class UC_MicroNutrientes : UserControl
+    public partial class UC_MicroNutrientes : UC_IntroducaoSessoes
     {
         public UC_MicroNutrientes()
         {
-            InitializeComponent();
+            // InitializeComponent();
+
+            TituloInicio = "Micronutrientes";
+            DescricaoInicio = "Os micronutrientes são vitaminas e minerais que o organismo precisa em pequenas quantidades, mas que desempenham funções essenciais. Eles ajudam no crescimento, na imunidade, na produção de energia e no bom funcionamento do corpo.";
+
+            AdicionarSessao("Vitaminas", new UC_Vitaminas());
+            AdicionarSessao("Minerais", new UC_Minerais());
         }
 
-        PanelRound panelRound = new PanelRound();
-
-        private void pctBVitaminas_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_Vitaminas());
-        }
-
-        private void pctBMinerais_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_Minerais());
-        }
-
-        private void pnlVitaminas_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlVitaminas, 20);
-        }
-
-        private void pnlMinerais_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlMinerais, 20);
-        }
-
-        private void pnlApresentacao_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
-
-        private void UC_MicroNutrientes_Load(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlVitaminas, 20);
-            panelRound.ArredondarCantos(pnlMinerais, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
-
-        private void UC_MicroNutrientes_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlVitaminas, 20);
-            panelRound.ArredondarCantos(pnlMinerais, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
+        
     }
 }

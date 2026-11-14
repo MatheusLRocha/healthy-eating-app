@@ -1,4 +1,5 @@
-﻿using AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos;
+﻿using AlimentacaoSaudavel.UserControls.Base;
+using AlimentacaoSaudavel.UserControls.ClassificacaoAlimentos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,76 +10,21 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls
 {
-    public partial class UC_ClasAlimentos : UserControl
+    public partial class UC_ClasAlimentos : UC_IntroducaoSessoes
     {
         public UC_ClasAlimentos()
         {
-            InitializeComponent();
+            // InitializeComponent();
+
+            TituloInicio = "Classificação dos Alimentos";
+            DescricaoInicio = "Os alimentos podem ser divididos em grandes 4 áreas, sendo elas:";
+
+            AdicionarSessao("In natura", new UC_InNatura());
+            AdicionarSessao("Minimamente Processados", new UC_MinProcessados());
+            AdicionarSessao("Processados", new UC_Processados());
+            AdicionarSessao("Ultraprocessados", new UC_UltraProcessados());
         }
 
-        PanelRound panelRound = new PanelRound();
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pctBNatura_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_InNatura());
-        }
-
-        private void pctBMinProcessados_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_MinProcessados());
-        }
-
-        private void pctBProcessados_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_Processados());
-        }
-
-        private void pctBUltraprocessados_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_UltraProcessados());
-        }
-
-        private void pnlNatura_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlNatura, 20);
-        }
-
-        private void pnlProcessados_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlProcessados, 20);
-        }
-
-        private void pnlMinProcessados_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlMinProcessados, 20);
-        }
-
-        private void pnlUltraProcessados_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlUltraProcessados, 20);
-        }
-
-        private void pnlApresentacao_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
-
-        private void UC_ClasAlimentos_Load(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlNatura, 20);
-            panelRound.ArredondarCantos(pnlProcessados, 20);
-            panelRound.ArredondarCantos(pnlMinProcessados, 20);
-            panelRound.ArredondarCantos(pnlUltraProcessados, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
+        
     }
 }

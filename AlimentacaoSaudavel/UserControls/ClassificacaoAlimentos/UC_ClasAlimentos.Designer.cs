@@ -89,7 +89,6 @@
             pnlUltraProcessados.Name = "pnlUltraProcessados";
             pnlUltraProcessados.Size = new Size(221, 71);
             pnlUltraProcessados.TabIndex = 7;
-            pnlUltraProcessados.Resize += pnlUltraProcessados_Resize;
             // 
             // pctBUltraprocessados
             // 
@@ -99,7 +98,6 @@
             pctBUltraprocessados.Size = new Size(32, 32);
             pctBUltraprocessados.TabIndex = 11;
             pctBUltraprocessados.TabStop = false;
-            pctBUltraprocessados.Click += pctBUltraprocessados_Click;
             // 
             // label9
             // 
@@ -125,7 +123,6 @@
             pnlMinProcessados.Name = "pnlMinProcessados";
             pnlMinProcessados.Size = new Size(218, 71);
             pnlMinProcessados.TabIndex = 6;
-            pnlMinProcessados.Resize += pnlMinProcessados_Resize;
             // 
             // pctBProcessados
             // 
@@ -135,7 +132,6 @@
             pctBProcessados.Size = new Size(32, 32);
             pctBProcessados.TabIndex = 10;
             pctBProcessados.TabStop = false;
-            pctBProcessados.Click += pctBProcessados_Click;
             // 
             // label4
             // 
@@ -161,7 +157,6 @@
             pnlProcessados.Name = "pnlProcessados";
             pnlProcessados.Size = new Size(218, 71);
             pnlProcessados.TabIndex = 6;
-            pnlProcessados.Resize += pnlProcessados_Resize;
             // 
             // pctBMinProcessados
             // 
@@ -171,7 +166,6 @@
             pctBMinProcessados.Size = new Size(32, 32);
             pctBMinProcessados.TabIndex = 9;
             pctBMinProcessados.TabStop = false;
-            pctBMinProcessados.Click += pctBMinProcessados_Click;
             // 
             // label6
             // 
@@ -197,7 +191,6 @@
             pnlNatura.Name = "pnlNatura";
             pnlNatura.Size = new Size(218, 71);
             pnlNatura.TabIndex = 5;
-            pnlNatura.Resize += pnlNatura_Resize;
             // 
             // pctBNatura
             // 
@@ -207,7 +200,6 @@
             pctBNatura.Size = new Size(32, 32);
             pctBNatura.TabIndex = 8;
             pctBNatura.TabStop = false;
-            pctBNatura.Click += pctBNatura_Click;
             // 
             // label7
             // 
@@ -220,7 +212,6 @@
             label7.Size = new Size(97, 25);
             label7.TabIndex = 0;
             label7.Text = "In Natura";
-            label7.Click += label7_Click;
             // 
             // pnlApresentacao
             // 
@@ -232,7 +223,6 @@
             pnlApresentacao.Name = "pnlApresentacao";
             pnlApresentacao.Size = new Size(915, 314);
             pnlApresentacao.TabIndex = 13;
-            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 
@@ -265,7 +255,6 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_ClasAlimentos";
             Size = new Size(1005, 681);
-            Load += UC_ClasAlimentos_Load;
             tableLayoutPanel1.ResumeLayout(false);
             pnlUltraProcessados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBUltraprocessados).EndInit();

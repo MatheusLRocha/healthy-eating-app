@@ -58,7 +58,6 @@
             pnlMacro.Name = "pnlMacro";
             pnlMacro.Size = new Size(645, 190);
             pnlMacro.TabIndex = 0;
-            pnlMacro.Resize += pnlMacro_Resize;
             // 
             // pctBMacro
             // 
@@ -69,7 +68,6 @@
             pctBMacro.Size = new Size(46, 53);
             pctBMacro.TabIndex = 7;
             pctBMacro.TabStop = false;
-            pctBMacro.Click += pctBMacro_Click;
             // 
             // label2
             // 
@@ -94,7 +92,6 @@
             pnlMicro.Name = "pnlMicro";
             pnlMicro.Size = new Size(646, 190);
             pnlMicro.TabIndex = 1;
-            pnlMicro.Resize += pnlMicro_Resize;
             // 
             // label3
             // 
@@ -117,7 +114,6 @@
             pctBMicro.Size = new Size(46, 53);
             pctBMicro.TabIndex = 8;
             pctBMicro.TabStop = false;
-            pctBMicro.Click += pctBMicro_Click;
             // 
             // tableLayoutPanel1
             // 
@@ -147,7 +143,6 @@
             pnlApresentacao.Name = "pnlApresentacao";
             pnlApresentacao.Size = new Size(1307, 523);
             pnlApresentacao.TabIndex = 12;
-            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 

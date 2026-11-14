@@ -132,7 +132,6 @@
             pctBPlanejamentoAlimentar.Size = new Size(32, 32);
             pctBPlanejamentoAlimentar.TabIndex = 8;
             pctBPlanejamentoAlimentar.TabStop = false;
-            pctBPlanejamentoAlimentar.Click += pctBPlanejamentoAlimentar_Click;
             // 
             // label6
             // 
@@ -164,7 +163,6 @@
             pctBRefeicoesDia.Size = new Size(32, 32);
             pctBRefeicoesDia.TabIndex = 7;
             pctBRefeicoesDia.TabStop = false;
-            pctBRefeicoesDia.Click += pctBRefeicoesDia_Click;
             // 
             // label2
             // 
@@ -196,7 +194,6 @@
             pctBAlimentacaoEquilibrada.Size = new Size(32, 32);
             pctBAlimentacaoEquilibrada.TabIndex = 6;
             pctBAlimentacaoEquilibrada.TabStop = false;
-            pctBAlimentacaoEquilibrada.Click += pctBAlimentacaoEquilibrada_Click;
             // 
             // label3
             // 
@@ -218,8 +215,6 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_AlimentacaoDiaDia";
             Size = new Size(1005, 681);
-            Load += UC_AlimentacaoDiaDia_Load;
-            Resize += UC_AlimentacaoDiaDia_Resize;
             pnlApresentacao.ResumeLayout(false);
             pnlApresentacao.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

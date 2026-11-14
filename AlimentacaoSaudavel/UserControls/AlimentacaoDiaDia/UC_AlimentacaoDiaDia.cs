@@ -1,6 +1,7 @@
 ﻿using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.AlimentacaoEquilibrada;
 using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.PlanejamentoAlimentar;
 using AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia.RotinaCorrida;
+using AlimentacaoSaudavel.UserControls.Base;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,47 +12,20 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls.AlimentacaoDiaDia
 {
-    public partial class UC_AlimentacaoDiaDia : UserControl
+    public partial class UC_AlimentacaoDiaDia : UC_IntroducaoSessoes
     {
         public UC_AlimentacaoDiaDia()
         {
-            InitializeComponent();
+            // InitializeComponent();
+
+            TituloInicio = "Alimentação do Dia a Dia";
+            DescricaoInicio = "Aprenda sobre alimentação e encontre informações que possam ajudar na sua rotina.";
+
+            AdicionarSessao("Alimentação Equilibrada", new UC_AlimentacaoEquilibrada());
+            AdicionarSessao("Planejamento Alimentar", new UC_PlanejamentoAlimentar());
+            AdicionarSessao("Refeições no dia a dia", new UC_RefeicoesDia());
         }
 
-        PanelRound panelRound = new PanelRound();
-
-        private void pctBAlimentacaoEquilibrada_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_AlimentacaoEquilibrada());
-        }
-
-        private void pctBRefeicoesDia_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_RefeicoesDia());
-        }
-
-        private void pctBPlanejamentoAlimentar_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_PlanejamentoAlimentar());
-        }
-
-        private void UC_AlimentacaoDiaDia_Load(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlAlimentacaoEquilibrada, 20);
-            panelRound.ArredondarCantos(pnlRefeicoesDia, 20);
-            panelRound.ArredondarCantos(pnlPlanejamentoAlimentar, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
-
-        private void UC_AlimentacaoDiaDia_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlAlimentacaoEquilibrada, 20);
-            panelRound.ArredondarCantos(pnlRefeicoesDia, 20);
-            panelRound.ArredondarCantos(pnlPlanejamentoAlimentar, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
+        
     }
 }

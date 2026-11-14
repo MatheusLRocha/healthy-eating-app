@@ -113,7 +113,6 @@
             pctBPraticidade.Size = new Size(32, 32);
             pctBPraticidade.TabIndex = 7;
             pctBPraticidade.TabStop = false;
-            pctBPraticidade.Click += pctBPraticidade_Click;
             // 
             // label2
             // 
@@ -145,7 +144,6 @@
             pctBOrganizandoSemana.Size = new Size(32, 32);
             pctBOrganizandoSemana.TabIndex = 6;
             pctBOrganizandoSemana.TabStop = false;
-            pctBOrganizandoSemana.Click += pctBOrganizandoSemana_Click;
             // 
             // label3
             // 
@@ -167,8 +165,6 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_PlanejamentoAlimentar";
             Size = new Size(1005, 681);
-            Load += UC_PlanejamentoAlimentar_Load;
-            Resize += UC_PlanejamentoAlimentar_Resize;
             pnlApresentacao.ResumeLayout(false);
             pnlApresentacao.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
