@@ -1,5 +1,6 @@
 ﻿using AlimentacaoSaudavel.UserControls.Base;
 using AlimentacaoSaudavel.UserControls.MacroNutrientes;
+using AlimentacaoSaudavel.UserControls.MicroNutrientes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,7 @@ namespace AlimentacaoSaudavel.UserControls
             AdicionarSessao("Proteínas", new UC_Proteinas());
             AdicionarSessao("Carboidratos", new UC_Carboidratos());
             AdicionarSessao("Gorduras", new UC_Gorduras());
+            AdicionarSessao("Vitaminas", new UC_Vitaminas());
         }
 
 
