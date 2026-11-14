@@ -133,11 +133,12 @@
             tlpSessoes.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tlpSessoes.ColumnCount = 1;
             tlpSessoes.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tlpSessoes.Location = new Point(230, 103);
+            tlpSessoes.GrowStyle = TableLayoutPanelGrowStyle.AddColumns;
+            tlpSessoes.Location = new Point(55, 103);
             tlpSessoes.Name = "tlpSessoes";
             tlpSessoes.RowCount = 1;
             tlpSessoes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tlpSessoes.Size = new Size(594, 120);
+            tlpSessoes.Size = new Size(915, 120);
             tlpSessoes.TabIndex = 0;
             // 
             // UC_IntroducaoSessoes

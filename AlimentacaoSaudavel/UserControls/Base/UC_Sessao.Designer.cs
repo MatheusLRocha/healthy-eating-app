@@ -48,9 +48,9 @@
             // 
             lblSessao.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblSessao.BackColor = Color.FromArgb(227, 238, 220);
-            lblSessao.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblSessao.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSessao.ForeColor = Color.FromArgb(15, 72, 47);
-            lblSessao.Location = new Point(115, 35);
+            lblSessao.Location = new Point(115, 40);
             lblSessao.Name = "lblSessao";
             lblSessao.Size = new Size(163, 42);
             lblSessao.TabIndex = 14;

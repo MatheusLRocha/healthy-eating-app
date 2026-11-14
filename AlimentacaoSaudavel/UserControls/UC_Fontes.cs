@@ -1,4 +1,5 @@
 ﻿using AlimentacaoSaudavel.UserControls.Base;
+using AlimentacaoSaudavel.UserControls.MacroNutrientes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,8 +16,12 @@ namespace AlimentacaoSaudavel.UserControls
         {
             InitializeComponent();
 
-            AdicionarSessao("Proteínas", new UC_Proteinas());
+            TituloInicio = "Macro Nutrientes";
+            DescricaoInicio = "Os macronutrientes são nutrientes que fornecem energia e são necessários em grandes quantidades para o funcionamento adequado do corpo humano. Eles incluem carboidratos, proteínas e gorduras. Cada um desses nutrientes desempenha funções específicas no organismo e é essencial para a manutenção da saúde e do bem-estar.";
 
+            AdicionarSessao("Proteínas", new UC_Proteinas());
+            AdicionarSessao("Carboidratos", new UC_Carboidratos());
+            AdicionarSessao("Gorduras", new UC_Gorduras());
         }
 
 
