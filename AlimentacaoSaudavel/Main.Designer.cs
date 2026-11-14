@@ -41,6 +41,7 @@
             label1 = new Label();
             pnlLogo = new Panel();
             pnlMain = new Panel();
+            cBtnCreditos = new CustomButton();
             pnlHeader.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -63,6 +64,7 @@
             // 
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(cBtnCreditos, 0, 6);
             tableLayoutPanel1.Controls.Add(cBtnFontes, 0, 5);
             tableLayoutPanel1.Controls.Add(cBtnInicio, 0, 0);
             tableLayoutPanel1.Controls.Add(cBtnAlimentacaoDiaDia, 0, 4);
@@ -71,14 +73,15 @@
             tableLayoutPanel1.Controls.Add(cBtnClasAlimentos, 0, 2);
             tableLayoutPanel1.Location = new Point(0, 130);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 6;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.Size = new Size(260, 359);
+            tableLayoutPanel1.RowCount = 7;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2853069F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285305F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285305F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285305F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285305F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285305F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2881613F));
+            tableLayoutPanel1.Size = new Size(260, 369);
             tableLayoutPanel1.TabIndex = 14;
             // 
             // cBtnFontes
@@ -91,7 +94,7 @@
             cBtnFontes.HoverColor = Color.FromArgb(46, 125, 79);
             cBtnFontes.Image = (Image)resources.GetObject("cBtnFontes.Image");
             cBtnFontes.ImageAlign = ContentAlignment.MiddleLeft;
-            cBtnFontes.Location = new Point(3, 298);
+            cBtnFontes.Location = new Point(3, 263);
             cBtnFontes.Name = "cBtnFontes";
             cBtnFontes.NormalColor = Color.FromArgb(15, 72, 47);
             cBtnFontes.Size = new Size(250, 45);
@@ -131,7 +134,7 @@
             cBtnAlimentacaoDiaDia.HoverColor = Color.FromArgb(46, 125, 79);
             cBtnAlimentacaoDiaDia.Image = (Image)resources.GetObject("cBtnAlimentacaoDiaDia.Image");
             cBtnAlimentacaoDiaDia.ImageAlign = ContentAlignment.MiddleLeft;
-            cBtnAlimentacaoDiaDia.Location = new Point(3, 239);
+            cBtnAlimentacaoDiaDia.Location = new Point(3, 211);
             cBtnAlimentacaoDiaDia.Name = "cBtnAlimentacaoDiaDia";
             cBtnAlimentacaoDiaDia.NormalColor = Color.FromArgb(15, 72, 47);
             cBtnAlimentacaoDiaDia.Size = new Size(250, 45);
@@ -151,7 +154,7 @@
             cBtnEscolhendoMelhor.HoverColor = Color.FromArgb(46, 125, 79);
             cBtnEscolhendoMelhor.Image = (Image)resources.GetObject("cBtnEscolhendoMelhor.Image");
             cBtnEscolhendoMelhor.ImageAlign = ContentAlignment.MiddleLeft;
-            cBtnEscolhendoMelhor.Location = new Point(3, 180);
+            cBtnEscolhendoMelhor.Location = new Point(3, 159);
             cBtnEscolhendoMelhor.Name = "cBtnEscolhendoMelhor";
             cBtnEscolhendoMelhor.NormalColor = Color.FromArgb(15, 72, 47);
             cBtnEscolhendoMelhor.Size = new Size(250, 45);
@@ -171,7 +174,7 @@
             cBtnNutrientes.HoverColor = Color.FromArgb(46, 125, 79);
             cBtnNutrientes.Image = (Image)resources.GetObject("cBtnNutrientes.Image");
             cBtnNutrientes.ImageAlign = ContentAlignment.MiddleLeft;
-            cBtnNutrientes.Location = new Point(3, 62);
+            cBtnNutrientes.Location = new Point(3, 55);
             cBtnNutrientes.Name = "cBtnNutrientes";
             cBtnNutrientes.NormalColor = Color.FromArgb(15, 72, 47);
             cBtnNutrientes.Size = new Size(250, 45);
@@ -191,7 +194,7 @@
             cBtnClasAlimentos.HoverColor = Color.FromArgb(46, 125, 79);
             cBtnClasAlimentos.Image = (Image)resources.GetObject("cBtnClasAlimentos.Image");
             cBtnClasAlimentos.ImageAlign = ContentAlignment.MiddleLeft;
-            cBtnClasAlimentos.Location = new Point(3, 121);
+            cBtnClasAlimentos.Location = new Point(3, 107);
             cBtnClasAlimentos.Name = "cBtnClasAlimentos";
             cBtnClasAlimentos.NormalColor = Color.FromArgb(15, 72, 47);
             cBtnClasAlimentos.Size = new Size(250, 45);
@@ -236,6 +239,26 @@
             pnlMain.Size = new Size(1005, 681);
             pnlMain.TabIndex = 8;
             // 
+            // cBtnCreditos
+            // 
+            cBtnCreditos.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnCreditos.FlatAppearance.BorderSize = 0;
+            cBtnCreditos.FlatStyle = FlatStyle.Flat;
+            cBtnCreditos.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnCreditos.ForeColor = Color.White;
+            cBtnCreditos.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnCreditos.Image = (Image)resources.GetObject("cBtnCreditos.Image");
+            cBtnCreditos.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnCreditos.Location = new Point(3, 315);
+            cBtnCreditos.Name = "cBtnCreditos";
+            cBtnCreditos.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnCreditos.Size = new Size(250, 45);
+            cBtnCreditos.TabIndex = 17;
+            cBtnCreditos.Text = "          Créditos";
+            cBtnCreditos.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnCreditos.UseVisualStyleBackColor = false;
+            cBtnCreditos.Click += cBtnCreditos_Click;
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -267,5 +290,6 @@
         private CustomButton cBtnFontes;
         private CustomButton cBtnAlimentacaoDiaDia;
         private TableLayoutPanel tableLayoutPanel1;
+        private CustomButton cBtnCreditos;
     }
 }

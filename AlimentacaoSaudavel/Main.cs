@@ -71,5 +71,11 @@ namespace AlimentacaoSaudavel
             UC_Fontes ucFontes = new UC_Fontes();
             addUserControl(ucFontes);
         }
+
+        private void cBtnCreditos_Click(object sender, EventArgs e)
+        {
+            UC_Creditos ucCreditos = new UC_Creditos();
+            addUserControl(ucCreditos);
+        }
     }
 }
