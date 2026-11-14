@@ -33,7 +33,6 @@
             panel2 = new Panel();
             txtDescricaoInicio = new Label();
             txtTitulo = new Label();
-            panel1 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
             tlpSessoes = new TableLayoutPanel();
@@ -63,7 +62,6 @@
             pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
             pnlApresentacao.Controls.Add(panel2);
-            pnlApresentacao.Controls.Add(panel1);
             pnlApresentacao.Location = new Point(8, 8);
             pnlApresentacao.Margin = new Padding(8);
             pnlApresentacao.Name = "pnlApresentacao";
@@ -77,7 +75,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(589, 292);
+            panel2.Size = new Size(989, 292);
             panel2.TabIndex = 7;
             // 
             // txtDescricaoInicio
@@ -87,7 +85,7 @@
             txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
             txtDescricaoInicio.Location = new Point(24, 94);
             txtDescricaoInicio.Name = "txtDescricaoInicio";
-            txtDescricaoInicio.Size = new Size(514, 157);
+            txtDescricaoInicio.Size = new Size(654, 175);
             txtDescricaoInicio.TabIndex = 5;
             txtDescricaoInicio.Text = "Descrição";
             // 
@@ -101,14 +99,6 @@
             txtTitulo.Size = new Size(108, 45);
             txtTitulo.TabIndex = 4;
             txtTitulo.Text = "Titulo";
-            // 
-            // panel1
-            // 
-            panel1.Dock = DockStyle.Right;
-            panel1.Location = new Point(589, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(400, 292);
-            panel1.TabIndex = 6;
             // 
             // panel3
             // 
@@ -131,10 +121,12 @@
             // tlpSessoes
             // 
             tlpSessoes.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tlpSessoes.BackColor = Color.Transparent;
             tlpSessoes.ColumnCount = 1;
             tlpSessoes.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tlpSessoes.GrowStyle = TableLayoutPanelGrowStyle.AddColumns;
             tlpSessoes.Location = new Point(55, 103);
+            tlpSessoes.Margin = new Padding(8);
             tlpSessoes.Name = "tlpSessoes";
             tlpSessoes.RowCount = 1;
             tlpSessoes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
@@ -168,7 +160,6 @@
         private Label txtDescricaoInicio;
         private Label txtTitulo;
         private Panel panel2;
-        private Panel panel1;
         private Panel panel3;
         private Panel panel4;
         private TableLayoutPanel tlpSessoes;
