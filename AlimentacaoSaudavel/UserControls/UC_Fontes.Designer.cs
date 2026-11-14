@@ -143,9 +143,9 @@
             BackColor = Color.FromArgb(235, 226, 217);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label);
-            MinimumSize = new Size(1280, 720);
+            MinimumSize = new Size(1005, 681);
             Name = "UC_Fontes";
-            Size = new Size(1280, 720);
+            Size = new Size(1005, 681);
             tableLayoutPanel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

@@ -17,6 +17,13 @@ namespace AlimentacaoSaudavel.UserControls.Base
             // ConfigurarSessoes(new List<string> { "Sessão1", "Sessão2", "Sessão3" });
         }
 
+        PanelRound panelRound = new PanelRound();
+
+        private void AlterarBordas()
+        {
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+        }
+
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public string TituloInicio
         {
@@ -45,7 +52,7 @@ namespace AlimentacaoSaudavel.UserControls.Base
 
             float largura = 100f / tlpSessoes.ColumnCount;
 
-            foreach(ColumnStyle style in tlpSessoes.ColumnStyles)
+            foreach (ColumnStyle style in tlpSessoes.ColumnStyles)
             {
                 style.SizeType = SizeType.Percent;
                 style.Width = largura;
@@ -58,6 +65,8 @@ namespace AlimentacaoSaudavel.UserControls.Base
                 Dock = DockStyle.Fill
             };
 
+            panelRound.ArredondarCantos(sessao, 20);
+
             sessao.SessaoClicada += (sender, e) =>
             {
                 Main main = (Main)this.FindForm();
@@ -69,6 +78,16 @@ namespace AlimentacaoSaudavel.UserControls.Base
             };
 
             tlpSessoes.Controls.Add(sessao, coluna, 0);
+        }
+
+        private void UC_IntroducaoSessoes_Resize(object sender, EventArgs e)
+        {
+            AlterarBordas();
+        }
+
+        private void UC_IntroducaoSessoes_Load(object sender, EventArgs e)
+        {
+            AlterarBordas();
         }
     }
 }

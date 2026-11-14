@@ -83,9 +83,9 @@
             // txtDescricaoInicio
             // 
             txtDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
+            txtDescricaoInicio.Font = new Font("Segoe UI", 12F);
             txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
-            txtDescricaoInicio.Location = new Point(38, 108);
+            txtDescricaoInicio.Location = new Point(24, 94);
             txtDescricaoInicio.Name = "txtDescricaoInicio";
             txtDescricaoInicio.Size = new Size(514, 157);
             txtDescricaoInicio.TabIndex = 5;
@@ -96,7 +96,7 @@
             txtTitulo.AutoSize = true;
             txtTitulo.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             txtTitulo.ForeColor = Color.FromArgb(15, 72, 47);
-            txtTitulo.Location = new Point(38, 40);
+            txtTitulo.Location = new Point(18, 36);
             txtTitulo.Name = "txtTitulo";
             txtTitulo.Size = new Size(108, 45);
             txtTitulo.TabIndex = 4;
@@ -150,6 +150,8 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_IntroducaoSessoes";
             Size = new Size(1005, 681);
+            Load += UC_IntroducaoSessoes_Load;
+            Resize += UC_IntroducaoSessoes_Resize;
             tableLayoutPanel1.ResumeLayout(false);
             pnlApresentacao.ResumeLayout(false);
             panel2.ResumeLayout(false);
