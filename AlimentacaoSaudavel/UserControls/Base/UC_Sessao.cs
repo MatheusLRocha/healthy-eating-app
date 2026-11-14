@@ -32,6 +32,8 @@ namespace AlimentacaoSaudavel.UserControls.Base
             set;
         }
 
+        public Label LabelSessao => lblSessao;
+
         public event EventHandler? SessaoClicada;
         private void pctBSessao_Click(object sender, EventArgs e)
         {

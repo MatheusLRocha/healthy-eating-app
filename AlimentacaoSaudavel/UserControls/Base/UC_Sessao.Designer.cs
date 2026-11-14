@@ -47,15 +47,15 @@
             // lblSessao
             // 
             lblSessao.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            lblSessao.BackColor = Color.FromArgb(227, 238, 220);
+            lblSessao.BackColor = Color.Transparent;
             lblSessao.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSessao.ForeColor = Color.FromArgb(15, 72, 47);
-            lblSessao.Location = new Point(115, 40);
+            lblSessao.Location = new Point(133, 18);
             lblSessao.Name = "lblSessao";
-            lblSessao.Size = new Size(163, 42);
+            lblSessao.Size = new Size(164, 82);
             lblSessao.TabIndex = 14;
             lblSessao.Text = "Sessão";
-            lblSessao.TextAlign = ContentAlignment.MiddleLeft;
+            lblSessao.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // UC_Sessao
             // 

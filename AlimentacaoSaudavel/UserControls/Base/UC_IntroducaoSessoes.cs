@@ -38,34 +38,48 @@ namespace AlimentacaoSaudavel.UserControls.Base
             set => txtDescricaoInicio.Text = value;
         }
 
+        private static float CalcularTamanhoFonte(float proporcao, float tamanhoMinimo, float tamanhoMaximo)
+        {
+            float tamanhoOriginal = 10f * proporcao;
+            
+
+            float tamanhoFonte = Math.Clamp(
+                tamanhoOriginal,
+                tamanhoMinimo,
+                tamanhoMaximo
+            );
+
+            return tamanhoFonte;
+        }
+
         public void AdicionarSessao(string titulo, UserControl tela)
         {
             int coluna = tlpSessoes.Controls.Count;
 
-            tlpSessoes.ColumnCount++;
-
-            tlpSessoes.ColumnStyles.Add(
-                new ColumnStyle(
-                    SizeType.Percent, 100f
-                )
-            );
+            tlpSessoes.ColumnCount = coluna + 1;
+            tlpSessoes.ColumnStyles.Clear();
 
             float largura = 100f / tlpSessoes.ColumnCount;
 
-            foreach (ColumnStyle style in tlpSessoes.ColumnStyles)
+            for (int i = 0; i < tlpSessoes.ColumnCount; i++)
             {
-                style.SizeType = SizeType.Percent;
-                style.Width = largura;
+                tlpSessoes.ColumnStyles.Add(
+                    new ColumnStyle(SizeType.Percent, largura)
+                );
             }
 
             UC_Sessao sessao = new UC_Sessao
             {
                 TituloSessao = titulo,
                 TelaResponsavel = tela,
-                Dock = DockStyle.Fill
+                Dock = DockStyle.Fill,
+                Margin = new Padding(3)
             };
 
-            panelRound.ArredondarCantos(sessao, 20);
+            sessao.Resize += (sender, e) =>
+            {
+                panelRound.ArredondarCantos(sessao, 20);
+            };
 
             sessao.SessaoClicada += (sender, e) =>
             {
@@ -77,12 +91,23 @@ namespace AlimentacaoSaudavel.UserControls.Base
                 }
             };
 
+            sessao.Resize += (sender, e) =>
+            {
+                sessao.LabelSessao.Font = new Font(sessao.LabelSessao.Font.FontFamily, CalcularTamanhoFonte(this.Width / 1000f, 13f, 16f), FontStyle.Bold);
+            };
+
             tlpSessoes.Controls.Add(sessao, coluna, 0);
+
+            panelRound.ArredondarCantos(sessao, 20);
         }
 
         private void UC_IntroducaoSessoes_Resize(object sender, EventArgs e)
         {
             AlterarBordas();
+
+            float proporcao = this.Width / 1000f;
+
+            txtDescricaoInicio.Font = new Font(txtDescricaoInicio.Font.FontFamily, CalcularTamanhoFonte(proporcao, 12f, 18f));
         }
 
         private void UC_IntroducaoSessoes_Load(object sender, EventArgs e)
