@@ -64,6 +64,9 @@
     <Compile Update="UserControls\ClassificacaoAlimentos\UC_ClasAlimentos.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UCCreditos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_Fontes.cs">
       <SubType>UserControl</SubType>
     </Compile>
