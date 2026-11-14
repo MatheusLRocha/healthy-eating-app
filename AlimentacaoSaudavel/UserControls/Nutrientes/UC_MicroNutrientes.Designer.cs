@@ -73,7 +73,6 @@
             pnlVitaminas.Name = "pnlVitaminas";
             pnlVitaminas.Size = new Size(451, 114);
             pnlVitaminas.TabIndex = 0;
-            pnlVitaminas.Resize += pnlVitaminas_Resize;
             // 
             // pctBVitaminas
             // 
@@ -83,7 +82,6 @@
             pctBVitaminas.Size = new Size(32, 32);
             pctBVitaminas.TabIndex = 12;
             pctBVitaminas.TabStop = false;
-            pctBVitaminas.Click += pctBVitaminas_Click;
             // 
             // lblVitaminas
             // 
@@ -108,7 +106,6 @@
             pnlMinerais.Name = "pnlMinerais";
             pnlMinerais.Size = new Size(452, 114);
             pnlMinerais.TabIndex = 1;
-            pnlMinerais.Resize += pnlMinerais_Resize;
             // 
             // pctBMinerais
             // 
@@ -118,7 +115,6 @@
             pctBMinerais.Size = new Size(32, 32);
             pctBMinerais.TabIndex = 13;
             pctBMinerais.TabStop = false;
-            pctBMinerais.Click += pctBMinerais_Click;
             // 
             // lblMinerais
             // 
@@ -142,7 +138,6 @@
             pnlApresentacao.Name = "pnlApresentacao";
             pnlApresentacao.Size = new Size(915, 314);
             pnlApresentacao.TabIndex = 11;
-            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 
@@ -175,8 +170,6 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_MicroNutrientes";
             Size = new Size(1005, 681);
-            Load += UC_MicroNutrientes_Load;
-            Resize += UC_MicroNutrientes_Resize;
             tableLayoutPanel1.ResumeLayout(false);
             pnlVitaminas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBVitaminas).EndInit();

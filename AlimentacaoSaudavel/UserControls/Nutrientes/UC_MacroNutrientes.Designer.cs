@@ -79,7 +79,6 @@
             pnlGorduras.Name = "pnlGorduras";
             pnlGorduras.Size = new Size(299, 114);
             pnlGorduras.TabIndex = 7;
-            pnlGorduras.Resize += pnlGorduras_Resize;
             // 
             // pctBGorduras
             // 
@@ -89,7 +88,6 @@
             pctBGorduras.Size = new Size(32, 32);
             pctBGorduras.TabIndex = 8;
             pctBGorduras.TabStop = false;
-            pctBGorduras.Click += pctBGorduras_Click;
             // 
             // label6
             // 
@@ -112,7 +110,6 @@
             pnlCarboidratos.Name = "pnlCarboidratos";
             pnlCarboidratos.Size = new Size(299, 114);
             pnlCarboidratos.TabIndex = 6;
-            pnlCarboidratos.Resize += pnlCarboidratos_Resize;
             // 
             // pctBCarboidratos
             // 
@@ -122,7 +119,6 @@
             pctBCarboidratos.Size = new Size(32, 32);
             pctBCarboidratos.TabIndex = 7;
             pctBCarboidratos.TabStop = false;
-            pctBCarboidratos.Click += pctBCarboidratos_Click;
             // 
             // label2
             // 
@@ -145,7 +141,6 @@
             pnlProteinas.Name = "pnlProteinas";
             pnlProteinas.Size = new Size(299, 114);
             pnlProteinas.TabIndex = 2;
-            pnlProteinas.Resize += pnlProteinas_Resize;
             // 
             // pctBProteinas
             // 
@@ -155,7 +150,6 @@
             pctBProteinas.Size = new Size(32, 32);
             pctBProteinas.TabIndex = 6;
             pctBProteinas.TabStop = false;
-            pctBProteinas.Click += pctBProteinas_Click;
             // 
             // label3
             // 
@@ -178,7 +172,6 @@
             pnlApresentacao.Name = "pnlApresentacao";
             pnlApresentacao.Size = new Size(915, 314);
             pnlApresentacao.TabIndex = 10;
-            pnlApresentacao.Resize += pnlApresentacao_Resize;
             // 
             // txtDescricaoInicio
             // 
@@ -211,7 +204,6 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_MacroNutrientes";
             Size = new Size(1005, 681);
-            Load += UC_MacroNutrientes_Load;
             tableLayoutPanel1.ResumeLayout(false);
             pnlGorduras.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pctBGorduras).EndInit();

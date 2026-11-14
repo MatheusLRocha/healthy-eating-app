@@ -132,7 +132,6 @@
             pctBSubstituicoes.Size = new Size(32, 32);
             pctBSubstituicoes.TabIndex = 8;
             pctBSubstituicoes.TabStop = false;
-            pctBSubstituicoes.Click += pctBSubstituicoes_Click;
             // 
             // label6
             // 
@@ -164,7 +163,6 @@
             pctBComparandoAlimentos.Size = new Size(32, 32);
             pctBComparandoAlimentos.TabIndex = 7;
             pctBComparandoAlimentos.TabStop = false;
-            pctBComparandoAlimentos.Click += pctBComparandoAlimentos_Click;
             // 
             // label2
             // 
@@ -196,7 +194,6 @@
             pctBRotulo.Size = new Size(32, 32);
             pctBRotulo.TabIndex = 6;
             pctBRotulo.TabStop = false;
-            pctBRotulo.Click += pctBRotulo_Click;
             // 
             // label3
             // 
@@ -218,8 +215,6 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_EscolhendoMelhor";
             Size = new Size(1005, 681);
-            Load += UC_EscolhendoMelhor_Load;
-            Resize += UC_EscolhendoMelhor_Resize;
             pnlApresentacao.ResumeLayout(false);
             pnlApresentacao.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

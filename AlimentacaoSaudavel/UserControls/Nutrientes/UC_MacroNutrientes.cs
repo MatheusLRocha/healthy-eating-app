@@ -1,4 +1,5 @@
-﻿using AlimentacaoSaudavel.UserControls.MacroNutrientes;
+﻿using AlimentacaoSaudavel.UserControls.Base;
+using AlimentacaoSaudavel.UserControls.MacroNutrientes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,59 +10,20 @@ using System.Windows.Forms;
 
 namespace AlimentacaoSaudavel.UserControls
 {
-    public partial class UC_MacroNutrientes : UserControl
+    public partial class UC_MacroNutrientes : UC_IntroducaoSessoes
     {
         public UC_MacroNutrientes()
         {
             InitializeComponent();
+
+            TituloInicio = "Macro Nutrientes";
+            DescricaoInicio = "Os macronutrientes são os nutrientes que o nosso corpo precisa em maiores quantidades. Eles oferecem energia, constituem estruturas do corpo e participam de diversas funções essenciais para a nossa saúde.";
+
+            AdicionarSessao("Proteínas", new UC_Proteinas());
+            AdicionarSessao("Carboidratos", new UC_Carboidratos());
+            AdicionarSessao("Gorduras", new UC_Gorduras());
         }
 
-        PanelRound panelRound = new PanelRound();
-
-        private void pctBProteinas_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_Proteinas());
-        }
-
-        private void pctBCarboidratos_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_Carboidratos());
-        }
-
-        private void pctBGorduras_Click(object sender, EventArgs e)
-        {
-            Main main = (Main)this.FindForm();
-            main.addUserControl(new UC_Gorduras());
-        }
-
-        private void pnlProteinas_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlProteinas, 20);
-        }
-
-        private void pnlCarboidratos_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlCarboidratos, 20);
-        }
-
-        private void pnlGorduras_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlGorduras, 20);
-        }
-
-        private void pnlApresentacao_Resize(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
-
-        private void UC_MacroNutrientes_Load(object sender, EventArgs e)
-        {
-            panelRound.ArredondarCantos(pnlProteinas, 20);
-            panelRound.ArredondarCantos(pnlCarboidratos, 20);
-            panelRound.ArredondarCantos(pnlGorduras, 20);
-            panelRound.ArredondarCantos(pnlApresentacao, 20);
-        }
+        
     }
 }
