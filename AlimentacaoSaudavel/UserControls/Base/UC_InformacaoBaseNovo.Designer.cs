@@ -165,6 +165,7 @@
             pnlDescricao2.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDescricao2.Location = new Point(338, 5);
             pnlDescricao2.Margin = new Padding(5);
+            pnlDescricao2.MaximumSize = new Size(0, 425);
             pnlDescricao2.Name = "pnlDescricao2";
             pnlDescricao2.Size = new Size(323, 325);
             pnlDescricao2.TabIndex = 6;
@@ -229,6 +230,7 @@
             pnlDescricao1.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDescricao1.Location = new Point(5, 5);
             pnlDescricao1.Margin = new Padding(5);
+            pnlDescricao1.MaximumSize = new Size(0, 425);
             pnlDescricao1.Name = "pnlDescricao1";
             pnlDescricao1.Size = new Size(323, 325);
             pnlDescricao1.TabIndex = 5;
@@ -293,6 +295,7 @@
             pnlDescricao3.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDescricao3.Location = new Point(671, 5);
             pnlDescricao3.Margin = new Padding(5);
+            pnlDescricao3.MaximumSize = new Size(0, 425);
             pnlDescricao3.Name = "pnlDescricao3";
             pnlDescricao3.Size = new Size(323, 325);
             pnlDescricao3.TabIndex = 7;
