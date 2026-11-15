@@ -22,7 +22,6 @@ namespace AlimentacaoSaudavel.UserControls
 
             linkLabel1.LinkClicked += LinkLabel_LinkClicked;
             linkLabel2.LinkClicked += LinkLabel_LinkClicked;
-            linkLabel3.LinkClicked += LinkLabel_LinkClicked;
             linkLabel4.LinkClicked += LinkLabel_LinkClicked;
             linkLabel5.LinkClicked += LinkLabel_LinkClicked;
         }
