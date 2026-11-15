@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             pnlHeader = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
+            cBtnCreditos = new CustomButton();
             cBtnFontes = new CustomButton();
             cBtnInicio = new CustomButton();
             cBtnAlimentacaoDiaDia = new CustomButton();
@@ -41,7 +42,6 @@
             label1 = new Label();
             pnlLogo = new Panel();
             pnlMain = new Panel();
-            cBtnCreditos = new CustomButton();
             pnlHeader.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -83,6 +83,26 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2881613F));
             tableLayoutPanel1.Size = new Size(260, 369);
             tableLayoutPanel1.TabIndex = 14;
+            // 
+            // cBtnCreditos
+            // 
+            cBtnCreditos.BackColor = Color.FromArgb(15, 72, 47);
+            cBtnCreditos.FlatAppearance.BorderSize = 0;
+            cBtnCreditos.FlatStyle = FlatStyle.Flat;
+            cBtnCreditos.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            cBtnCreditos.ForeColor = Color.White;
+            cBtnCreditos.HoverColor = Color.FromArgb(46, 125, 79);
+            cBtnCreditos.Image = (Image)resources.GetObject("cBtnCreditos.Image");
+            cBtnCreditos.ImageAlign = ContentAlignment.MiddleLeft;
+            cBtnCreditos.Location = new Point(3, 315);
+            cBtnCreditos.Name = "cBtnCreditos";
+            cBtnCreditos.NormalColor = Color.FromArgb(15, 72, 47);
+            cBtnCreditos.Size = new Size(250, 45);
+            cBtnCreditos.TabIndex = 17;
+            cBtnCreditos.Text = "          Créditos";
+            cBtnCreditos.TextAlign = ContentAlignment.MiddleLeft;
+            cBtnCreditos.UseVisualStyleBackColor = false;
+            cBtnCreditos.Click += cBtnCreditos_Click;
             // 
             // cBtnFontes
             // 
@@ -217,11 +237,11 @@
             // 
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(88, 28);
+            label1.Location = new Point(88, 45);
             label1.Name = "label1";
-            label1.Size = new Size(142, 65);
+            label1.Size = new Size(142, 39);
             label1.TabIndex = 11;
-            label1.Text = "Alimentação Saudável";
+            label1.Text = "Alimenta+";
             // 
             // pnlLogo
             // 
@@ -238,26 +258,6 @@
             pnlMain.Name = "pnlMain";
             pnlMain.Size = new Size(1005, 681);
             pnlMain.TabIndex = 8;
-            // 
-            // cBtnCreditos
-            // 
-            cBtnCreditos.BackColor = Color.FromArgb(15, 72, 47);
-            cBtnCreditos.FlatAppearance.BorderSize = 0;
-            cBtnCreditos.FlatStyle = FlatStyle.Flat;
-            cBtnCreditos.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            cBtnCreditos.ForeColor = Color.White;
-            cBtnCreditos.HoverColor = Color.FromArgb(46, 125, 79);
-            cBtnCreditos.Image = (Image)resources.GetObject("cBtnCreditos.Image");
-            cBtnCreditos.ImageAlign = ContentAlignment.MiddleLeft;
-            cBtnCreditos.Location = new Point(3, 315);
-            cBtnCreditos.Name = "cBtnCreditos";
-            cBtnCreditos.NormalColor = Color.FromArgb(15, 72, 47);
-            cBtnCreditos.Size = new Size(250, 45);
-            cBtnCreditos.TabIndex = 17;
-            cBtnCreditos.Text = "          Créditos";
-            cBtnCreditos.TextAlign = ContentAlignment.MiddleLeft;
-            cBtnCreditos.UseVisualStyleBackColor = false;
-            cBtnCreditos.Click += cBtnCreditos_Click;
             // 
             // Main
             // 
