@@ -49,6 +49,7 @@
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
+            tableLayoutPanel2 = new TableLayoutPanel();
             pnlApresentacao.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             pnlVariedade.SuspendLayout();
@@ -59,26 +60,29 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pnlQualidade.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // pnlApresentacao
             // 
-            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
             pnlApresentacao.Controls.Add(txtDescricaoInicio);
             pnlApresentacao.Controls.Add(txtTitulo);
-            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Dock = DockStyle.Fill;
+            pnlApresentacao.Location = new Point(8, 8);
+            pnlApresentacao.Margin = new Padding(8);
             pnlApresentacao.Name = "pnlApresentacao";
-            pnlApresentacao.Size = new Size(915, 314);
+            pnlApresentacao.Size = new Size(989, 290);
             pnlApresentacao.TabIndex = 14;
             // 
             // txtDescricaoInicio
             // 
+            txtDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
             txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
-            txtDescricaoInicio.Location = new Point(34, 146);
+            txtDescricaoInicio.Location = new Point(34, 108);
             txtDescricaoInicio.Name = "txtDescricaoInicio";
-            txtDescricaoInicio.Size = new Size(558, 127);
+            txtDescricaoInicio.Size = new Size(632, 165);
             txtDescricaoInicio.TabIndex = 5;
             txtDescricaoInicio.Text = "Uma alimentação equilibrada não depende de um único alimento ou nutriente. Envolve a combinação de diferentes alimentos, em quantidades adequadas às necessidades de cada pessoa.";
             // 
@@ -95,7 +99,6 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.ColumnCount = 4;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
@@ -105,11 +108,12 @@
             tableLayoutPanel1.Controls.Add(pnlHarmonia, 2, 0);
             tableLayoutPanel1.Controls.Add(pnlQuantidade, 1, 0);
             tableLayoutPanel1.Controls.Add(pnlQualidade, 0, 0);
-            tableLayoutPanel1.Location = new Point(3, 343);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(3, 309);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(999, 335);
+            tableLayoutPanel1.Size = new Size(999, 369);
             tableLayoutPanel1.TabIndex = 15;
             // 
             // pnlVariedade
@@ -123,9 +127,9 @@
             pnlVariedade.ForeColor = Color.FromArgb(107, 143, 11);
             pnlVariedade.Location = new Point(752, 5);
             pnlVariedade.Margin = new Padding(5);
-            pnlVariedade.MaximumSize = new Size(345, 420);
+            pnlVariedade.MaximumSize = new Size(0, 420);
             pnlVariedade.Name = "pnlVariedade";
-            pnlVariedade.Size = new Size(242, 325);
+            pnlVariedade.Size = new Size(242, 359);
             pnlVariedade.TabIndex = 7;
             // 
             // pictureBox4
@@ -139,9 +143,10 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label7.Font = new Font("Segoe UI", 10F);
             label7.ForeColor = Color.FromArgb(102, 128, 120);
-            label7.Location = new Point(18, 111);
+            label7.Location = new Point(18, 118);
             label7.Name = "label7";
             label7.Size = new Size(200, 209);
             label7.TabIndex = 5;
@@ -169,9 +174,9 @@
             pnlHarmonia.ForeColor = Color.FromArgb(107, 143, 11);
             pnlHarmonia.Location = new Point(503, 5);
             pnlHarmonia.Margin = new Padding(5);
-            pnlHarmonia.MaximumSize = new Size(345, 420);
+            pnlHarmonia.MaximumSize = new Size(0, 420);
             pnlHarmonia.Name = "pnlHarmonia";
-            pnlHarmonia.Size = new Size(239, 325);
+            pnlHarmonia.Size = new Size(239, 359);
             pnlHarmonia.TabIndex = 6;
             // 
             // pictureBox3
@@ -185,9 +190,10 @@
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label5.Font = new Font("Segoe UI", 10F);
             label5.ForeColor = Color.FromArgb(102, 128, 120);
-            label5.Location = new Point(16, 113);
+            label5.Location = new Point(16, 120);
             label5.Name = "label5";
             label5.Size = new Size(199, 188);
             label5.TabIndex = 4;
@@ -215,9 +221,9 @@
             pnlQuantidade.ForeColor = Color.FromArgb(107, 143, 11);
             pnlQuantidade.Location = new Point(254, 5);
             pnlQuantidade.Margin = new Padding(5);
-            pnlQuantidade.MaximumSize = new Size(345, 420);
+            pnlQuantidade.MaximumSize = new Size(0, 420);
             pnlQuantidade.Name = "pnlQuantidade";
-            pnlQuantidade.Size = new Size(239, 325);
+            pnlQuantidade.Size = new Size(239, 359);
             pnlQuantidade.TabIndex = 6;
             // 
             // pictureBox2
@@ -231,9 +237,10 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label3.Font = new Font("Segoe UI", 10F);
             label3.ForeColor = Color.FromArgb(102, 128, 120);
-            label3.Location = new Point(16, 113);
+            label3.Location = new Point(16, 120);
             label3.Name = "label3";
             label3.Size = new Size(199, 207);
             label3.TabIndex = 3;
@@ -260,9 +267,9 @@
             pnlQualidade.ForeColor = Color.FromArgb(107, 143, 11);
             pnlQualidade.Location = new Point(5, 5);
             pnlQualidade.Margin = new Padding(5);
-            pnlQualidade.MaximumSize = new Size(345, 420);
+            pnlQualidade.MaximumSize = new Size(0, 420);
             pnlQualidade.Name = "pnlQualidade";
-            pnlQualidade.Size = new Size(239, 325);
+            pnlQualidade.Size = new Size(239, 359);
             pnlQualidade.TabIndex = 5;
             // 
             // pictureBox1
@@ -276,9 +283,10 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 10F);
             label2.ForeColor = Color.FromArgb(102, 128, 120);
-            label2.Location = new Point(16, 111);
+            label2.Location = new Point(16, 118);
             label2.Name = "label2";
             label2.Size = new Size(199, 209);
             label2.TabIndex = 1;
@@ -295,12 +303,26 @@
             label1.TabIndex = 0;
             label1.Text = "Qualidade";
             // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 1;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.Controls.Add(pnlApresentacao, 0, 0);
+            tableLayoutPanel2.Controls.Add(tableLayoutPanel1, 0, 1);
+            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Location = new Point(0, 0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 2;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 44.93392F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 55.06608F));
+            tableLayoutPanel2.Size = new Size(1005, 681);
+            tableLayoutPanel2.TabIndex = 16;
+            // 
             // UC_AlimentacaoEquilibrada
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(tableLayoutPanel1);
-            Controls.Add(pnlApresentacao);
+            Controls.Add(tableLayoutPanel2);
             MinimumSize = new Size(1005, 681);
             Name = "UC_AlimentacaoEquilibrada";
             Size = new Size(1005, 681);
@@ -320,6 +342,7 @@
             pnlQualidade.ResumeLayout(false);
             pnlQualidade.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            tableLayoutPanel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -345,5 +368,6 @@
         private PictureBox pictureBox1;
         private Label label2;
         private Label label1;
+        private TableLayoutPanel tableLayoutPanel2;
     }
 }

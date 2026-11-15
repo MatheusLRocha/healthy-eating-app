@@ -168,7 +168,7 @@
 </value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Variar frutas, verduras, legumes, cereais, leguminosas e fontes de proteínas amplia a diversidade de nutrientes. Não é necessário que todas as refeições sejam perfeitas ou contenham todos os nutrientes. Não existe uma proporção única de macronutrientes que sirva para todas as pessoas. </value>
+    <value>Variar frutas, verduras, legumes, cereais, leguminosas e fontes de proteínas amplia a diversidade de nutrientes. Não é necessário que todas as refeições sejam perfeitas ou contenham todos os nutrientes.</value>
   </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -286,6 +286,6 @@
 </value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Além da quantidade, é importante observar a variedade e os nutrientes presentes nos alimentos. Incluir diferentes grupos alimentares e priorizar alimentos in natura ou minimamente processados contribui para uma alimentação variada.</value>
+    <value>É importante observar a variedade e os nutrientes presentes nos alimentos. Incluir diferentes grupos alimentares e priorizar alimentos in natura ou minimamente processados contribui para uma alimentação variada.</value>
   </data>
 </root>

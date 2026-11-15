@@ -129,6 +129,7 @@
             pnlDica4.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica4.Location = new Point(752, 5);
             pnlDica4.Margin = new Padding(5);
+            pnlDica4.MaximumSize = new Size(0, 420);
             pnlDica4.Name = "pnlDica4";
             pnlDica4.Size = new Size(242, 391);
             pnlDica4.TabIndex = 7;
@@ -138,9 +139,9 @@
             label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label9.ForeColor = Color.FromArgb(102, 128, 120);
-            label9.Location = new Point(17, 319);
+            label9.Location = new Point(17, 310);
             label9.Name = "label9";
-            label9.Size = new Size(200, 65);
+            label9.Size = new Size(200, 78);
             label9.TabIndex = 6;
             label9.Text = "Exemplos: frutas, ovos, legumes congelados, feijão já cozido e preparações simples.";
             label9.Click += label9_Click;
@@ -187,6 +188,7 @@
             pnlDica3.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica3.Location = new Point(503, 5);
             pnlDica3.Margin = new Padding(5);
+            pnlDica3.MaximumSize = new Size(0, 420);
             pnlDica3.Name = "pnlDica3";
             pnlDica3.Size = new Size(239, 391);
             pnlDica3.TabIndex = 6;
@@ -196,7 +198,7 @@
             label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label10.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label10.ForeColor = Color.FromArgb(102, 128, 120);
-            label10.Location = new Point(15, 319);
+            label10.Location = new Point(15, 310);
             label10.Name = "label10";
             label10.Size = new Size(200, 57);
             label10.TabIndex = 7;
@@ -244,6 +246,7 @@
             pnlDica2.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica2.Location = new Point(254, 5);
             pnlDica2.Margin = new Padding(5);
+            pnlDica2.MaximumSize = new Size(0, 420);
             pnlDica2.Name = "pnlDica2";
             pnlDica2.Size = new Size(239, 391);
             pnlDica2.TabIndex = 6;
@@ -253,7 +256,7 @@
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label11.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label11.ForeColor = Color.FromArgb(102, 128, 120);
-            label11.Location = new Point(15, 319);
+            label11.Location = new Point(15, 310);
             label11.Name = "label11";
             label11.Size = new Size(200, 57);
             label11.TabIndex = 8;
@@ -301,6 +304,7 @@
             pnlDica1.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica1.Location = new Point(5, 5);
             pnlDica1.Margin = new Padding(5);
+            pnlDica1.MaximumSize = new Size(0, 420);
             pnlDica1.Name = "pnlDica1";
             pnlDica1.Size = new Size(239, 391);
             pnlDica1.TabIndex = 5;
@@ -310,7 +314,7 @@
             label12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label12.ForeColor = Color.FromArgb(102, 128, 120);
-            label12.Location = new Point(15, 319);
+            label12.Location = new Point(15, 310);
             label12.Name = "label12";
             label12.Size = new Size(200, 57);
             label12.TabIndex = 9;
