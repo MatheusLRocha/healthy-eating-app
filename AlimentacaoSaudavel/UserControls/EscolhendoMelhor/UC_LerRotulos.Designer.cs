@@ -31,47 +31,47 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_LerRotulos));
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
-            panel2 = new Panel();
-            panel3 = new Panel();
-            panel4 = new Panel();
-            panel5 = new Panel();
-            panel6 = new Panel();
-            panel7 = new Panel();
-            panel8 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
+            label16 = new Label();
+            label12 = new Label();
             panel9 = new Panel();
             label6 = new Label();
+            panel2 = new Panel();
+            label17 = new Label();
+            label13 = new Label();
             panel10 = new Panel();
             label7 = new Label();
-            panel11 = new Panel();
-            label8 = new Label();
-            panel12 = new Panel();
-            label9 = new Label();
+            panel3 = new Panel();
             label10 = new Label();
             label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
+            panel11 = new Panel();
+            label8 = new Label();
+            panel4 = new Panel();
             label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
+            label14 = new Label();
+            panel12 = new Panel();
+            label9 = new Label();
+            panel5 = new Panel();
+            label2 = new Label();
+            panel6 = new Panel();
+            label3 = new Label();
+            panel7 = new Panel();
+            label4 = new Label();
+            panel8 = new Panel();
+            label5 = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
+            panel9.SuspendLayout();
             panel2.SuspendLayout();
+            panel10.SuspendLayout();
             panel3.SuspendLayout();
+            panel11.SuspendLayout();
             panel4.SuspendLayout();
+            panel12.SuspendLayout();
             panel5.SuspendLayout();
             panel6.SuspendLayout();
             panel7.SuspendLayout();
             panel8.SuspendLayout();
-            panel9.SuspendLayout();
-            panel10.SuspendLayout();
-            panel11.SuspendLayout();
-            panel12.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -95,135 +95,26 @@
             panel1.Size = new Size(451, 126);
             panel1.TabIndex = 3;
             // 
-            // panel2
+            // label16
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel2.BackColor = Color.FromArgb(227, 238, 220);
-            panel2.Controls.Add(label17);
-            panel2.Controls.Add(label13);
-            panel2.Controls.Add(panel10);
-            panel2.Location = new Point(525, 251);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(451, 126);
-            panel2.TabIndex = 4;
+            label16.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            label16.Font = new Font("Segoe UI", 10F);
+            label16.ForeColor = Color.FromArgb(102, 128, 120);
+            label16.Location = new Point(3, 43);
+            label16.Name = "label16";
+            label16.Size = new Size(445, 80);
+            label16.TabIndex = 15;
+            label16.Text = "Indica a quantidade do alimento que foi considerada para a tabela nutricional. Compare essa informação entre produtos semelhantes.";
             // 
-            // panel3
+            // label12
             // 
-            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel3.BackColor = Color.FromArgb(227, 238, 220);
-            panel3.Controls.Add(label10);
-            panel3.Controls.Add(label11);
-            panel3.Controls.Add(panel11);
-            panel3.Location = new Point(525, 401);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(451, 126);
-            panel3.TabIndex = 5;
-            // 
-            // panel4
-            // 
-            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel4.BackColor = Color.FromArgb(227, 238, 220);
-            panel4.Controls.Add(label15);
-            panel4.Controls.Add(label14);
-            panel4.Controls.Add(panel12);
-            panel4.Location = new Point(525, 545);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(451, 126);
-            panel4.TabIndex = 6;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.FromArgb(138, 174, 53);
-            panel5.Controls.Add(label2);
-            panel5.Location = new Point(349, 145);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(40, 40);
-            panel5.TabIndex = 7;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(138, 174, 53);
-            panel6.Controls.Add(label3);
-            panel6.Location = new Point(217, 251);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(40, 40);
-            panel6.TabIndex = 8;
-            // 
-            // panel7
-            // 
-            panel7.BackColor = Color.FromArgb(138, 174, 53);
-            panel7.Controls.Add(label4);
-            panel7.Location = new Point(379, 513);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(40, 40);
-            panel7.TabIndex = 9;
-            // 
-            // panel8
-            // 
-            panel8.BackColor = Color.FromArgb(138, 174, 53);
-            panel8.Controls.Add(label5);
-            panel8.Location = new Point(55, 605);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(40, 40);
-            panel8.TabIndex = 10;
-            // 
-            // label1
-            // 
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(102, 128, 120);
-            label1.Location = new Point(83, 25);
-            label1.Name = "label1";
-            label1.Size = new Size(740, 49);
-            label1.TabIndex = 11;
-            label1.Text = "O rótulo dos alimentos traz informações importantes que ajudam você a fazer escolhas mais conscientes. Veja os principais pontos para observar:";
-            // 
-            // label2
-            // 
-            label2.Dock = DockStyle.Fill;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(0, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(40, 40);
-            label2.TabIndex = 0;
-            label2.Text = "1";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            label3.Dock = DockStyle.Fill;
-            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(0, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(40, 40);
-            label3.TabIndex = 1;
-            label3.Text = "2";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            label4.Dock = DockStyle.Fill;
-            label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(0, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(40, 40);
-            label4.TabIndex = 2;
-            label4.Text = "3";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            label5.Dock = DockStyle.Fill;
-            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(0, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(40, 40);
-            label5.TabIndex = 3;
-            label5.Text = "4";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
+            label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.ForeColor = Color.FromArgb(102, 128, 120);
+            label12.Location = new Point(49, 11);
+            label12.Name = "label12";
+            label12.Size = new Size(67, 26);
+            label12.TabIndex = 12;
+            label12.Text = "Porção";
             // 
             // panel9
             // 
@@ -246,6 +137,39 @@
             label6.Text = "1";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // panel2
+            // 
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel2.BackColor = Color.FromArgb(227, 238, 220);
+            panel2.Controls.Add(label17);
+            panel2.Controls.Add(label13);
+            panel2.Controls.Add(panel10);
+            panel2.Location = new Point(525, 251);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(451, 126);
+            panel2.TabIndex = 4;
+            // 
+            // label17
+            // 
+            label17.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            label17.Font = new Font("Segoe UI", 10F);
+            label17.ForeColor = Color.FromArgb(102, 128, 120);
+            label17.Location = new Point(3, 43);
+            label17.Name = "label17";
+            label17.Size = new Size(445, 80);
+            label17.TabIndex = 16;
+            label17.Text = "Mostra a quantidade de nutrientes por porção e o percentual do Valor Diário (%VD). Ajuda a comparar os alimentos e a escolher opções mais equilibradas.";
+            // 
+            // label13
+            // 
+            label13.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.ForeColor = Color.FromArgb(102, 128, 120);
+            label13.Location = new Point(49, 12);
+            label13.Name = "label13";
+            label13.Size = new Size(153, 26);
+            label13.TabIndex = 13;
+            label13.Text = "Tabela nutricional";
+            // 
             // panel10
             // 
             panel10.BackColor = Color.FromArgb(138, 174, 53);
@@ -266,6 +190,39 @@
             label7.TabIndex = 0;
             label7.Text = "2";
             label7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // panel3
+            // 
+            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel3.BackColor = Color.FromArgb(227, 238, 220);
+            panel3.Controls.Add(label10);
+            panel3.Controls.Add(label11);
+            panel3.Controls.Add(panel11);
+            panel3.Location = new Point(525, 401);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(451, 126);
+            panel3.TabIndex = 5;
+            // 
+            // label10
+            // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            label10.Font = new Font("Segoe UI", 10F);
+            label10.ForeColor = Color.FromArgb(102, 128, 120);
+            label10.Location = new Point(3, 43);
+            label10.Name = "label10";
+            label10.Size = new Size(445, 80);
+            label10.TabIndex = 10;
+            label10.Text = resources.GetString("label10.Text");
+            // 
+            // label11
+            // 
+            label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.FromArgb(102, 128, 120);
+            label11.Location = new Point(49, 12);
+            label11.Name = "label11";
+            label11.Size = new Size(171, 26);
+            label11.TabIndex = 11;
+            label11.Text = "Lista de ingredientes";
             // 
             // panel11
             // 
@@ -288,6 +245,39 @@
             label8.Text = "3";
             label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // panel4
+            // 
+            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel4.BackColor = Color.FromArgb(227, 238, 220);
+            panel4.Controls.Add(label15);
+            panel4.Controls.Add(label14);
+            panel4.Controls.Add(panel12);
+            panel4.Location = new Point(525, 545);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(451, 126);
+            panel4.TabIndex = 6;
+            // 
+            // label15
+            // 
+            label15.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            label15.Font = new Font("Segoe UI", 10F);
+            label15.ForeColor = Color.FromArgb(102, 128, 120);
+            label15.Location = new Point(3, 43);
+            label15.Name = "label15";
+            label15.Size = new Size(445, 80);
+            label15.TabIndex = 12;
+            label15.Text = resources.GetString("label15.Text");
+            // 
+            // label14
+            // 
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.ForeColor = Color.FromArgb(102, 128, 120);
+            label14.Location = new Point(49, 13);
+            label14.Name = "label14";
+            label14.Size = new Size(103, 26);
+            label14.TabIndex = 14;
+            label14.Text = "Lupa frontal";
+            // 
             // panel12
             // 
             panel12.BackColor = Color.FromArgb(138, 174, 53);
@@ -309,85 +299,99 @@
             label9.Text = "4";
             label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // panel5
             // 
-            label10.Font = new Font("Segoe UI", 10F);
-            label10.ForeColor = Color.FromArgb(102, 128, 120);
-            label10.Location = new Point(3, 43);
-            label10.Name = "label10";
-            label10.Size = new Size(445, 80);
-            label10.TabIndex = 10;
-            label10.Text = resources.GetString("label10.Text");
+            panel5.BackColor = Color.FromArgb(138, 174, 53);
+            panel5.Controls.Add(label2);
+            panel5.Location = new Point(349, 145);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(40, 40);
+            panel5.TabIndex = 7;
             // 
-            // label11
+            // label2
             // 
-            label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.FromArgb(102, 128, 120);
-            label11.Location = new Point(49, 12);
-            label11.Name = "label11";
-            label11.Size = new Size(171, 26);
-            label11.TabIndex = 11;
-            label11.Text = "Lista de ingredientes";
+            label2.Dock = DockStyle.Fill;
+            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(0, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(40, 40);
+            label2.TabIndex = 0;
+            label2.Text = "1";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label12
+            // panel6
             // 
-            label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.ForeColor = Color.FromArgb(102, 128, 120);
-            label12.Location = new Point(49, 11);
-            label12.Name = "label12";
-            label12.Size = new Size(67, 26);
-            label12.TabIndex = 12;
-            label12.Text = "Porção";
+            panel6.BackColor = Color.FromArgb(138, 174, 53);
+            panel6.Controls.Add(label3);
+            panel6.Location = new Point(217, 251);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(40, 40);
+            panel6.TabIndex = 8;
             // 
-            // label13
+            // label3
             // 
-            label13.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.ForeColor = Color.FromArgb(102, 128, 120);
-            label13.Location = new Point(49, 12);
-            label13.Name = "label13";
-            label13.Size = new Size(153, 26);
-            label13.TabIndex = 13;
-            label13.Text = "Tabela nutricional";
+            label3.Dock = DockStyle.Fill;
+            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(0, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(40, 40);
+            label3.TabIndex = 1;
+            label3.Text = "2";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // panel7
             // 
-            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.ForeColor = Color.FromArgb(102, 128, 120);
-            label14.Location = new Point(49, 13);
-            label14.Name = "label14";
-            label14.Size = new Size(103, 26);
-            label14.TabIndex = 14;
-            label14.Text = "Lupa frontal";
+            panel7.BackColor = Color.FromArgb(138, 174, 53);
+            panel7.Controls.Add(label4);
+            panel7.Location = new Point(379, 513);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(40, 40);
+            panel7.TabIndex = 9;
             // 
-            // label15
+            // label4
             // 
-            label15.Font = new Font("Segoe UI", 10F);
-            label15.ForeColor = Color.FromArgb(102, 128, 120);
-            label15.Location = new Point(3, 43);
-            label15.Name = "label15";
-            label15.Size = new Size(445, 80);
-            label15.TabIndex = 12;
-            label15.Text = resources.GetString("label15.Text");
+            label4.Dock = DockStyle.Fill;
+            label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(0, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(40, 40);
+            label4.TabIndex = 2;
+            label4.Text = "3";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // panel8
             // 
-            label16.Font = new Font("Segoe UI", 10F);
-            label16.ForeColor = Color.FromArgb(102, 128, 120);
-            label16.Location = new Point(3, 43);
-            label16.Name = "label16";
-            label16.Size = new Size(445, 80);
-            label16.TabIndex = 15;
-            label16.Text = "Indica a quantidade do alimento que foi considerada para a tabela nutricional. Compare essa informação entre produtos semelhantes.";
+            panel8.BackColor = Color.FromArgb(138, 174, 53);
+            panel8.Controls.Add(label5);
+            panel8.Location = new Point(55, 605);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(40, 40);
+            panel8.TabIndex = 10;
             // 
-            // label17
+            // label5
             // 
-            label17.Font = new Font("Segoe UI", 10F);
-            label17.ForeColor = Color.FromArgb(102, 128, 120);
-            label17.Location = new Point(3, 43);
-            label17.Name = "label17";
-            label17.Size = new Size(445, 80);
-            label17.TabIndex = 16;
-            label17.Text = "Mostra a quantidade de nutrientes por porção e o percentual do Valor Diário (%VD). Ajuda a comparar os alimentos e a escolher opções mais equilibradas.";
+            label5.Dock = DockStyle.Fill;
+            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(0, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(40, 40);
+            label5.TabIndex = 3;
+            label5.Text = "4";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(102, 128, 120);
+            label1.Location = new Point(83, 25);
+            label1.Name = "label1";
+            label1.Size = new Size(740, 49);
+            label1.TabIndex = 11;
+            label1.Text = "O rótulo dos alimentos traz informações importantes que ajudam você a fazer escolhas mais conscientes. Veja os principais pontos para observar:";
             // 
             // UC_LerRotulos
             // 
@@ -406,19 +410,21 @@
             MinimumSize = new Size(1005, 681);
             Name = "UC_LerRotulos";
             Size = new Size(1005, 681);
+            Load += UC_LerRotulos_Load;
+            Resize += UC_LerRotulos_Resize;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
+            panel9.ResumeLayout(false);
             panel2.ResumeLayout(false);
+            panel10.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            panel11.ResumeLayout(false);
             panel4.ResumeLayout(false);
+            panel12.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel6.ResumeLayout(false);
             panel7.ResumeLayout(false);
             panel8.ResumeLayout(false);
-            panel9.ResumeLayout(false);
-            panel10.ResumeLayout(false);
-            panel11.ResumeLayout(false);
-            panel12.ResumeLayout(false);
             ResumeLayout(false);
         }
 
