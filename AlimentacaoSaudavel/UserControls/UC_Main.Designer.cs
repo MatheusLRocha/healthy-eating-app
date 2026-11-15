@@ -53,6 +53,8 @@
             pnlApresentacao = new Panel();
             txtDescricaoInicio = new Label();
             txtTituloInicio = new Label();
+            label9 = new Label();
+            label5 = new Label();
             tableLayoutPanel2 = new TableLayoutPanel();
             pnlClasAlimentos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctBClasAlimentos).BeginInit();
@@ -328,7 +330,9 @@
             // 
             pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
+            pnlApresentacao.Controls.Add(label9);
             pnlApresentacao.Controls.Add(txtDescricaoInicio);
+            pnlApresentacao.Controls.Add(label5);
             pnlApresentacao.Controls.Add(txtTituloInicio);
             pnlApresentacao.Location = new Point(8, 8);
             pnlApresentacao.Margin = new Padding(8);
@@ -342,9 +346,9 @@
             txtDescricaoInicio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtDescricaoInicio.Font = new Font("Segoe UI", 14F);
             txtDescricaoInicio.ForeColor = Color.FromArgb(102, 128, 120);
-            txtDescricaoInicio.Location = new Point(34, 146);
+            txtDescricaoInicio.Location = new Point(26, 89);
             txtDescricaoInicio.Name = "txtDescricaoInicio";
-            txtDescricaoInicio.Size = new Size(558, 139);
+            txtDescricaoInicio.Size = new Size(486, 87);
             txtDescricaoInicio.TabIndex = 5;
             txtDescricaoInicio.Text = "Explore conteúdos práticos sobre nutrientes, classificação dos alimentos e muito mais. Aprenda a fazer escolhas melhores para o seu dia a dia.";
             // 
@@ -353,11 +357,33 @@
             txtTituloInicio.AutoSize = true;
             txtTituloInicio.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             txtTituloInicio.ForeColor = Color.FromArgb(15, 72, 47);
-            txtTituloInicio.Location = new Point(34, 38);
+            txtTituloInicio.Location = new Point(23, 38);
             txtTituloInicio.Name = "txtTituloInicio";
             txtTituloInicio.Size = new Size(432, 45);
             txtTituloInicio.TabIndex = 4;
             txtTituloInicio.Text = "Aprenda sobre alimentação";
+            // 
+            // label9
+            // 
+            label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label9.Font = new Font("Segoe UI", 14F);
+            label9.ForeColor = Color.FromArgb(102, 128, 120);
+            label9.Location = new Point(26, 218);
+            label9.Name = "label9";
+            label9.Size = new Size(462, 80);
+            label9.TabIndex = 7;
+            label9.Text = "Caso a resolução seja 1920x1080 com 125% de zoom, coloque em 100% no lugar em caso de erro.";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            label5.ForeColor = Color.FromArgb(15, 72, 47);
+            label5.Location = new Point(23, 173);
+            label5.Name = "label5";
+            label5.Size = new Size(102, 45);
+            label5.TabIndex = 7;
+            label5.Text = "Aviso";
             // 
             // tableLayoutPanel2
             // 
@@ -435,5 +461,7 @@
         private Label txtDescricaoInicio;
         private Label txtTituloInicio;
         private TableLayoutPanel tableLayoutPanel2;
+        private Label label9;
+        private Label label5;
     }
 }
