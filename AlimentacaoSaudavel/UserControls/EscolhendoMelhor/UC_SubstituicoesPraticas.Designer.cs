@@ -60,6 +60,7 @@
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label13 = new Label();
+            tableLayoutPanel2 = new TableLayoutPanel();
             pnlApresentacao.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             pnlDica3.SuspendLayout();
@@ -71,17 +72,19 @@
             pnlDica1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // pnlApresentacao
             // 
-            pnlApresentacao.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlApresentacao.BackColor = Color.FromArgb(227, 238, 220);
             pnlApresentacao.Controls.Add(label1);
             pnlApresentacao.Controls.Add(txtTitulo);
-            pnlApresentacao.Location = new Point(40, 17);
+            pnlApresentacao.Dock = DockStyle.Fill;
+            pnlApresentacao.Location = new Point(8, 8);
+            pnlApresentacao.Margin = new Padding(8);
             pnlApresentacao.Name = "pnlApresentacao";
-            pnlApresentacao.Size = new Size(915, 230);
+            pnlApresentacao.Size = new Size(989, 233);
             pnlApresentacao.TabIndex = 16;
             // 
             // label1
@@ -91,7 +94,7 @@
             label1.ForeColor = Color.FromArgb(102, 128, 120);
             label1.Location = new Point(34, 87);
             label1.Name = "label1";
-            label1.Size = new Size(708, 103);
+            label1.Size = new Size(782, 106);
             label1.TabIndex = 6;
             label1.Text = "Aprenda a interpretar informações dos alimentos e faça escolhas mais conscientes no dia a dia. Descubra como ler rótulos, comparar produtos e encontrar alternativas para diferentes situações. ";
             // 
@@ -117,11 +120,11 @@
             tableLayoutPanel1.Controls.Add(pnlDica3, 2, 0);
             tableLayoutPanel1.Controls.Add(pnlDica2, 1, 0);
             tableLayoutPanel1.Controls.Add(pnlDica1, 0, 0);
-            tableLayoutPanel1.Location = new Point(3, 253);
+            tableLayoutPanel1.Location = new Point(3, 252);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(999, 425);
+            tableLayoutPanel1.Size = new Size(999, 426);
             tableLayoutPanel1.TabIndex = 18;
             // 
             // pnlDica3
@@ -136,8 +139,9 @@
             pnlDica3.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica3.Location = new Point(671, 5);
             pnlDica3.Margin = new Padding(5);
+            pnlDica3.MaximumSize = new Size(0, 515);
             pnlDica3.Name = "pnlDica3";
-            pnlDica3.Size = new Size(323, 415);
+            pnlDica3.Size = new Size(323, 416);
             pnlDica3.TabIndex = 6;
             // 
             // panel3
@@ -154,7 +158,7 @@
             // 
             // label18
             // 
-            label18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label18.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label18.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label18.ForeColor = Color.FromArgb(102, 128, 120);
             label18.Location = new Point(27, 85);
@@ -165,7 +169,7 @@
             // 
             // label16
             // 
-            label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label16.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label16.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label16.ForeColor = Color.FromArgb(102, 128, 120);
             label16.Location = new Point(27, 29);
@@ -187,7 +191,7 @@
             // 
             // label19
             // 
-            label19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label19.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label19.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label19.ForeColor = Color.FromArgb(102, 128, 120);
             label19.Location = new Point(27, 130);
@@ -238,8 +242,9 @@
             pnlDica2.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica2.Location = new Point(338, 5);
             pnlDica2.Margin = new Padding(5);
+            pnlDica2.MaximumSize = new Size(0, 515);
             pnlDica2.Name = "pnlDica2";
-            pnlDica2.Size = new Size(323, 415);
+            pnlDica2.Size = new Size(323, 416);
             pnlDica2.TabIndex = 6;
             // 
             // panel2
@@ -256,7 +261,7 @@
             // 
             // label15
             // 
-            label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label15.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label15.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label15.ForeColor = Color.FromArgb(102, 128, 120);
             label15.Location = new Point(32, 67);
@@ -267,7 +272,7 @@
             // 
             // label14
             // 
-            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label14.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label14.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label14.ForeColor = Color.FromArgb(102, 128, 120);
             label14.Location = new Point(32, 34);
@@ -289,7 +294,7 @@
             // 
             // label17
             // 
-            label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label17.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label17.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label17.ForeColor = Color.FromArgb(102, 128, 120);
             label17.Location = new Point(32, 114);
@@ -340,8 +345,9 @@
             pnlDica1.ForeColor = Color.FromArgb(107, 143, 11);
             pnlDica1.Location = new Point(5, 5);
             pnlDica1.Margin = new Padding(5);
+            pnlDica1.MaximumSize = new Size(0, 515);
             pnlDica1.Name = "pnlDica1";
-            pnlDica1.Size = new Size(323, 415);
+            pnlDica1.Size = new Size(323, 416);
             pnlDica1.TabIndex = 5;
             // 
             // panel1
@@ -358,7 +364,7 @@
             // 
             // label11
             // 
-            label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label11.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label11.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label11.ForeColor = Color.FromArgb(102, 128, 120);
             label11.Location = new Point(32, 104);
@@ -369,7 +375,7 @@
             // 
             // label10
             // 
-            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label10.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label10.ForeColor = Color.FromArgb(102, 128, 120);
             label10.Location = new Point(32, 69);
@@ -380,7 +386,7 @@
             // 
             // label9
             // 
-            label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label9.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label9.Font = new Font("Segoe UI", 8.75F, FontStyle.Bold);
             label9.ForeColor = Color.FromArgb(102, 128, 120);
             label9.Location = new Point(32, 32);
@@ -430,12 +436,26 @@
             label13.TabIndex = 0;
             label13.Text = "Variando os alimentos";
             // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 1;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.Controls.Add(pnlApresentacao, 0, 0);
+            tableLayoutPanel2.Controls.Add(tableLayoutPanel1, 0, 1);
+            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Location = new Point(0, 0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 2;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 36.5638771F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 63.4361229F));
+            tableLayoutPanel2.Size = new Size(1005, 681);
+            tableLayoutPanel2.TabIndex = 19;
+            // 
             // UC_SubstituicoesPraticas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(tableLayoutPanel1);
-            Controls.Add(pnlApresentacao);
+            Controls.Add(tableLayoutPanel2);
             MinimumSize = new Size(1005, 681);
             Name = "UC_SubstituicoesPraticas";
             Size = new Size(1005, 681);
@@ -452,6 +472,7 @@
             pnlDica1.ResumeLayout(false);
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            tableLayoutPanel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -488,5 +509,6 @@
         private Panel panel1;
         private Panel panel3;
         private Panel panel2;
+        private TableLayoutPanel tableLayoutPanel2;
     }
 }

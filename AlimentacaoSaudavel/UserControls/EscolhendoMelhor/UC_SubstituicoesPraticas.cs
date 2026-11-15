@@ -15,6 +15,8 @@ namespace AlimentacaoSaudavel.UserControls.EscolhendoMelhor
             InitializeComponent();
         }
 
+        PanelRound panelRound = new PanelRound();
+
         private static float CalcularTamanhoFonte(float proporcao)
         {
             float tamanhoOriginal = 10f * proporcao;
@@ -53,18 +55,18 @@ namespace AlimentacaoSaudavel.UserControls.EscolhendoMelhor
 
         private void AlterarTamanhoFonteExemplos(float proporcao)
         {
-            label7.Font = new Font(label7.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label8.Font = new Font(label8.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label9.Font = new Font(label9.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label10.Font = new Font(label10.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label11.Font = new Font(label11.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label12.Font = new Font(label12.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label14.Font = new Font(label14.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label15.Font = new Font(label15.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label16.Font = new Font(label16.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label17.Font = new Font(label17.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label18.Font = new Font(label18.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
-            label19.Font = new Font(label19.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao));
+            label7.Font = new Font(label7.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label8.Font = new Font(label8.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label9.Font = new Font(label9.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label10.Font = new Font(label10.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label11.Font = new Font(label11.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label12.Font = new Font(label12.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label14.Font = new Font(label14.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label15.Font = new Font(label15.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label16.Font = new Font(label16.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label17.Font = new Font(label17.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label18.Font = new Font(label18.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
+            label19.Font = new Font(label19.Font.FontFamily, CalcularTamanhoFonteExemplos(proporcao), FontStyle.Bold);
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -78,6 +80,11 @@ namespace AlimentacaoSaudavel.UserControls.EscolhendoMelhor
 
             AlterarTamanhoFonte(proporcao);
             AlterarTamanhoFonteExemplos(proporcao);
+
+            panelRound.ArredondarCantos(pnlApresentacao, 20);
+            panelRound.ArredondarCantos(pnlDica1, 20);
+            panelRound.ArredondarCantos(pnlDica2, 20);
+            panelRound.ArredondarCantos(pnlDica3, 20);
         }
     }
 }
