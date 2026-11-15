@@ -93,7 +93,7 @@ namespace AlimentacaoSaudavel.UserControls.Base
 
             sessao.Resize += (sender, e) =>
             {
-                sessao.LabelSessao.Font = new Font(sessao.LabelSessao.Font.FontFamily, CalcularTamanhoFonte(this.Width / 1000f, 13f, 16f), FontStyle.Bold);
+                sessao.LabelSessao.Font = new Font(sessao.LabelSessao.Font.FontFamily, CalcularTamanhoFonte(this.Width / 1000f, 12f, 14f), FontStyle.Bold);
             };
 
             tlpSessoes.Controls.Add(sessao, coluna, 0);

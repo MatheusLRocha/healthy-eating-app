@@ -37,7 +37,7 @@
             // pctBSessao
             // 
             pctBSessao.Image = (Image)resources.GetObject("pctBSessao.Image");
-            pctBSessao.Location = new Point(24, 41);
+            pctBSessao.Location = new Point(9, 41);
             pctBSessao.Name = "pctBSessao";
             pctBSessao.Size = new Size(32, 32);
             pctBSessao.TabIndex = 13;
@@ -50,9 +50,9 @@
             lblSessao.BackColor = Color.Transparent;
             lblSessao.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSessao.ForeColor = Color.FromArgb(15, 72, 47);
-            lblSessao.Location = new Point(133, 18);
+            lblSessao.Location = new Point(117, 18);
             lblSessao.Name = "lblSessao";
-            lblSessao.Size = new Size(164, 82);
+            lblSessao.Size = new Size(180, 82);
             lblSessao.TabIndex = 14;
             lblSessao.Text = "Sessão";
             lblSessao.TextAlign = ContentAlignment.MiddleCenter;
