@@ -39,9 +39,6 @@
             panel1 = new Panel();
             label1 = new Label();
             linkLabel1 = new LinkLabel();
-            panel5 = new Panel();
-            label3 = new Label();
-            linkLabel3 = new LinkLabel();
             panel6 = new Panel();
             label4 = new Label();
             linkLabel4 = new LinkLabel();
@@ -54,7 +51,6 @@
             panel7.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
-            panel5.SuspendLayout();
             panel6.SuspendLayout();
             panel3.SuspendLayout();
             pnlApresentacao.SuspendLayout();
@@ -70,8 +66,7 @@
             tableLayoutPanel1.Controls.Add(panel7, 0, 2);
             tableLayoutPanel1.Controls.Add(panel2, 0, 1);
             tableLayoutPanel1.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel1.Controls.Add(panel5, 1, 0);
-            tableLayoutPanel1.Controls.Add(panel6, 1, 1);
+            tableLayoutPanel1.Controls.Add(panel6, 1, 0);
             tableLayoutPanel1.Location = new Point(29, 23);
             tableLayoutPanel1.MaximumSize = new Size(1120, 550);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -192,49 +187,13 @@
             linkLabel1.Tag = resources.GetString("linkLabel1.Tag");
             linkLabel1.Text = "[Acessar publicação]";
             // 
-            // panel5
-            // 
-            panel5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel5.BackColor = Color.FromArgb(227, 238, 220);
-            panel5.Controls.Add(label3);
-            panel5.Controls.Add(linkLabel3);
-            panel5.Location = new Point(463, 3);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(454, 110);
-            panel5.TabIndex = 2;
-            // 
-            // label3
-            // 
-            label3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label3.ForeColor = Color.FromArgb(107, 143, 11);
-            label3.Location = new Point(3, 3);
-            label3.Name = "label3";
-            label3.Size = new Size(436, 47);
-            label3.TabIndex = 12;
-            label3.Text = "ANVISA";
-            // 
-            // linkLabel3
-            // 
-            linkLabel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            linkLabel3.AutoSize = true;
-            linkLabel3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel3.LinkColor = Color.FromArgb(107, 143, 11);
-            linkLabel3.Location = new Point(6, 81);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(167, 21);
-            linkLabel3.TabIndex = 11;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "[Acessar publicação]";
-            // 
             // panel6
             // 
             panel6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel6.BackColor = Color.FromArgb(227, 238, 220);
             panel6.Controls.Add(label4);
             panel6.Controls.Add(linkLabel4);
-            panel6.Location = new Point(463, 119);
+            panel6.Location = new Point(463, 3);
             panel6.Name = "panel6";
             panel6.Size = new Size(454, 110);
             panel6.TabIndex = 3;
@@ -335,8 +294,6 @@
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             panel3.ResumeLayout(false);
@@ -358,9 +315,6 @@
         private Panel pnlApresentacao;
         private Label txtTitulo;
         private Label txtDescricaoInicio;
-        private Panel panel5;
-        private Label label3;
-        private LinkLabel linkLabel3;
         private Panel panel4;
         private Panel panel6;
         private Label label4;
