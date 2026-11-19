@@ -66,5 +66,10 @@ namespace AlimentacaoSaudavel.UserControls
             panelRound.ArredondarCantos(panel3, 15);
             panelRound.ArredondarCantos(panel4, 15);
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
